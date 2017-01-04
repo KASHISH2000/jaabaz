@@ -1,0 +1,6 @@
+1. http://demo.massivedynamic.co/general/ (my template)
+2. http://phoenix.fatmoon.kinsta.com/ (my template)
+3. http://www.cappen.com/en/ (TJ's template)
+4. http://uclaracing.org/formula/ (TJ's reference)
+5. https://drive.google.com/drive/folders/0B0Zi5HTzVNA1VEF6MzI2ekUtX2s (google drive website content)
+6. https://www.tutorialspoint.com/jquery/jquery-ajax.htm (Jquery AJAX all reference)

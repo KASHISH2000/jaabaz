@@ -1,0 +1,129 @@
+.box{  
+	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+	margin:5% auto 0 auto; 
+	background-size:cover;
+	border-radius:5px;
+	overflow:hidden;
+	border-radius: 50%;
+	-webkit-transition: opacity 0.6s ease;
+	-moz-transition: opacity 0.6s ease;
+	transition: opacity 0.6s ease;
+}
+.box-col{
+	padding: 20px;
+}
+
+.box:hover{
+}
+
+.deptname{
+	color: #c2bebe;
+}
+.ch-item .ion-social-facebook{
+	font-size: 2rem !important;
+	font-weight: bold !important;
+}
+/* demo*/
+.ch-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+	display: table;
+}
+
+.ch-grid:after {
+	clear: both;
+}
+
+.ch-grid li {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	margin: 20px;
+}
+
+
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+	box-shadow: 
+	inset 0 0 0 0 rgba(200,95,66, 0.4),
+	inset 0 0 0 6px rgba(255,255,255,0.6),
+	0 1px 2px rgba(0,0,0,0.1);
+	background-color: #4c4a4a;
+	background-image: url('../img/loading.gif');
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	background-size: cover;}
+
+.ch-info {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	opacity: 0;
+	
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	
+	-webkit-backface-visibility: hidden; /*for a smooth font */
+
+}
+
+.ch-info h3 {
+	color: #fff;
+	position: relative;
+	font-size: 1.3rem;
+	margin: 0 10px;
+	padding: 45px 0 0 0;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-shadow: 
+	0 0 1px #fff, 
+	0 1px 2px rgba(0,0,0,0.3);
+}
+@media (max-width: 500px){
+	.ch-info h3 {
+		font-size: 1.1rem;
+	}
+}
+
+.ch-item:hover {
+	box-shadow: 
+	inset 0 0 0 100px rgba(200,95,66, 0.4),
+	inset 0 0 0 10px rgba(255,255,255,0.8),
+	0 1px 2px rgba(0,0,0,0.1);
+}
+
+.ch-item:hover .ch-info {
+	opacity: 1;
+	
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);	
+}
+

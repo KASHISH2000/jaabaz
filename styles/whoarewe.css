@@ -1,0 +1,137 @@
+/*.layerbg{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+}*/
+/*.layer{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+}*/
+.work__tags{
+	font-size: 1rem;
+	width: 80%;
+	text-decoration: none !important;
+}
+/* For VIT University*/
+.work.\--beach-park .work__obj.\--bg , .vituniversitybg{
+	background-color: transparent;;
+	background-image: url('../img/vituniversity.png') !important;
+	background-size: cover;
+	background-position: 0px -50px;
+}
+
+/* For Baja SAE*/
+.work.\--shopping-recife .work__obj.\--bg , .bajasaebg{
+	background-color: transparent;
+	background-image: url('../img/bajasae.png') !important;
+	background-size: cover;
+}
+/* For Team Jaabaz*/
+.work.\--damas .work__obj.\--bg , .teamjaabazbg{
+	background-image: url('../img/teamjaabaz.png') !important;
+	background-size: cover;
+}
+/* For Our Objecttive*/
+.ourobjectivebg{
+	background-color: #000;
+}
+/* For Meet the team*/
+.work.\--richester .work__obj.\--bg, .meettheteambg {
+	background-image: url('../img/meettheteam.png') !important;
+	background-size: cover;
+}
+.ion-android-arrow-dropright{
+	font-size: 1.5rem;
+	vertical-align: middle;
+}
+.spanbut{
+	font-size: 1.3rem;
+	vertical-align: middle;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	font-weight: bold;
+	color: #dc092f;
+}
+.spanbut:hover{
+	color: #eee;
+	cursor: pointer;
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+	background-color: #ebebeb;
+	border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #607279;
+	border-radius: 20px;
+}
+::-webkit-scrollbar-track {
+	background-color: #f5f5f5;
+	border-radius: 20px;
+}
+::-moz-scrollbar {
+	width: 6px;
+	height: 6px;
+	background-color: #ebebeb;
+	border-radius: 20px;
+}
+::-moz-scrollbar-thumb {
+	background-color: #607279;
+	border-radius: 20px;
+}
+::-moz-scrollbar-track {
+	background-color: #f5f5f5;
+	border-radius: 20px;
+}
+::scrollbar {
+	width: 6px;
+	height: 6px;
+	background-color: #ebebeb;
+	border-radius: 20px;
+}
+::scrollbar-thumb {
+	background-color: #607279;
+	border-radius: 20px;
+}
+::scrollbar-track {
+	background-color: #f5f5f5;
+	border-radius: 20px;
+}
+body::scrollbar, body::scrollbar-thumb,body::scrollbar-track{
+	display: none;
+}
+body::-webkit-scrollbar, body::-webkit-scrollbar-thumb,body::-webkit-scrollbar-track{
+	display: none;
+}
+body::-moz-scrollbar, body::-moz-scrollbar-thumb,body::-moz-scrollbar-track{
+	display: none;
+}
+.modal-body{
+	overflow-y: auto !important;
+	height: 75vh;
+}
+.work__link:hover{
+	text-decoration: none;
+}
+@media(max-width: 769px){
+	.work__tags{
+		font-size: 0.9rem;
+		width: 100%;
+	text-decoration: none !important;
+	}
+	.ion-android-arrow-dropright{
+		font-size: 1.5rem;
+	}
+}
