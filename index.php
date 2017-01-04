@@ -5,6 +5,7 @@
     <?php
     include('meta.php');
     ?>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
     <link rel="apple-touch-icon" href="img/logo.png">
     <link rel="icon" type="image/png" href="img/logo.png">
     <meta name="msapplication-TileImage" content="img/logo.png">
