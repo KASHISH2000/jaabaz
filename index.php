@@ -14,11 +14,19 @@
     <link href="styles/vendor.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="styles/bootstrapp.css">
     <link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+    <link rel="stylesheet" type="text/css" href="styles/slider_demo3.css">
     <style type="text/css">
         body,html,#home{
             overflow-y: hidden !important;
         }
-    </style>
+        .link-landing{
+            text-decoration: none !important;
+        }
+        .moldura-landing__borda{
+           background-color: transparent;
+           position: relative;
+       }
+</style>
 </head>
 <body id="home">
     <!-- Preloader -->
@@ -57,21 +65,27 @@
 <div class="overlay-landing"></div>
 <!-- <div class="moldura-landing hide"> -->
 <div class="moldura-landing">
-    <div class="moldura-landing__borda">
-        <div class="layer"></div>
+    <div class="moldura-landing__borda" id="bg-div-1">
+        <ul class="cb-slideshow">
+            <li><span>Image 01</span></li>
+            <li><span>Image 02</span></li>
+            <li><span>Image 03</span></li>
+            <li><span>Image 04</span></li>
+            <li><span>Image 05</span></li>
+            <li><span>Image 06</span></li>
+        </ul>
         <div class="moldura-landing__left"></div>
         <div class="moldura-landing__right"></div>
     </div>
+
     <div class="contact-us-div">
 
-        <a href="contactus.html" class="jaabaz-link" data-toggle="modal" href="#contactusmodal" data-target="#contactusmodal">Contact Us</a>
+        <a href="contactus.html" id="contactuslinkid" class="jaabaz-link" data-toggle="modal" href="#contactusmodal" data-target="#contactusmodal">Contact Us</a>
     </div>
     <div class="support-us-div">
         <a href="supportus.html" class="jaabaz-link" data-toggle="modal" href="#supportusmodal" data-target="#supportusmodal">Support Us</a>
     </div>
 </div>
-<div class="logo-cappen-landing"></div>
-
 <div class="table">
     <div class="table__vAlign">
         <h2 class="frase"><span class="teamjaabaz"><b><strong>Team Jaabaz</strong></b></span>
@@ -157,8 +171,6 @@
     $('#contactusmodaldialog').load("contactusmodal.php");
     $('#supportusmodaldialog').load("supportusmodal.php");
 </script>
-<!-- 
-    <script src="scripts/main.js"></script> -->
-    <!-- endfileblock -->
+
 </body>
 </html>

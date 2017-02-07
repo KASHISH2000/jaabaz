@@ -2600,7 +2600,7 @@ th {
     }
 
     * {
-     
+
         font-style: normal;
         font-weight: normal;
         outline: none
@@ -4831,7 +4831,7 @@ th {
         color: #ffffff;
         text-transform: uppercase;
         filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=10);
-        opacity: 0.1;
+        opacity: 0.5;
         -moz-transition: all 0.3s cubic-bezier(0.42, 0, 0, 0.995);
         -o-transition: all 0.3s cubic-bezier(0.42, 0, 0, 0.995);
         -webkit-transition: all 0.3s cubic-bezier(0.42, 0, 0, 0.995);
@@ -4839,7 +4839,7 @@ th {
     }
     .menu-works__item:hover .menu-works__item__text {
         filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=50);
-        opacity: 0.5
+        opacity: 0.9
     }
     .menu-works__item.active .menu-works__item__text {
         filter: progid: DXImageTransform.Microsoft.Alpha(enabled=false);
@@ -8014,7 +8014,7 @@ th {
         height: 100%;
         border: 1px solid #5d5d5b;
         line-height: 78px;
-        background-color: #161616
+        background-color: #0c0c0c;
     }
     .link-landing__out:before {
         content: '';
@@ -8023,8 +8023,8 @@ th {
         height: 80px;
         position: absolute;
         top: 0;
-        border: 1px solid #161616;
-        background-color: #000;
+
+        background-color: #0c0c0c;
     }
     .link-landing__over {
         font-family: "circularspotifyhead-bold";
@@ -8062,7 +8062,7 @@ th {
     @media (min-width: 0) and (max-width: 960px) {
         .link-landing {
             width: 100px;
-            height: 40px;
+            height: 80px;
             margin: 0
         }
         .link-landing:after {
@@ -9556,9 +9556,9 @@ th {
     }
     /*My common Css */
     *{
-     font-family: 'Montserrat', sans-serif !important;
- }
- .contact-us-div{
+       font-family: 'Montserrat', sans-serif !important;
+   }
+   .contact-us-div{
     position: absolute;
     bottom: 30px;
     left: 30px;
@@ -9664,6 +9664,71 @@ th {
     background-color: rgba(220, 9, 47, 0.89);
     border: none!important;
 }
+#contactus .modal-body{
+    padding: 0px;
+}
+.container-contactus-modal{
+    padding: 40px;
+}
+.underline-head{
+
+}
+.contactus-position{
+    color: #9e9e9e;
+    font-size: 1.3rem;
+}
+.underline{
+ background-color: #a9a9a9;
+ display: block;
+ height: 2px;
+ width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 0;
+ border-radius: 5px;
+ -webkit-transform: scaleX(0);
+ -moz-transform: scaleX(0);
+ -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);
+ transform: scaleX(0);
+ -webkit-transition: all .5s ease-out;
+ -moz-transition: all .5s ease-out;
+ -o-transition: all .5s ease-out;
+ -ms-transition: all .5s ease-out;
+ transition: all .5s ease-out;
+}
+.contactus-person-box:hover .underline{
+   -webkit-transform: scaleX(1);
+   transform: scaleX(1);
+}
+.person-box-phone{
+    color: #9e9e9e;
+}
+.contactus-person-box{
+    line-height: 2;
+    transition:all 1s ease-out;
+    padding: 30px 5px 60px 5px;
+    border-radius: 4px;
+}
+.contactus-person-box:hover{
+    background-color: #202020;
+}
+.form-container{
+    padding: 20px;
+}
+.google-maps-div-wrap{
+    width:100%;margin-left:auto;margin-right:auto;max-width:100%;overflow:hidden;height:600px;color:red;
+}
+.google-maps-div-wrap .overlay {
+   background:rgba(0,0,0,0.2); 
+   position:relative; 
+   width:100%;
+   height:600px; /* your iframe height */
+   top:600px;  /* your iframe height */
+   margin-top:-600px;  /* your iframe height */
+   transition: all 1s ease;
+}
+#embedded-map-display img{max-width:none!important;background:none!important;font-size: inherit;}
 @media(min-width:769px) {
     #contactus .formdiv {
         margin-top: 2rem;
@@ -9671,7 +9736,7 @@ th {
         margin-left: 20rem
     }
     .form-container{
-        padding: 40px;
+        padding: 0px;
     }
 }
 @media (max-width: 768px) {
@@ -9681,6 +9746,14 @@ th {
     .contusp {
         font-size: 16px!important
     }
+    .google-maps-div-wrap{
+        height: 300px;
+    }
+    .google-maps-div-wrap .overlay {
+       height:300px; /* your iframe height */
+       top:300px;  /* your iframe height */
+       margin-top:-300px;  /* your iframe height */
+   }
 }
 .jaabaz-link{
   font-weight: bold;
@@ -9697,12 +9770,12 @@ th {
   text-decoration: none !important;
 }
 .jaabaz-icon:hover .jaabaz-link{
-   color: #dc092f !important;
-   cursor: pointer;
+ color: #dc092f !important;
+ cursor: pointer;
 }
 .jaabaz-icon:hover{
-   color: #dc092f !important;
-   cursor: pointer;
+ color: #dc092f !important;
+ cursor: pointer;
 }
 .white-hr{
     border-color: #fff !important;
@@ -9713,7 +9786,7 @@ th {
     color: #fff !important;
 }
 .modal-footer{
-    
+
 
 }
 .modal-dialog{
@@ -9722,4 +9795,18 @@ th {
 }
 .modal,.modal-content{
     background-color: rgba(0,0,0,1) !important;
+}
+.img100{
+    width: 100%;
+}
+.modal .close{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.modal .close:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.modal .close .ion-close-round{
+    cursor: pointer;
 }

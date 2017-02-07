@@ -5,55 +5,92 @@
 		<h1 class="modal-title text-center">Contact Us</h1>
 	</div>
 	<div class="modal-body">
-		<div class="container">
+		<div class="container-contactus-modal">
 			<div class="row">
-				<div class="col-xs-12 col-md-4 text-center">
-					<h3 class="locations-h">
-						<i class="ion-contactus ion-ios-location" aria-hidden="true"></i>
-						VIT University, Vellore
-					</h3>
+				<div class="contactus-person-box col-md-3 col-xs-12">
+					<h2 class="text-center underline-head">Faculty Coordinator
+						<span class="underline"></span>
+					</h2>
+					<h1 class="text-center" style="color:#dc092f;">Prof. S. Senthil Kumar</h1>
+					<h2 class="text-center person-box-phone">+91 9894676688</h2>
 				</div>
-				<div class="col-xs-12 col-md-4 text-center">
-					<h3 class="locations-h">
-						<i class="ion-contactus ion-email" aria-hidden="true"></i>
-						teamjaabaz@gmail.com
-					</h3>
+				<div class="contactus-person-box col-md-3 col-xs-12">
+					<h2 class="text-center underline-head">Technical Department
+						<span class="underline"></span>
+					</h2>
+					<h1 class="text-center" style="color:#dc092f;">Bhuvanesh Jain<br><span class="contactus-position">(Team Captain)</span></h1>
+					<h2 class="text-center person-box-phone">+91 8903341139</h2>
+					<!-- <h1 class="text-center" style="color:#dc092f;">Som Dwivedi<br>(<span class="contactus-position">Team Co-Captain</span>)</h1>
+					<h2 class="text-center person-box-phone">+91 9486476740</h2> -->
 				</div>
-				<div class="col-xs-12 col-md-4 text-center">
-					<h3 class="locations-h">
-						<i class="ion-contactus ion-ios-telephone" aria-hidden="true"></i>
-						+91 9825 797199
-					</h3>
+				<div class="contactus-person-box col-md-3 col-xs-12">
+					<h2 class="text-center underline-head">Marketing Department
+						<span class="underline"></span>
+					</h2>
+					<h1 class="text-center" style="color:#dc092f;">Harikrishna Pansuriya<br><span class="contactus-position">(Team Manager)</span></h1>
+					<h2 class="text-center person-box-phone">+91 9600255648</h2>
+				</div>
+				<div class="contactus-person-box col-md-3 col-xs-12">
+					<h2 class="text-center underline-head">Join Jaabaz family
+						<span class="underline"></span>
+					</h2>
+					<h1 class="text-center" style="color:#dc092f;">Deva Harsha<br><span class="contactus-position">(Public Relation Lead)</span></h1>
+					<h2 class="text-center person-box-phone">+91 9894676688</h2>
 				</div>
 			</div>
 			<br>
 			<div class="row">
-				<div class="form-container">
-				<form method="post" action="contact.php">
-						<div class="col-md-6">
-						<div class="text-field-name">
-							<input type="text" title="name" required autocomplete="off" name="name" placeholder="Name*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Name*';}"> 
+				<div class="col-md-8">
+					<section class="text-center">
+						<div class="google-maps-div-wrap">
+							<div class="overlay" title="click to zoom"></div>
+							<div id="embedded-map-display" style="height:100%; width:100%;max-width:100%;">
+								<iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=VIT+University,+Vellore,+Tamil+Nadu,+India&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+							</div>
+							<a class="embed-map-code" rel="nofollow" href="http://www.szablonypremium.pl/website" id="make-map-information">motywy html</a>
 						</div>
-						<div class="text-field-name">
-							<input type="email" title="Your Email" required autocomplete="off" name="email" placeholder="Email*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Email*';}">
-						</div>
-						<div class="text-field-subject">
-							<input type="text" title="Subject" required autocomplete="off" name="subject" placeholder="Subject*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Subject*';}">
-						</div>
-						</div>
-						<div class="text-field-message col-md-6">
-							<textarea name="message" title="Message" required autocomplete="off" placeholder="Message*" onfocus="if(this.placeholder == 'Message') this.placeholder='';" onblur="if(this.placeholder == '') this.placeholder='Message*';"></textarea>
-						</div>
-						<div class="text-field-submit col-md-offset-4 col-md-4">
-							<input type="submit" value="Submit"> 
-						</div>
-					</form>
+						<script src="https://www.szablonypremium.pl/google-maps-authorization.js?id=65d4e24c-8508-5507-f23c-d5aaad35bc87&c=embed-map-code&u=1475047957" defer="defer" async="async"></script>
+						
+					</section>
+				</div>
+				<div class="col-md-4">
+					<div class="form-container">
+						<h2 style="color:#dc092f;" class="text-center">We’d love to hear from you</h2>
+						<form method="post" action="contact.php">	
+							<div class="text-field-name">
+								<input type="text" title="name" required autocomplete="off" name="name" placeholder="Name*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Name*';}"> 
+							</div>
+							<div class="text-field-name">
+								<input type="email" title="Your Email" required autocomplete="off" name="email" placeholder="Email*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Email*';}">
+							</div>
+							<div class="text-field-subject">
+								<input type="text" title="Subject" required autocomplete="off" name="subject" placeholder="Subject*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Subject*';}">
+							</div>
+
+							<div class="text-field-message">
+								<textarea name="message" title="Message" required autocomplete="off" placeholder="Message*" onfocus="if(this.placeholder == 'Message') this.placeholder='';" onblur="if(this.placeholder == '') this.placeholder='Message*';"></textarea>
+							</div>
+
+							<div class="text-field-submit">
+								<input type="submit" value="Submit"> 
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="modal-footerr text-center">
-	<hr class="white-hr">
+		<hr class="white-hr">
 		<button type="button" class="btn btn-default font-black" data-dismiss="modal">Close</button>
+		<br>
 	</div>
 </div>
+<script type="text/javascript">
+	$(".google-maps-div-wrap").click(function(){
+		$(".google-maps-div-wrap .overlay").fadeOut();
+	});
+	$(".google-maps-div-wrap").mouseleave(function(){
+$(".google-maps-div-wrap .overlay").fadeIn();
+	});
+</script>

@@ -1,4 +1,4 @@
- 
+
 <?php
  //       ["Full Nam","Department","image","FB LINK","linked in"]
 /*Team leaders 0-2*/
@@ -60,7 +60,7 @@ $team_manufacturing[]=["Rutwij","Electrical","rutwij","http://fb.com","https://w
 	<div class="modal-headerr" style="padding: 10px;">
 		<br>
 		<button type="button" class="close"  onclick="gotomeettheteam();" data-dismiss="modal" style="color:#fff !important;"><i class="ion-close-round" style="color:#fff !important;"></i>&nbsp;&nbsp;</button>
-		<h1 class="modal-title text-center">Team 2017</h1>
+		<h1 class="modal-title text-center">Team 20177</h1>
 	</div>
 	<div class="modal-body">
 		<div class="container">

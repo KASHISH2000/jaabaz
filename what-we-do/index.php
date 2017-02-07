@@ -1,3 +1,8 @@
+<?php
+$jumpto="";
+if(isset($_GET['jumpto']))
+  $jumpto=$_GET['jumpto'];
+?>
 <!doctype html>
 <html class="no-js">
 <head>
@@ -72,11 +77,11 @@
             <span class="menu-works__line-active"></span>
             <div class="table">
               <div class="table__vAlign">
-                <a class="menu-works__item onhover-nounderline" data-menuanchor="work-beach-park" href=""><span class="menu-works__item__text">Cars</span></a>
-                <a class="menu-works__item onhover-nounderline" data-menuanchor="work-shopping-recife"><span class="menu-works__item__text">Achievements</span></a>
-                <a class="menu-works__item onhover-nounderline" data-menuanchor="work-damas" ><span class="menu-works__item__text">Media</span></a>
-                <a class="menu-works__item onhover-nounderline" data-menuanchor="work-richester"><span class="menu-works__item__text">Marketing Activities</span></a>
-                <a class="menu-works__item onhover-nounderline" data-menuanchor="work-radio"><span class="menu-works__item__text">Sponsors</span></a>
+                <a class="menu-works__item onhover-nounderline" id="a_cars" data-menuanchor="work-beach-park" href=""><span class="menu-works__item__text">Cars</span></a>
+                <a class="menu-works__item onhover-nounderline" id="a_achievements" data-menuanchor="work-shopping-recife"><span class="menu-works__item__text">Achievements</span></a>
+                <a class="menu-works__item onhover-nounderline" id="a_media" data-menuanchor="work-damas" ><span class="menu-works__item__text">Media</span></a>
+                <a class="menu-works__item onhover-nounderline" id="a_marketing" data-menuanchor="work-richester"><span class="menu-works__item__text">Marketing Activities</span></a>
+                <a class="menu-works__item onhover-nounderline" id="a_sponsors" data-menuanchor="work-radio"><span class="menu-works__item__text">Sponsors</span></a>
               </div>
             </div>
           </nav>
@@ -299,6 +304,38 @@
     function gotomarketing_window(){
       window.location="../marketing-activities/";
     }
+    function jumpto_cars(){
+      $("#a_cars").click();
+    }
+    function jumpto_achievements(){
+      $("#a_achievements").click();
+    }
+    function jumpto_media(){
+      $("#a_media").click();
+    }
+    function jumpto_marketing(){
+      $("#a_marketing").click();
+    }
+    function jumpto_sponsors(){
+      $("#a_sponsors").click();
+    }
+  </script>
+  <script type="text/javascript">
+    <?php
+    if(isset($jumpto))
+    {
+      if($jumpto=='cars')
+        echo "jumpto_cars()";
+      if($jumpto=='achievements')
+        echo "jumpto_achievements()";
+      if($jumpto=='media')
+        echo "jumpto_media()";
+      if($jumpto=='marketing')
+        echo "jumpto_marketing()";
+      if($jumpto=='sponsors')
+        echo "jumpto_sponsors()";
+    }
+    ?>
   </script>
 </body>
 </html>

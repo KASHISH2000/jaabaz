@@ -60,10 +60,10 @@
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 	font-weight: bold;
-	color: #dc092f;
+	color: #eee;
 }
 .spanbut:hover{
-	color: #eee;
+	color: #dc092f;
 	cursor: pointer;
 }
 

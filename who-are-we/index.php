@@ -364,15 +364,15 @@
      $('#team16 .boxcol').css({'height':ht2});
 
       //for team15
-     var cw = $('#team15 .box').width();
-     var ht=(cw+0)+'px';
-     var ht2=(cw+0+100) + 'px';
-     $('#team15 .box').css({'height':ht}); 
-     $('#team15 .overlay').css({'height':ht});
-     $('#team15 .boxcol').css({'height':ht2});
+      var cw = $('#team15 .box').width();
+      var ht=(cw+0)+'px';
+      var ht2=(cw+0+100) + 'px';
+      $('#team15 .box').css({'height':ht}); 
+      $('#team15 .overlay').css({'height':ht});
+      $('#team15 .boxcol').css({'height':ht2});
 
-     if($( window ).width()>769)
-     {
+      if($( window ).width()>769)
+      {
        if(($('.modal').hasClass('in')))
        {
         $("body").css("position","fixed");
@@ -395,6 +395,10 @@
   function gotomeettheteam(){
    $("#meettheteama").click();
  }
+</script>
+<script type="text/javascript">
+  $("#meettheteama").click();
+  $("#butteam17").click();
 </script>
 </body>
 </html>
