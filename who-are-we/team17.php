@@ -9,30 +9,30 @@ $team_leaders[]=["Hari Krishna","Team Manager","harikrishna","http://fb.com","ht
 /*Vehicle Dynamics 7-15*/
 $team_vehicle[0]=["Aditya G","Vehicle Dynamics Lead","adityag","http://fb.com","https://www.linkedin.com/"];
 $team_vehicle[]=["Santosh Kumar","Vehicle Dynamics Lead","santosh","http://fb.com","https://www.linkedin.com/"];
-$team_vehicle[]=["Arun","Vehicle Dynamics","arun","http://fb.com","https://www.linkedin.com/"];
-$team_vehicle[]=["Lakshya","Vehicle Dynamics","lakshya","http://fb.com","https://www.linkedin.com/"];
-$team_vehicle[]=["Pulkit","Vehicle Dynamics","pulkit","http://fb.com","https://www.linkedin.com/"];
-$team_vehicle[]=["Shreyas","Vehicle Dynamics","shreyas","http://fb.com","https://www.linkedin.com/"];
 $team_vehicle[]=["Shubham","Vehicle Dynamics","shubham","http://fb.com","https://www.linkedin.com/"];
-$team_vehicle[]=["Tanay","Vehicle Dynamics","tanay","http://fb.com","https://www.linkedin.com/"];
 $team_vehicle[]=["Yash","Vehicle Dynamics","yash","http://fb.com","https://www.linkedin.com/"];
+$team_vehicle[]=["Pulkit","Vehicle Dynamics","pulkit","http://fb.com","https://www.linkedin.com/"];
+$team_vehicle[]=["Lakshya","Vehicle Dynamics","lakshya","http://fb.com","https://www.linkedin.com/"];
+$team_vehicle[]=["Shreyas","Vehicle Dynamics","shreyas","http://fb.com","https://www.linkedin.com/"];
+$team_vehicle[]=["Tanay","Vehicle Dynamics","tanay","http://fb.com","https://www.linkedin.com/"];
+$team_vehicle[]=["Arun","Vehicle Dynamics","arun","http://fb.com","https://www.linkedin.com/"];
 
 /*Transmission*/
-$team_transmission[0]=["Akshay","Transmisssion Lead","akshay","http://fb.com","https://www.linkedin.com/"];
-$team_transmission[]=["Manikandan","Transmisssion Lead","manikandan","http://fb.com","https://www.linkedin.com/"];
-$team_transmission[]=["Chiranjeev","Transmisssion","chiranjeev","http://fb.com","https://www.linkedin.com/"];
+$team_transmission[0]=["Manikandan","Transmisssion Lead","manikandan","http://fb.com","https://www.linkedin.com/"];
 $team_transmission[]=["Felix","Transmisssion","felix","http://fb.com","https://www.linkedin.com/"];
-$team_transmission[]=["Himanvesh","Transmisssion","himanvesh","http://fb.com","https://www.linkedin.com/"];
 $team_transmission[]=["Nikhil","Transmisssion","nikhil","http://fb.com","https://www.linkedin.com/"];
 $team_transmission[]=["Palash","Transmisssion","palash","http://fb.com","https://www.linkedin.com/"];
+$team_transmission[]=["Chiranjeev","Transmisssion","chiranjeev","http://fb.com","https://www.linkedin.com/"];
+$team_transmission[]=["Himanvesh","Transmisssion","himanvesh","http://fb.com","https://www.linkedin.com/"];
+
 
 /*Marketing and Management-*/
-$team_marketing[0]=["Aditya","Marketing and Management","aditya","http://fb.com","https://www.linkedin.com/"];
-$team_marketing[]=["Arizul Islam","Marketing and Management","arizul","http://fb.com","https://www.linkedin.com/"];
+$team_marketing[0]=["Tuhin","Marketing and Management","tuhin","http://fb.com","https://www.linkedin.com/"];
 $team_marketing[]=["Divyansh","Marketing and Marketing","divyansh","http://fb.com","https://www.linkedin.com/"];
+$team_marketing[]=["Arizul Islam","Marketing and Management","arizul","http://fb.com","https://www.linkedin.com/"];
 $team_marketing[]=["Sameer","Marketing and Management","sameer","http://fb.com","https://www.linkedin.com/"];
 $team_marketing[]=["Sanjay","Marketing and Management","sanjay","http://fb.com","https://www.linkedin.com/"];
-$team_marketing[]=["Tuhin","Marketing and Management","tuhin","http://fb.com","https://www.linkedin.com/"];
+$team_marketing[]=["Aditya","Marketing and Management","aditya","http://fb.com","https://www.linkedin.com/"];
 
 /*Designs 3-6*/
 $team_design[0]=["Parth Deshpande","Design Lead","parth","http://fb.com","https://www.linkedin.com/"];
@@ -43,8 +43,8 @@ $team_design[]=["Vignesh","Design","vignesh","http://fb.com","https://www.linked
 /*Brakes*/
 $team_brakes[0]=["Rishikesh Joshi","Brakes Lead","rishikesh","http://fb.com","https://www.linkedin.com/"];
 $team_brakes[]=["Dhruv","Brakes","dhruv","http://fb.com","https://www.linkedin.com/"];
-$team_brakes[]=["Naman","Brakes","naman","http://fb.com","https://www.linkedin.com/"];
 $team_brakes[]=["Yashaswi","Brakes","yashaswi","http://fb.com","https://www.linkedin.com/"];
+$team_brakes[]=["Naman","Brakes","naman","http://fb.com","https://www.linkedin.com/"];
 
 /*Steering*/
 $team_steering[0]=["Prithvesh Ashok","Steering Lead","prithvesh","http://fb.com","https://www.linkedin.com/"];
