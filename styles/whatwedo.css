@@ -36,17 +36,17 @@
 	background-size: cover;
 }
 /* For media*/
-.work.\--damas .work__obj.\--bg , .mediabg{
+.mediabg .work__obj, .mediabg{
 	background-image: url('../img/mediabg.png') !important;
 	background-size: cover;
 }
 /* For marketing*/
-.work.\--damas .work__obj.\--bg , .marketingbg{
+.marketingbg .work__obj , .marketingbg{
 	background-image: url('../img/marketingbg.png') !important;
 	background-size: cover;
 }
 /* For sponsors*/
-.work.\--damas .work__obj.\--bg , .sponsorsbg{
+.sponsorsbg .work__obj , .sponsorsbg{
 	background-image: url('../img/sponsorsbg.png') !important;
 	background-size: cover;
 }

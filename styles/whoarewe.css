@@ -20,7 +20,7 @@
 	text-decoration: none !important;
 }
 /* For VIT University*/
-.work.\--beach-park .work__obj.\--bg , .vituniversitybg{
+.vituniversitybg .work__obj , .vituniversitybg{
 	background-color: transparent;;
 	background-image: url('../img/vituniversity.png') !important;
 	background-size: cover;
@@ -28,24 +28,26 @@
 }
 
 /* For Baja SAE*/
-.work.\--shopping-recife .work__obj.\--bg , .bajasaebg{
+.bajasaebg .work__obj, .bajasaebg{
 	background-color: transparent;
-	background-image: url('../img/bajasae.png') !important;
+	background-image: url('../img/bajasaebg.png') !important;
 	background-size: cover;
 }
 /* For Team Jaabaz*/
-.work.\--damas .work__obj.\--bg , .teamjaabazbg{
-	background-image: url('../img/teamjaabaz.png') !important;
+.teamjaabazbg .work__obj, .teamjaabazbg{
+	background-image: url('../img/teamjaabazbg.png') !important;
 	background-size: cover;
+top: 0%;
 }
 /* For Our Objecttive*/
 .ourobjectivebg{
 	background-color: #000;
 }
 /* For Meet the team*/
-.work.\--richester .work__obj.\--bg, .meettheteambg {
-	background-image: url('../img/meettheteam.png') !important;
+.meettheteambg .work__obj, .meettheteambg {
+	background-image: url('../img/meettheteambg.png') !important;
 	background-size: cover;
+	background-position: 0px -130px;
 }
 .ion-android-arrow-dropright{
 	font-size: 1.5rem;
@@ -120,7 +122,7 @@ body::-moz-scrollbar, body::-moz-scrollbar-thumb,body::-moz-scrollbar-track{
 }
 .modal-body{
 	overflow-y: auto !important;
-	height: 75vh;
+	height: 74vh;
 }
 .work__link:hover{
 	text-decoration: none;

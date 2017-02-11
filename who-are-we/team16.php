@@ -80,7 +80,9 @@ $team_manufacturing[]=["Aditya Bhansali","Business Head","aditya","http://fb.com
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
+										<div class="ch-social-div">	
 										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
+										</div>
 									</h3>
 								</div>
 							</div>
@@ -112,7 +114,9 @@ $team_manufacturing[]=["Aditya Bhansali","Business Head","aditya","http://fb.com
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
+										<div class="ch-social-div">	
 										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
+										</div>
 									</h3>
 								</div>
 							</div>
@@ -144,7 +148,9 @@ $team_manufacturing[]=["Aditya Bhansali","Business Head","aditya","http://fb.com
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
+										<div class="ch-social-div">	
 										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
+										</div>
 									</h3>
 								</div>
 							</div>
@@ -176,7 +182,9 @@ $team_manufacturing[]=["Aditya Bhansali","Business Head","aditya","http://fb.com
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
+										<div class="ch-social-div">	
 										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
+										</div>
 									</h3>
 								</div>
 							</div>
@@ -208,7 +216,9 @@ $team_manufacturing[]=["Aditya Bhansali","Business Head","aditya","http://fb.com
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
+										<div class="ch-social-div">	
 										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
+										</div>
 									</h3>
 								</div>
 							</div>
@@ -240,7 +250,9 @@ $team_manufacturing[]=["Aditya Bhansali","Business Head","aditya","http://fb.com
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
+										<div class="ch-social-div">	
 										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
+										</div>
 									</h3>
 								</div>
 							</div>
@@ -272,7 +284,9 @@ $team_manufacturing[]=["Aditya Bhansali","Business Head","aditya","http://fb.com
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
+										<div class="ch-social-div">	
 										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
+										</div>
 									</h3>
 								</div>
 							</div>
@@ -304,7 +318,9 @@ $team_manufacturing[]=["Aditya Bhansali","Business Head","aditya","http://fb.com
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
+										<div class="ch-social-div">	
 										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
+										</div>
 									</h3>
 								</div>
 							</div>

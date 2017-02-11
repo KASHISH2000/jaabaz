@@ -33,11 +33,11 @@
     <nav class="menu --works">
      <div class="menu__link --about">
       <a class="menu__logo jaabaz-link" href="../"></a>
-      <a class="menu__text link-page onhover-nounderline jaabaz-link" href="../">Jaabaz</a>
+      <a class="menu__text link-page onhover-nounderline jaabaz-link" href="../what-we-do/">What We Do ?</a>
     </div>
     <div class="menu__link --works">
      <a class="menu__logo jaabaz-link" href="../"></a>
-     <a class="menu__text link-page onhover-nounderline jaabaz-link" href="../">Jaabaz</a>
+     <a class="menu__text link-page onhover-nounderline jaabaz-link" href="../what-we-do/">What We Do ?</a>
    </div>
  </nav>
 </a>
@@ -149,178 +149,112 @@
   </div>
 </div>
 </div>
-       <!--  <div  class="work --damas2 ourobjectivebg">
-            <div class="work__bg"></div>
-            <div class="layer" data-depth="0.40">
-                <div class="work__obj --bg">
-                    <div class="layerbg"></div>
-                </div>
-            </div>
-            <div class="table">
-                <div class="table__vAlign">
-                    <div class="container">
-                        <h2 class="work__title">Our Objective</h2>
-                        <p class="work__tags">
-                           <div class="containerr">
-                               <div class="roww">
-                                   <div class="col-xs-12 col-sm-2">
-                                   <img src="../img/teacher.gif" class="img-responsive" />
-                                       <p>
-                                           Team Jaabaz provides new members with a 2 months,
-
-                                           student taught training course. Students learn to use
-
-                                           different designing and analysis software like
-
-                                           Solidworks, Ansys etc. and all machine tools in the
-
-                                           garage of Team Jaabaz.
-                                       </p>
-                                   </div>
-                                   <div class="col-xs-12 col-sm-2">
-                                   <img src="../img/teacher.gif" class="img-responsive" />
-                                       <p>
-                                           Team Jaabaz provides new members with a 2 months,
-
-                                           student taught training course. Students learn to use
-
-                                           different designing and analysis software like
-
-                                           Solidworks, Ansys etc. and all machine tools in the
-
-                                           garage of Team Jaabaz.
-                                       </p>
-                                   </div>
-                                   <div class="col-xs-12 col-sm-2">
-                                   <img src="../img/teacher.gif" class="img-responsive" />
-                                       <p>
-                                           Team Jaabaz provides new members with a 2 months,
-
-                                           student taught training course. Students learn to use
-
-                                           different designing and analysis software like
-
-                                           Solidworks, Ansys etc. and all machine tools in the
-
-                                           garage of Team Jaabaz.
-                                       </p>
-                                   </div>
-                                     <div class="col-xs-12 col-sm-2">
-                                   <img src="../img/teacher.gif" class="img-responsive" />
-                                       <p>
-                                           Team Jaabaz provides new members with a 2 months,
-
-                                           student taught training course. Students learn to use
-
-                                           different designing and analysis software like
-
-                                           Solidworks, Ansys etc. and all machine tools in the
-
-                                           garage of Team Jaabaz.
-                                       </p>
-                                   </div>
-                               </div>
-                           </div>
-                       </p>
-                   </div>
-               </div>
-           </div>
-         </div> -->
-         <div  class="work --richester meettheteambg" id="meettheteam">
-          <div class="layer" data-depth="0.40">
-            <div class="work__obj --bg">
-              <div class="layerbg"></div>
-            </div>
-          </div>
-          <div class="table">
-            <div class="table__vAlign">
-              <div class="container">
-               <a class="work__link link-page onhover-nounderline">
-                <h2 class="work__title">Meet the Team</h2>
-                <p class="work__tags">
-                  <span id="butteam17" class="spanbut onhover-nounderline" data-toggle="modal" data-target="#team17">
-                    <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
-                    Team 2017
-                  </span>
-                  <br><br>
-                  <span id="butteam16" class="spanbut onhover-nounderline" data-toggle="modal" data-target="#team16">
-                    <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
-                    Team 2016
-                  </span>
-                  <br><br>
-                  <span id="butteam15" class="spanbut onhover-nounderline" data-toggle="modal" data-target="#team15">
-                    <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
-                    Team 2015
-                  </span>
-                </p>
-                <br><br><br>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+<div  class="work --richester meettheteambg" id="meettheteam">
+  <div class="layer" data-depth="0.40">
+    <div class="work__obj --bg">
+      <div class="layerbg"></div>
     </div>
   </div>
+  <div class="table">
+    <div class="table__vAlign">
+      <div class="container">
+       <a class="work__link link-page onhover-nounderline">
+        <h2 class="work__title">Meet the Team</h2>
+        <p class="work__tags">
+          <span id="butteam17" class="spanbut onhover-nounderline" data-toggle="modal" data-target="#team17">
+            <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
+            Team 2017
+          </span>
+          <br><br>
+          <span id="butteam16" class="spanbut onhover-nounderline" data-toggle="modal" data-target="#team16">
+            <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
+            Team 2016
+          </span>
+          <br><br>
+          <span id="butteam15" class="spanbut onhover-nounderline" data-toggle="modal" data-target="#team15">
+            <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
+            Team 2015
+          </span>
+        </p>
+        <br><br><br>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
 
 
-  <!-- Team 17 Modal -->
-  <div id="team17" class="modal fade" role="dialog">
-    <div class="modal-dialog" id="team17modaldialog">
+<!-- Team 17 Modal -->
+<div id="team17" class="modal fade" role="dialog">
+  <div class="modal-dialog" id="team17modaldialog">
+    <div class="modal-body text-center">
+      <img src="../img/loading.gif" style="width:100px !important;" />
+    </div>
+    <div class="modal-footerr text-center">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
+<!-- Team 16 Modal -->
+<div id="team16" class="modal fade" role="dialog">
+  <div class="modal-dialog" id="team16modaldialog">
+    <div class="modal-body text-center">
+      <img src="../img/loading.gif" style="width:100px !important;" />
+    </div>
+    <div class="modal-footerr text-center">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
+<!-- Team 15 Modal -->
+<div id="team15" class="modal fade" role="dialog">
+  <div class="modal-dialog" id="team15modaldialog">
+    <div class="modal-body text-center">
+      <img src="../img/loading.gif" style="width:100px !important;" />
+    </div>
+    <div class="modal-footerr text-center">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- Contact us Modal -->
+<div id="contactusmodal" class="modal fade" role="dialog">
+  <div class="modal-dialog" id="contactusmodaldialog">
+    <div class="modal-body text-center">
+      <img src="../img/loading.gif" style="width:100px !important;" />
+    </div>
+    <div class="modal-footerr text-center">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
+<!-- contact us modal end-->
+<!-- Support us Modal -->
+<div id="supportusmodal" class="modal fade" role="dialog">
+    <div class="modal-dialog" id="supportusmodaldialog">
       <div class="modal-body text-center">
         <img src="../img/loading.gif" style="width:100px !important;" />
-      </div>
-      <div class="modal-footerr text-center">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
     </div>
-  </div>
-  <!-- Team 16 Modal -->
-  <div id="team16" class="modal fade" role="dialog">
-    <div class="modal-dialog" id="team16modaldialog">
-      <div class="modal-body text-center">
-        <img src="../img/loading.gif" style="width:100px !important;" />
-      </div>
-      <div class="modal-footerr text-center">
+    <div class="modal-footerr text-center">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
     </div>
-  </div>
-  <!-- Team 15 Modal -->
-  <div id="team15" class="modal fade" role="dialog">
-    <div class="modal-dialog" id="team15modaldialog">
-      <div class="modal-body text-center">
-        <img src="../img/loading.gif" style="width:100px !important;" />
-      </div>
-      <div class="modal-footerr text-center">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
+</div>
+</div>
+<!-- support us modal end-->
+<div class="contact-us-div"><a class="jaabaz-link" data-toggle="modal" href="#contactusmodal" data-target="#contactusmodal">Contact Us</a></div>
+<div class="support-us-div"><a class="jaabaz-link" href="supportus.html" data-target="#supportusmodal" data-toggle="modal">Support Us</a></div>
+<footer>
+  <nav class="social">
+    <a class="social__media" target="_blank" href="https://www.facebook.com/teamjaabaz/"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
+    <a class="social__media" target="_blank" href="https://twitter.com/team_jaabaz"><i class="ionclass ion-social-twitter" aria-hidden="true"></i></a>
+    <a class="social__media" target="_blank" href="https://www.youtube.com/channel/UCQYPdJIlSCqqYTSI9OAZ0OQ"><i class="ionclass ion-social-youtube" aria-hidden="true"></i></a>
+  </nav>
+</footer>
 
-  <!-- Contact us Modal -->
-  <div id="contactusmodal" class="modal fade" role="dialog">
-    <div class="modal-dialog" id="contactusmodaldialog">
-      <div class="modal-body text-center">
-        <img src="../img/loading.gif" style="width:100px !important;" />
-      </div>
-      <div class="modal-footerr text-center">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-  <!-- contact us modal end-->
-
-  <div class="contact-us-div"><a class="jaabaz-link" data-toggle="modal" href="#contactusmodal" data-target="#contactusmodal">Contact Us</a></div>
-  <div class="support-us-div"><a class="jaabaz-link" href="supportus.html">Support Us</a></div>
-  <footer>
-    <nav class="social">
-      <a class="social__media" target="_blank" href="https://www.facebook.com/teamjaabaz/"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
-      <a class="social__media" target="_blank" href="https://twitter.com/team_jaabaz"><i class="ionclass ion-social-twitter" aria-hidden="true"></i></a>
-      <a class="social__media" target="_blank" href="https://www.youtube.com/channel/UCQYPdJIlSCqqYTSI9OAZ0OQ"><i class="ionclass ion-social-youtube" aria-hidden="true"></i></a>
-    </nav>
-  </footer>
-
-  <script>
+<script>
     // var idioma = 'en';
     // var baseUrl = 'http://www.cappen.com/';
     // var wow;
@@ -345,6 +279,7 @@
     $('#team16modaldialog').load("team16.php");
     $('#team15modaldialog').load("team15.php");
     $('#contactusmodaldialog').load("../contactusmodal.php");
+     $('#supportusmodaldialog').load("../supportusmodal.php");
   </script>
   <script type="text/javascript">
     setInterval(function(){
@@ -397,8 +332,8 @@
  }
 </script>
 <script type="text/javascript">
-  $("#meettheteama").click();
-  $("#butteam17").click();
+  // $("#meettheteama").click();
+  // $("#butteam17").click();
 </script>
 </body>
 </html>

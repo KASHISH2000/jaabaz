@@ -9,7 +9,7 @@
 	transition: opacity 0.6s ease;
 }
 .box-col{
-	padding: 20px;
+	
 }
 
 .box:hover{
@@ -19,8 +19,17 @@
 	color: #c2bebe;
 }
 .ch-item .ion-social-facebook{
-	font-size: 2rem !important;
 	font-weight: bold !important;
+	color: #f3f3f3;
+	
+}
+.ch-item .ion-social-facebook:hover{
+	color: #3b5998;
+}
+.ch-social-div{
+	position: absolute;
+	bottom: 0px;
+	left: 5px;
 }
 /* demo*/
 .ch-grid {
@@ -55,10 +64,10 @@
 	height: 100%;
 	position: relative;
 	cursor: default;
-	box-shadow: 
+	/*box-shadow: 
 	inset 0 0 0 0 rgba(200,95,66, 0.4),
 	inset 0 0 0 6px rgba(255,255,255,0.6),
-	0 1px 2px rgba(0,0,0,0.1);
+	0 1px 2px rgba(0,0,0,0.1);*/
 	background-color: #4c4a4a;
 	background-image: url('../img/loading.gif');
 	-webkit-transition: all 0.4s ease-in-out;
@@ -108,10 +117,7 @@
 }
 
 .ch-item:hover {
-	box-shadow: 
-	inset 0 0 0 100px rgba(200,95,66, 0.4),
-	inset 0 0 0 10px rgba(255,255,255,0.8),
-	0 1px 2px rgba(0,0,0,0.1);
+	box-shadow: inset 0 0 0 100px rgba(47, 47, 47, 0.65), inset 0 0 0 0px rgba(255,255,255,0.8), 0 1px 2px rgba(0,0,0,0.1);
 }
 
 .ch-item:hover .ch-info {
@@ -124,3 +130,6 @@
 	transform: scale(1);	
 }
 
+.boxcol .ion-social-facebook{
+	
+}

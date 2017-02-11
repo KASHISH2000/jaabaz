@@ -70,9 +70,7 @@
             <li><span>Image 01</span></li>
             <li><span>Image 02</span></li>
             <li><span>Image 03</span></li>
-            <li><span>Image 04</span></li>
-            <li><span>Image 05</span></li>
-            <li><span>Image 06</span></li>
+            <li><span>Image 04</span></li>    
         </ul>
         <div class="moldura-landing__left"></div>
         <div class="moldura-landing__right"></div>
@@ -89,7 +87,7 @@
 <div class="table">
     <div class="table__vAlign">
         <h2 class="frase"><span class="teamjaabaz"><b><strong>Team Jaabaz</strong></b></span>
-            <br><br><br>
+            <br>
             Our Motto will be here</h2>
         </div>
     </div>
@@ -149,7 +147,7 @@
     </div>
 </div>
 </div>
-<!-- contact us modal end-->
+<!-- support us modal end-->
 <script>
     // var idioma = 'en';
     // var baseUrl = 'http://www.cappen.com/';

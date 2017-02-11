@@ -62,11 +62,11 @@ if(isset($_GET['jumpto']))
             <nav class="menu --works">
              <div class="menu__link --about">
               <a class="menu__logo jaabaz-link" href="../"></a>
-              <a class="menu__text link-page onhover-nounderline jaabaz-link" href="../">Jaabaz</a>
+              <a class="menu__text link-page onhover-nounderline jaabaz-link" href="../who-are-we">Who Are We ?</a>
             </div>
             <div class="menu__link --works">
              <a class="menu__logo jaabaz-link" href="../"></a>
-             <a class="menu__text link-page onhover-nounderline jaabaz-link" href="../">Jaabaz</a>
+             <a class="menu__text link-page onhover-nounderline jaabaz-link" href="../who-are-we">Who Are We ?</a>
            </div>
          </nav>
        </a>
@@ -255,9 +255,20 @@ if(isset($_GET['jumpto']))
   </div>
 </div>
 <!-- contact us modal end-->
-
+<!-- Support us Modal -->
+<div id="supportusmodal" class="modal fade" role="dialog">
+    <div class="modal-dialog" id="supportusmodaldialog">
+      <div class="modal-body text-center">
+        <img src="../img/loading.gif" style="width:100px !important;" />
+    </div>
+    <div class="modal-footerr text-center">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+</div>
+</div>
+<!-- support us modal end-->
 <div class="contact-us-div"><a class="jaabaz-link" data-toggle="modal" href="#contactusmodal" data-target="#contactusmodal">Contact Us</a></div>
-<div class="support-us-div"><a class="jaabaz-link" href="supportus.html">Support Us</a></div>
+<div class="support-us-div"><a class="jaabaz-link" href="supportus.html" data-target="#supportusmodal" data-toggle="modal">Support Us</a></div>
 <footer>
   <nav class="social">
     <a class="social__media" target="_blank" href="https://www.facebook.com/teamjaabaz/"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
@@ -287,22 +298,23 @@ if(isset($_GET['jumpto']))
   <script src="../scripts/main.js"></script>
   <script type = "text/javascript">
     $('#contactusmodaldialog').load("../contactusmodal.php");
+    $('#supportusmodaldialog').load("../supportusmodal.php");
   </script>
   <script type="text/javascript">
     function gotocars_window(){
-      window.location="../cars/";
+      window.location="../cars.html";
     }
     function gotoachievements_window(){
-      window.location="../achievements/";
+      window.location="../achievements.html";
     }
     function gotomedia_window(){
-      window.location="../media/";
+      window.location="../media.html";
     }
     function gotosponsors_window(){
-      window.location="../sponsors/";
+      window.location="../sponsors.html";
     }
     function gotomarketing_window(){
-      window.location="../marketing-activities/";
+      window.location="../marketing-activities.html";
     }
     function jumpto_cars(){
       $("#a_cars").click();

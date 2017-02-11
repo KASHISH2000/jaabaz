@@ -4114,7 +4114,8 @@ th {
             height: 1px;
             position: relative;
             top: 14px;
-            background-color: #fff
+            background-color: #fff;
+            width: 80%;
         }
         .menu.\--works .menu__text,
         .menu.\--about .menu__text {
