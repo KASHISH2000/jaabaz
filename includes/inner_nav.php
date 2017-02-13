@@ -26,7 +26,7 @@
 
     <!-- LOGO -->
     <div id="logo" class="left-float">
-      <a href="index.html">
+      <a href="index.php">
       <!--  <img id="scroll-logo" src="img/logo.png" srcset="img/logo.png 1x, img/logo.png 2x" alt="Team Jaabaz"> -->
        <img id="dark-logo" src="img/logo_light2.png" srcset="img/logo_light2.png 1x, img/logo_light2.png 2x" alt="Logo Dark">
      </a>
@@ -44,9 +44,9 @@
           </li>
           <li class="menu-item<?php if($current=='achievements') echo ' current-menu-item';?>"><a href="achievements.php">Achievements</a>
           </li>
-          <li class="menu-item<?php if($current=='media') echo ' current-menu-item';?>"><a href="media.php">Media</a>
+          <li class="menu-item<?php if($current=='media') echo ' current-menu-item';?>"><a href="#">Media</a>
           </li>
-          <li class="menu-item<?php if($current=='marketing') echo ' current-menu-item';?>"><a href="marketing.php">Marketing Activities</a>
+          <li class="menu-item<?php if($current=='marketing') echo ' current-menu-item';?>"><a href="marketing-activities.php">Marketing Activities</a>
           </li>
           <li class="menu-item<?php if($current=='sponsors') echo ' current-menu-item';?>"><a href="sponsors.php">Sponsors</a>
           </li>

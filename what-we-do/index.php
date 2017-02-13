@@ -60,77 +60,51 @@ if(isset($_GET['jumpto']))
           <div class="barra-menu"></div>
           <a href="../">
             <nav class="menu --works">
-             <div class="menu__link --about">
+            <!--  <div class="menu__link --about">
               <a class="menu__logo jaabaz-link" href="../"></a>
               <a class="menu__text link-page onhover-nounderline jaabaz-link" href="../who-are-we">Who Are We ?</a>
             </div>
             <div class="menu__link --works">
              <a class="menu__logo jaabaz-link" href="../"></a>
              <a class="menu__text link-page onhover-nounderline jaabaz-link" href="../who-are-we">Who Are We ?</a>
-           </div>
-         </nav>
-       </a>
-       <div id="works" class="animation-container --in">
-         <div class="container --height">
-          <nav class="menu-works">
-            <span class="menu-works__line"></span>
-            <span class="menu-works__line-active"></span>
-            <div class="table">
-              <div class="table__vAlign">
-                <a class="menu-works__item onhover-nounderline" id="a_cars" data-menuanchor="work-beach-park" href=""><span class="menu-works__item__text">Cars</span></a>
-                <a class="menu-works__item onhover-nounderline" id="a_achievements" data-menuanchor="work-shopping-recife"><span class="menu-works__item__text">Achievements</span></a>
-                <a class="menu-works__item onhover-nounderline" id="a_media" data-menuanchor="work-damas" ><span class="menu-works__item__text">Media</span></a>
-                <a class="menu-works__item onhover-nounderline" id="a_marketing" data-menuanchor="work-richester"><span class="menu-works__item__text">Marketing Activities</span></a>
-                <a class="menu-works__item onhover-nounderline" id="a_sponsors" data-menuanchor="work-radio"><span class="menu-works__item__text">Sponsors</span></a>
-              </div>
-            </div>
-          </nav>
-        </div>
-        <div class="count-works"><span class="count-works__current">1</span><span class="count-works__total"></span></div>
-        <div class="setas-works"></div>
-        <div class="works">
-          <div class="work --beach-park carsbg">
-            <div class="layer" data-depth="0.40">
-              <div class="work__obj --bg">
-                <div class="layerbg"></div>
-              </div>
-            </div>
-            <div class="table">
-              <div class="table__vAlign">
-                <div class="container">
-                  <a class="work__link link-page">
-                    <h2 class="work__title">Cars</h2>
-                    <p class="work__tags">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                      <br>
-
-                      <span class="spanbut onhover-nounderline" onclick="gotocars_window();">
-                        <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
-                        Read More
-                      </span>
-
-                    </p>
-                  </a>
-                </div>
-              </div>
+           </div> -->
+           <div class="top-link-div">
+            <a href="../index.php"><img src="../img/logo-white.png" class="logo-link-img"></a>
+            <div class="top-link-line"></div>
+            <div class="top-link-text"><a href="../what-we-do/">What We Do ?</a></div>
+          </div>
+        </nav>
+      </a>
+      <div id="works" class="animation-container --in">
+       <div class="container --height">
+        <nav class="menu-works">
+          <span class="menu-works__line"></span>
+          <span class="menu-works__line-active"></span>
+          <div class="table">
+            <div class="table__vAlign">
+              <a class="menu-works__item onhover-nounderline" id="a_cars" data-menuanchor="work-beach-park" href=""><span class="menu-works__item__text">Cars</span></a>
+              <a class="menu-works__item onhover-nounderline" id="a_achievements" data-menuanchor="work-shopping-recife"><span class="menu-works__item__text">Achievements</span></a>
+              <a class="menu-works__item onhover-nounderline" id="a_media" data-menuanchor="work-damas" ><span class="menu-works__item__text">Media</span></a>
+              <a class="menu-works__item onhover-nounderline" id="a_marketing" data-menuanchor="work-richester"><span class="menu-works__item__text">Marketing Activities</span></a>
+              <a class="menu-works__item onhover-nounderline" id="a_sponsors" data-menuanchor="work-radio"><span class="menu-works__item__text">Sponsors</span></a>
             </div>
           </div>
-          <div class="work --shopping-recife achievementsbg">
-            <div class="layer" data-depth="0.40">
-              <div class="work__obj --bg">
-                <div class="layerbg"></div>
-              </div>
+        </nav>
+      </div>
+      <div class="count-works"><span class="count-works__current">1</span><span class="count-works__total"></span></div>
+      <div class="setas-works"></div>
+      <div class="works">
+        <div class="work --beach-park carsbg">
+          <div class="layer" data-depth="0.40">
+            <div class="work__obj --bg">
+              <div class="layerbg"></div>
             </div>
-            <div class="table">
-              <div class="table__vAlign">
-                <div class="container">
-                 <a class="work__link link-page">
-                  <h2 class="work__title">Achievements</h2>
+          </div>
+          <div class="table">
+            <div class="table__vAlign">
+              <div class="container">
+                <a class="work__link link-page">
+                  <h2 class="work__title">Cars</h2>
                   <p class="work__tags">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -139,17 +113,19 @@ if(isset($_GET['jumpto']))
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     <br>
-                    <span class="spanbut onhover-nounderline" onclick="gotoachievements_window()">
+
+                    <span class="spanbut onhover-nounderline" onclick="gotocars_window();">
                       <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
-                      Read More
+                      View Cars
                     </span>
+
                   </p>
                 </a>
               </div>
             </div>
           </div>
         </div>
-        <div  class="work --damas mediabg">
+        <div class="work --shopping-recife achievementsbg">
           <div class="layer" data-depth="0.40">
             <div class="work__obj --bg">
               <div class="layerbg"></div>
@@ -159,59 +135,57 @@ if(isset($_GET['jumpto']))
             <div class="table__vAlign">
               <div class="container">
                <a class="work__link link-page">
-                <h2 class="work__title">Media</h2>
+                <h2 class="work__title">Achievements</h2>
                 <p class="work__tags">
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                 <br>
-                 <span class="spanbut onhover-nounderline" onclick="gotomedia_window()">
-                  <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
-                  Read More
-                </span>
-              </p>
-
-            </a>
-            <br><br><br>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  <br>
+                  <span class="spanbut onhover-nounderline" onclick="gotoachievements_window()">
+                    <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
+                    View Achievements
+                  </span>
+                </p>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div  class="work --richester marketingbg" id="meettheteam">
-      <div class="layer" data-depth="0.40">
-        <div class="work__obj --bg">
-          <div class="layerbg"></div>
+      <div  class="work --damas mediabg">
+        <div class="layer" data-depth="0.40">
+          <div class="work__obj --bg">
+            <div class="layerbg"></div>
+          </div>
         </div>
-      </div>
-      <div class="table">
-        <div class="table__vAlign">
-          <div class="container">
-           <a class="work__link link-page onhover-nounderline">
-            <h2 class="work__title">Marketing Activities</h2>
-            <p class="work__tags">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              <br>
-              <span class="spanbut onhover-nounderline" onclick="gotomarketing_window()">
+        <div class="table">
+          <div class="table__vAlign">
+            <div class="container">
+             <a class="work__link link-page">
+              <h2 class="work__title">Media</h2>
+              <p class="work__tags">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+               <br>
+               <span class="spanbut onhover-nounderline" onclick="gotomedia_window()">
                 <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
-                Read More
+                View Media
               </span>
-              
             </p>
-            <br><br><br>
+
           </a>
+          <br><br><br>
         </div>
       </div>
     </div>
   </div>
-  <div  class="work --damas sponsorsbg">
+  <div  class="work --richester marketingbg" id="meettheteam">
     <div class="layer" data-depth="0.40">
       <div class="work__obj --bg">
         <div class="layerbg"></div>
@@ -220,25 +194,56 @@ if(isset($_GET['jumpto']))
     <div class="table">
       <div class="table__vAlign">
         <div class="container">
-         <a class="work__link link-page">
-          <h2 class="work__title">Sponsors</h2>
+         <a class="work__link link-page onhover-nounderline">
+          <h2 class="work__title">Marketing Activities</h2>
           <p class="work__tags">
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-           <br>
-           <span class="spanbut onhover-nounderline" onclick="gotosponsors_window()">
-            <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
-            Read More
-          </span>
-        </p>
-      </a>
-      <br><br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <br>
+            <span class="spanbut onhover-nounderline" onclick="gotomarketing_window()">
+              <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
+              View Marketing Activities
+            </span>
+            
+          </p>
+          <br><br><br>
+        </a>
+      </div>
     </div>
   </div>
+</div>
+<div  class="work --damas sponsorsbg">
+  <div class="layer" data-depth="0.40">
+    <div class="work__obj --bg">
+      <div class="layerbg"></div>
+    </div>
+  </div>
+  <div class="table">
+    <div class="table__vAlign">
+      <div class="container">
+       <a class="work__link link-page">
+        <h2 class="work__title">Sponsors</h2>
+        <p class="work__tags">
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+         <br>
+         <span class="spanbut onhover-nounderline" onclick="gotosponsors_window()">
+          <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
+          View Sponsors
+        </span>
+      </p>
+    </a>
+    <br><br><br>
+  </div>
+</div>
 </div>
 </div>
 </div>
@@ -257,14 +262,14 @@ if(isset($_GET['jumpto']))
 <!-- contact us modal end-->
 <!-- Support us Modal -->
 <div id="supportusmodal" class="modal fade" role="dialog">
-    <div class="modal-dialog" id="supportusmodaldialog">
-      <div class="modal-body text-center">
-        <img src="../img/loading.gif" style="width:100px !important;" />
+  <div class="modal-dialog" id="supportusmodaldialog">
+    <div class="modal-body text-center">
+      <img src="../img/loading.gif" style="width:100px !important;" />
     </div>
     <div class="modal-footerr text-center">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
     </div>
-</div>
+  </div>
 </div>
 <!-- support us modal end-->
 <div class="contact-us-div"><a class="jaabaz-link" data-toggle="modal" href="#contactusmodal" data-target="#contactusmodal">Contact Us</a></div>
@@ -302,19 +307,19 @@ if(isset($_GET['jumpto']))
   </script>
   <script type="text/javascript">
     function gotocars_window(){
-      window.location="../cars.html";
+      window.location="../cars.php";
     }
     function gotoachievements_window(){
-      window.location="../achievements.html";
+      window.location="../achievements.php";
     }
     function gotomedia_window(){
-      window.location="../media.html";
+      window.location="../media.php";
     }
     function gotosponsors_window(){
-      window.location="../sponsors.html";
+      window.location="../sponsors.php";
     }
     function gotomarketing_window(){
-      window.location="../marketing-activities.html";
+      window.location="../marketing-activities.php";
     }
     function jumpto_cars(){
       $("#a_cars").click();

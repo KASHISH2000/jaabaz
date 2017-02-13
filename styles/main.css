@@ -9562,7 +9562,7 @@ th {
    .contact-us-div{
     position: absolute;
     bottom: 30px;
-    left: 30px;
+    left: 60px;
     color: white !important;
     display: block;
     z-index: 100;
@@ -9571,7 +9571,7 @@ th {
 .support-us-div{
     position: absolute;
     bottom: 30px;
-    right: 30px;
+    right: 60px;
     color: white !important;
     z-index: 100;
     cursor: pointer;
@@ -9810,4 +9810,47 @@ th {
 }
 .modal .close .ion-close-round{
     cursor: pointer;
+}
+.top-link-div{
+
+}
+.logo-link-img{
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.top-link-line{
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+    vertical-align: middle;
+    background-color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.top-link-text{
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 1.3rem;
+}
+.top-link-text a{
+    transition: all 0.5s ease;
+    text-decoration:none !important;
+}
+.top-link-text a:hover{
+    color: #dc092f;
+}
+@media(max-width: 769px){
+    .top-link-line{
+        width: 40%;
+    }
+    .top-link-text{
+        font-size: 1.1rem;
+    }
+}
+@media(max-width: 410px){
+    .top-link-line{
+        width: 30%;
+    }
 }

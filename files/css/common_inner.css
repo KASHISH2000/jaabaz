@@ -52,6 +52,10 @@
 }
 #hero{
     background: #ececec !important;
+    height: 200px;
+}
+#hero #page-title{
+    padding-top: 50px;
 }
 .grey-text{
     color: #2b2b2b !important;
@@ -66,6 +70,12 @@ header.small-header #logo img{
     height: 170%;
     margin-top: -10px;
 }
+.social-footer-div{
+    margin-top: 0px !important;
+}
+#hero #page-title h1{
+    font-size: 3rem;
+}
 @media(max-width: 1025px){
     header #logo img {
         height: 150% ;
@@ -74,10 +84,11 @@ header.small-header #logo img{
 }
 @media(min-width: 769px){
     .footer-acm-div{
-       /* margin-top: 250px;*/
+        margin-top: 80px;
+
    }
    .acmlogo-footer{
-    width: 45%;
+    width: 70%;
 }
 #footer{
     margin-right: 10px;     

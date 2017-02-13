@@ -21,6 +21,7 @@ body{
 	text-decoration:bold;
 	font-family: 'Tagesschrift';
 }
+
 .frase {
 	text-align: center;
 	font-size: 20px;
@@ -67,10 +68,13 @@ body{
 	}
 	.frase{
 		margin-top: 200px;
+		text-align: center;
 		font-size: 14px !important;
 	}
 	.teamjaabaz{
-		font-size: 2rem;
+		font-size: 1.8rem;
+		text-align: center;
+		display: block;
 	}
 }
 /*.layer{

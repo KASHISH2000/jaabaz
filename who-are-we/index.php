@@ -31,14 +31,19 @@
   <div class="barra-menu"></div>
   <a href="../">
     <nav class="menu --works">
-     <div class="menu__link --about">
+    <!--  <div class="menu__link --about">
       <a class="menu__logo jaabaz-link" href="../"></a>
-      <a class="menu__text link-page onhover-nounderline jaabaz-link" href="../what-we-do/">What We Do ?</a>
+      <a class="menu__text link-page onhover-nounderline jaabaz-link" href="../what-we-do/">What We Doo ?</a>
+    </div> -->
+    <div class="top-link-div">
+      <a href="../index.php"><img src="../img/logo-white.png" class="logo-link-img"></a>
+      <div class="top-link-line"></div>
+      <div class="top-link-text"><a href="../what-we-do/">What We Do ?</a></div>
     </div>
-    <div class="menu__link --works">
+   <!--  <div class="menu__link --works">
      <a class="menu__logo jaabaz-link" href="../"></a>
      <a class="menu__text link-page onhover-nounderline jaabaz-link" href="../what-we-do/">What We Do ?</a>
-   </div>
+   </div> -->
  </nav>
 </a>
 <div id="works" class="animation-container --in">
@@ -69,6 +74,7 @@
       <div class="table__vAlign">
         <div class="container">
           <a class="work__link link-page">
+          <br>
             <h2 class="work__title">VIT University</h2>
             <p class="work__tags">
 
@@ -234,14 +240,14 @@
 <!-- contact us modal end-->
 <!-- Support us Modal -->
 <div id="supportusmodal" class="modal fade" role="dialog">
-    <div class="modal-dialog" id="supportusmodaldialog">
-      <div class="modal-body text-center">
-        <img src="../img/loading.gif" style="width:100px !important;" />
+  <div class="modal-dialog" id="supportusmodaldialog">
+    <div class="modal-body text-center">
+      <img src="../img/loading.gif" style="width:100px !important;" />
     </div>
     <div class="modal-footerr text-center">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
     </div>
-</div>
+  </div>
 </div>
 <!-- support us modal end-->
 <div class="contact-us-div"><a class="jaabaz-link" data-toggle="modal" href="#contactusmodal" data-target="#contactusmodal">Contact Us</a></div>
@@ -279,7 +285,7 @@
     $('#team16modaldialog').load("team16.php");
     $('#team15modaldialog').load("team15.php");
     $('#contactusmodaldialog').load("../contactusmodal.php");
-     $('#supportusmodaldialog').load("../supportusmodal.php");
+    $('#supportusmodaldialog').load("../supportusmodal.php");
   </script>
   <script type="text/javascript">
     setInterval(function(){
