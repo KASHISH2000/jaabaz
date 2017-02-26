@@ -40,10 +40,24 @@ if(isset($_GET['jumpto']))
      color: #dc092f !important;
      cursor: pointer;
    }
-
-   hr.thoda-light{
+   .screen-valign{
+    vertical-align:middle !important;
+  }
+  hr.thoda-light{
     border-top: 1px solid #7b7070 !important;
   }
+  .ionclass{
+      color: #f2f2f2 !important;
+    }
+    .ion-social-youtube:hover {
+      color: #cc181e !important;
+    }
+    .ion-social-linkedin:hover{
+      color: #0077B5 !important;
+    }
+     .ion-social-facebook:hover{
+      color:#3b5998 !important;
+    } 
 </style>
 
 </head>
@@ -69,9 +83,9 @@ if(isset($_GET['jumpto']))
              <a class="menu__text link-page onhover-nounderline jaabaz-link" href="../who-are-we">Who Are We ?</a>
            </div> -->
            <div class="top-link-div">
-            <a href="../index.php"><img src="../img/logo-white.png" class="logo-link-img"></a>
+           <a href="../index.php" class="link-logo-a"></a>
             <div class="top-link-line"></div>
-            <div class="top-link-text"><a href="../what-we-do/">What We Do ?</a></div>
+            <div class="top-link-text"><a href="../who-are-we/">Who Are We ?</a></div>
           </div>
         </nav>
       </a>
@@ -101,17 +115,12 @@ if(isset($_GET['jumpto']))
             </div>
           </div>
           <div class="table">
-            <div class="table__vAlign">
+            <div class="table__vAlign screen-valign">
               <div class="container">
                 <a class="work__link link-page">
                   <h2 class="work__title">Cars</h2>
                   <p class="work__tags">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Every season our engineers build and manufacture an ATV from scratch. This involves designing, manufacturing and rigorous testing of the vehicle. This is the list of the cars that have been produced since the team's inception.
                     <br>
 
                     <span class="spanbut onhover-nounderline" onclick="gotocars_window();">
@@ -132,17 +141,12 @@ if(isset($_GET['jumpto']))
             </div>
           </div>
           <div class="table">
-            <div class="table__vAlign">
+            <div class="table__vAlign screen-valign">
               <div class="container">
                <a class="work__link link-page">
                 <h2 class="work__title">Achievements</h2>
                 <p class="work__tags">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  This is the outcome of the countless hours spent toiling in the workshop. This is the result why we compromise on our personal lives and give everything to building the car. This is the collection of our team's legacy.
                   <br>
                   <span class="spanbut onhover-nounderline" onclick="gotoachievements_window()">
                     <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
@@ -161,17 +165,12 @@ if(isset($_GET['jumpto']))
           </div>
         </div>
         <div class="table">
-          <div class="table__vAlign">
+          <div class="table__vAlign screen-valign">
             <div class="container">
              <a class="work__link link-page">
               <h2 class="work__title">Media</h2>
               <p class="work__tags">
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+               There is no greater happiness than to see your hardwork being appreciated and showcased at an international level. These are some of our media mentions over the years.
                <br>
                <span class="spanbut onhover-nounderline" onclick="gotomedia_window()">
                 <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
@@ -192,17 +191,12 @@ if(isset($_GET['jumpto']))
       </div>
     </div>
     <div class="table">
-      <div class="table__vAlign">
+      <div class="table__vAlign screen-valign">
         <div class="container">
          <a class="work__link link-page onhover-nounderline">
           <h2 class="work__title">Marketing Activities</h2>
           <p class="work__tags">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            With a motive to promote the team's name, sponsors and also the spirit of Motorsports, Team Jaabaz initiates various online and on ground marketing activities.
             <br>
             <span class="spanbut onhover-nounderline" onclick="gotomarketing_window()">
               <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
@@ -223,27 +217,22 @@ if(isset($_GET['jumpto']))
     </div>
   </div>
   <div class="table">
-    <div class="table__vAlign">
+    <div class="table__vAlign screen-valign">
       <div class="container">
        <a class="work__link link-page">
         <h2 class="work__title">Sponsors</h2>
         <p class="work__tags">
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-         <br>
-         <span class="spanbut onhover-nounderline" onclick="gotosponsors_window()">
-          <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
-          View Sponsors
-        </span>
-      </p>
-    </a>
-    <br><br><br>
+          They provide us the means to convert our ideas from inception stage to our actual vehicle. Our efforts are nothing without them and are put to fruition only with their support. Take a look at our sponsors.
+          <br>
+          <span class="spanbut onhover-nounderline" onclick="gotosponsors_window()">
+            <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
+            View Sponsors
+          </span>
+        </p>
+      </a>
+      <br><br><br>
+    </div>
   </div>
-</div>
 </div>
 </div>
 </div>
@@ -277,7 +266,7 @@ if(isset($_GET['jumpto']))
 <footer>
   <nav class="social">
     <a class="social__media" target="_blank" href="https://www.facebook.com/teamjaabaz/"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
-    <a class="social__media" target="_blank" href="https://twitter.com/team_jaabaz"><i class="ionclass ion-social-twitter" aria-hidden="true"></i></a>
+    <a class="social__media" target="_blank" href="https://www.linkedin.com/company/9241675?trk=prof-exp-company-name"><i class="ionclass ion-social-linkedin" aria-hidden="true"></i></a>
     <a class="social__media" target="_blank" href="https://www.youtube.com/channel/UCQYPdJIlSCqqYTSI9OAZ0OQ"><i class="ionclass ion-social-youtube" aria-hidden="true"></i></a>
   </nav>
 </footer>
@@ -353,6 +342,67 @@ if(isset($_GET['jumpto']))
         echo "jumpto_sponsors()";
     }
     ?>
+  </script>
+  <script type="text/javascript" src="../scripts/buttonloader.js"></script>
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+      emailjs.init("user_KdsHYnbwRPgcqHJkuyTH7");
+    })();
+  </script>
+  <script type="text/javascript">
+    function isEmail(email) {
+      var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+      return regex.test(email);
+    }
+    function send_mail()
+    {
+      var name_var=$("#name").val();
+      var email_var=$("#email").val();
+      var subject_var=$("#subject").val();
+      var message_var=$("#message").val();
+      if(name_var=="")
+      {
+        alert("Please fill the required fields");
+      }
+      else if(email_var=="")
+      {
+        alert("Please fill the required fields");
+      }
+      else if(!isEmail(email_var))
+      {
+        alert("Please Enter correct Email id");
+      }
+      else if(subject_var=="")
+      {
+        alert("Please fill the required fields");
+      }
+      else if(message_var=="")
+      {
+        alert("Please fill the required fields");
+      }
+      else
+      {
+        var btn = $('#contact-form-submit');
+        $(btn).buttonLoader('start');
+        emailjs.send("gmail","jaabaz",{name: name_var ,email: email_var, subject:subject_var,message:message_var})
+        .then(function(response) {
+          $(btn).buttonLoader('stop');
+          setTimeout(function () {
+            $("#name").val('');
+            $("#email").val('');
+            $("#subject").val('');
+            $("#message").val('');
+          }, 100);
+          alert("Thank you for contacting us. We will get back to you soon.");
+          console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+        }, function(err) {
+          $(btn).buttonLoader('stop');
+          alert("There was an error. Please try again");
+          console.log("FAILED. error=", err);
+        });
+      }
+    }
   </script>
 </body>
 </html>

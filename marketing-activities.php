@@ -28,37 +28,18 @@
 </head>
 
 <body>
- <?php
+<?php
  global $current;
- $current='sponsors';
+ $current='marketing';
  include('includes/inner_nav.php');
  ?>
-
- <!-- HERO  -->
- <section id="hero" class="hero-auto text-light" style="background:#1a1a1a;">
-
-    <div id="page-title" class="wrapper align-center">
-        <h4 class="subtitle-2"></h4>
-        <h1 class="uppercase grey-text"><strong>Marketing Activities</strong></h1>
-        <h5 class="subtitle-1"></h5>
-    </div> <!-- END #page-title -->
-
-</section>
+  <br><br><br>
 <!-- HERO -->
 <!-- PAGEBODY -->
 <br><br>
 <section id="page-body" class="notoppadding">
     <div class="wrapper">
-
-        <!-- <ul id="portfolio-filter" class="filter" data-related-grid="portfolio-grid">
-            <li class="active" ><a href="#" data-filter="*" title="Show All">Show All</a></li>
-            <li><a data-filter=".titlesp" href="#" title="Title Sponsors">Title</a></li>
-            <li><a data-filter=".platinumsp" href="#" title="Platinum Sponsors">Platinum</a></li>
-            <li><a data-filter=".goldsp" href="#" title="Gold Sponsors">Gold</a></li>
-            <li><a data-filter=".silversp" href="#" title="Silver Sponsors">Silver</a></li>
-        </ul> -->
-
-        <div id="portfolio-grid" class="isotope-grid portfolio-container style-column-3 clearfix">
+        <div id="portfolio-grid" class="isotope-grid portfolio-container style-column-3 isotope-spaced clearfix">
             <!--Title-->
             <?php
             $no=20;
@@ -67,10 +48,10 @@
             "","","","","",
             "","","","",""
             ];
-             $titles=["","","","","",
-            "","","","","",
-            "","","","","",
-            "","","","",""
+             $titles=["Gravitas'15","Gravitas'15","Gravitas'15","Gravitas'15","Offroadies",
+            "Offroadies","Team Jaabaz with New Mexico State University","Recruitment Campaign","Engineer's Day 2015","Team Jaabaz with Tennessee Tech University",
+            "ATV Stunt Show","ATV Stunt Show","ATV Stunt Show","ATV Stunt Show","ATV Stunt Show",
+            "ATV Stunt Show","ATV Stunt Show","Marketing for Spigen","Team Jaabaz with University of Michigan-Ann Arbor","Team Jaabaz with Team Nemesis"
             ];
             for($i=0;$i<$no;$i++)
             {
@@ -80,7 +61,7 @@
                 if(empty($alt))
                     $alt="Our Event";
                 if(empty($title))
-                    $title="Our Event";
+                    $title="";
 
                 ?>
                 <div class="isotope-item portfolio-item allsp">

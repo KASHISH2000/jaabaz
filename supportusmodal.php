@@ -7,19 +7,13 @@
 	<div class="modal-body">
 		<div class="container">
 			<div class="support-text-div col-md-10 col-md-offset-1">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Team Jaabaz is an advocate of the budding Indian Motorsport Scene. We are a group of engineers working towards innovation in our field. Check out our Sponsorship Brochure.
 			</div>
 			<div class="col-xs-12">
 				<br><br><br>
 			</div>
 			<div class="brochure-div col-md-6 col-md-offset-3">
-				<div data-configid="26852532/44267126" style="width:100%; height:471px;" class="issuuembed"></div>
-				<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+				<iframe style="width:100%; height:340px;" src="//e.issuu.com/embed.html#26852532/44370094" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>

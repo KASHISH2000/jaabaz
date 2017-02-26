@@ -17,7 +17,7 @@ $team_transmission[]=["Ujjwal","Transmission","ujjwal","http://fb.com","https://
 /*Marketing and Management-*/
 $team_marketing[0]=["Aditya","Marketing and Management","aditya","http://fb.com","https://www.linkedin.com/"];
 $team_marketing[]=["Aruna","Marketing and Management","aruna","http://fb.com","https://www.linkedin.com/"];
-$team_marketing[]=["Hemanth","Marketing and Marketing","hemanth","http://fb.com","https://www.linkedin.com/"];
+$team_marketing[]=["Hemanth","Marketing and Management","hemanth","http://fb.com","https://www.linkedin.com/"];
 $team_marketing[]=["Hiten","Marketing and Management","hiten","http://fb.com","https://www.linkedin.com/"];
 $team_marketing[]=["Raja","Marketing and Management","raja","http://fb.com","https://www.linkedin.com/"];
 $team_marketing[]=["Tarun K","Marketing and Management","tarun","http://fb.com","https://www.linkedin.com/"];
@@ -39,7 +39,7 @@ $team_steering[0]=["Bhushan","Steering","bhushan","http://fb.com","https://www.l
 <div class="modal-content">
 	<div class="modal-headerr" style="padding: 10px;">
 		<br>
-		<button type="button" class="close"  onclick="gotomeettheteam();" data-dismiss="modal" style="color:#fff !important;"><i class="ion-close-round" style="color:#fff !important;"></i>&nbsp;&nbsp;</button>
+		<button type="button" class="close"  onclick="gotomeettheteam();" data-dismiss="modal"><i class="ion-close-round"></i>&nbsp;&nbsp;</button>
 		<h1 class="modal-title text-center">Team 2015</h1>
 	</div>
 	<div class="modal-body">
@@ -61,13 +61,12 @@ $team_steering[0]=["Bhushan","Steering","bhushan","http://fb.com","https://www.l
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
-										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
 									</h3>
 								</div>
 							</div>
 
-							<h3 class="text-center"><?php echo $name;?></h3>
-							<h3 class="text-center deptname"><?php echo $dept;?></h3>
+							
+							<h3 class="text-center"><?php echo $dept;?></h3>
 
 						</div>
 						<?php
@@ -93,13 +92,13 @@ $team_steering[0]=["Bhushan","Steering","bhushan","http://fb.com","https://www.l
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
-										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
+										
 									</h3>
 								</div>
 							</div>
 
-							<h3 class="text-center"><?php echo $name;?></h3>
-							<h3 class="text-center deptname"><?php echo $dept;?></h3>
+							
+							<h3 class="text-center"><?php echo $dept;?></h3>
 
 						</div>
 						<?php
@@ -125,13 +124,13 @@ $team_steering[0]=["Bhushan","Steering","bhushan","http://fb.com","https://www.l
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
-										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
+										
 									</h3>
 								</div>
 							</div>
 
-							<h3 class="text-center"><?php echo $name;?></h3>
-							<h3 class="text-center deptname"><?php echo $dept;?></h3>
+							
+							<h3 class="text-center"><?php echo $dept;?></h3>
 
 						</div>
 						<?php
@@ -157,13 +156,13 @@ $team_steering[0]=["Bhushan","Steering","bhushan","http://fb.com","https://www.l
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
-										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
+										
 									</h3>
 								</div>
 							</div>
 
-							<h3 class="text-center"><?php echo $name;?></h3>
-							<h3 class="text-center deptname"><?php echo $dept;?></h3>
+							
+							<h3 class="text-center"><?php echo $dept;?></h3>
 
 						</div>
 						<?php
@@ -189,13 +188,13 @@ $team_steering[0]=["Bhushan","Steering","bhushan","http://fb.com","https://www.l
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
-										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
+										
 									</h3>
 								</div>
 							</div>
 
-							<h3 class="text-center"><?php echo $name;?></h3>
-							<h3 class="text-center deptname"><?php echo $dept;?></h3>
+							
+							<h3 class="text-center"><?php echo $dept;?></h3>
 
 						</div>
 						<?php
@@ -221,13 +220,13 @@ $team_steering[0]=["Bhushan","Steering","bhushan","http://fb.com","https://www.l
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
-										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
+										
 									</h3>
 								</div>
 							</div>
 
-							<h3 class="text-center"><?php echo $name;?></h3>
-							<h3 class="text-center deptname"><?php echo $dept;?></h3>
+							
+							<h3 class="text-center"><?php echo $dept;?></h3>
 
 						</div>
 						<?php
@@ -253,13 +252,13 @@ $team_steering[0]=["Bhushan","Steering","bhushan","http://fb.com","https://www.l
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
-										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
+										
 									</h3>
 								</div>
 							</div>
 
-							<h3 class="text-center"><?php echo $name;?></h3>
-							<h3 class="text-center deptname"><?php echo $dept;?></h3>
+							
+							<h3 class="text-center"><?php echo $dept;?></h3>
 
 						</div>
 						<?php

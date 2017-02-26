@@ -1,27 +1,30 @@
-  #preloader {
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-color:#4b4b4b; /* change if the mask should have another color then white */
-    z-index:9999; /* makes sure it stays on top */
+body,html{
+  overflow-x: hidden !important;
+}
+#preloader {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:#4b4b4b; /* change if the mask should have another color then white */
+  z-index:9999; /* makes sure it stays on top */
 }
 
 #status {
-    width:400px;
-    height:400px;
-    position:absolute;
-    left:43%; /* centers the loading animation horizontally one the screen */
-    top:22%; /* centers the loading animation vertically one the screen */
-    background-image:url(../../img/pleasewait.gif); /* path to your loading animation */
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size: cover;
-    margin:-100px 0 0 -100px; /* is width and height divided by two */
+  width:400px;
+  height:400px;
+  position:absolute;
+  left:43%; /* centers the loading animation horizontally one the screen */
+  top:22%; /* centers the loading animation vertically one the screen */
+  background-image:url(../../img/pleasewait.gif); /* path to your loading animation */
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+  margin:-100px 0 0 -100px; /* is width and height divided by two */
 }
 #home #status {
-    background-image:url(../../img/pleasewait.gif); /* path to your loading animation */
+  background-image:url(../../img/pleasewait.gif); /* path to your loading animation */
 }
 @media(max-width: 769px){
   #status{
@@ -29,68 +32,109 @@
     height: 250px;
     left: 46%;
     top: 30%;
-}
+  }
 }
 .footer-logo{
-    width: 230px;
+  width: 230px;
 }
 .footer-acm-div{
-    text-align: center;
+  text-align: center;
 }
 .acmlogo-footer{
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .acm-text{
-    font-size: 0.7rem;
-    margin-top: -10px;
+  font-size: 0.7rem;
+  margin-top: -10px;
+  color: #fff;
 }
 .fb-page *{
-    background-color: #010101 !important;
-    color: #fff !important;
+  background-color: #010101 !important;
+  color: #fff !important;
 }
 #hero{
-    background: #ececec !important;
-    height: 200px;
+  background: #ececec !important;
+  height: 200px;
 }
 #hero #page-title{
-    padding-top: 50px;
+  padding-top: 50px;
 }
 .grey-text{
-    color: #2b2b2b !important;
+  color: #2b2b2b !important;
 }
 header #logo img {
-    height: 247% ;
-    margin-top: -20px ;
-    max-height: 200px;
-    transition: all 0.4s ease;
+  height: 247% ;
+  margin-top: -20px ;
+  max-height: 200px;
+  transition: all 0.4s ease;
 }
 header.small-header #logo img{
-    height: 170%;
-    margin-top: -10px;
+  height: 170%;
+  margin-top: -10px;
 }
 .social-footer-div{
-    margin-top: 0px !important;
+  margin-top: 0px !important;
 }
 #hero #page-title h1{
-    font-size: 3rem;
+  font-size: 3rem;
 }
 @media(max-width: 1025px){
-    header #logo img {
-        height: 150% ;
-        margin-top: -5px ;
-    }
+  header #logo img {
+    height: 150% ;
+    margin-top: -5px ;
+  }
 }
 @media(min-width: 769px){
-    .footer-acm-div{
-        margin-top: 80px;
+  .footer-acm-div{
+    margin-top: 80px;
 
-   }
-   .acmlogo-footer{
+  }
+  .acmlogo-footer{
     width: 70%;
-}
-#footer{
+  }
+  #footer{
     margin-right: 10px;     
+  }
+}
+.hero-back-button{
+  padding: .5em 0.8em;
+  color: #FFF;
+  background-color: #b00a28;
+  font-size: 0.9rem;
+  font-weight: 400;
+  display: block;
+  outline: 0;
+  border: none;
+  border-radius: 1px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.hero-back-button:hover{
+  background-color: #92152c;
+  border: none!important;
+  text-decoration: none !important;
+}
+@media(max-width: 992px){
+.footer-col-3-first{
+  text-align: center;
 }
 }
+@media(min-width: 992px){
+.footer-col-3-first .socialmedia-widget{
+ margin-left: 30px;
+}
+}
+@media (max-width: 769px){
+  #footer{
+    padding-left: 0px;
+  }
+}
+
+  .ion-social-youtube:hover {
+      color: #cc181e !important;
+    }

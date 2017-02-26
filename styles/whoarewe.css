@@ -18,11 +18,12 @@
 	font-size: 1rem;
 	width: 80%;
 	text-decoration: none !important;
+	text-align: justify;
 }
 /* For VIT University*/
 .vituniversitybg .work__obj , .vituniversitybg{
 	background-color: transparent;;
-	background-image: url('../img/vituniversity.png') !important;
+	background-image: url('../img/vituniversitybg.png') !important;
 	background-size: cover;
 }
 

@@ -23,36 +23,10 @@
  <!-- HEADER -->
  <header id="header" class="header-bordered sub-dark">        
   <div class="header-inner clearfix">
-
-    <!-- LOGO -->
-    <div id="logo" class="left-float">
-      <a href="index.php">
-      <!--  <img id="scroll-logo" src="img/logo.png" srcset="img/logo.png 1x, img/logo.png 2x" alt="Team Jaabaz"> -->
-       <img id="dark-logo" src="img/logo_light2.png" srcset="img/logo_light2.png 1x, img/logo_light2.png 2x" alt="Logo Dark">
-     </a>
-   </div>
-
-   <!-- MAIN NAVIGATION -->
-   <div id="menu" class="right-float">
-     <a href="#" class="responsive-nav-toggle"><span class="hamburger"></span></a>
-     <div class="menu-inner">
-      <nav id="main-nav">
-        <ul>
-          <li class="menu-item<?php if($current=='home') echo ' current-menu-item';?>"><a href="what-we-do/">Home</a>
-          </li>
-          <li class="menu-item<?php if($current=='cars') echo ' current-menu-item';?>"><a href="cars.php">Cars</a>
-          </li>
-          <li class="menu-item<?php if($current=='achievements') echo ' current-menu-item';?>"><a href="achievements.php">Achievements</a>
-          </li>
-          <li class="menu-item<?php if($current=='media') echo ' current-menu-item';?>"><a href="#">Media</a>
-          </li>
-          <li class="menu-item<?php if($current=='marketing') echo ' current-menu-item';?>"><a href="marketing-activities.php">Marketing Activities</a>
-          </li>
-          <li class="menu-item<?php if($current=='sponsors') echo ' current-menu-item';?>"><a href="sponsors.php">Sponsors</a>
-          </li>
-        </ul>
-      </nav>
-    </div><!-- END #menu -->
-  </div> <!-- END .header-inner -->
-</div>
+  <div class="button-div" style="margin: 10px;">
+      <a href="what-we-do/?jumpto=<?php echo $current;?>">
+        <button class="hero-back-button wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1.5s"> <i class="ion-android-arrow-back" aria-hidden="true"></i> Go back</button>
+      </a>
+    </div>
+  </div>
 </header>

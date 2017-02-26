@@ -3,9 +3,9 @@
 <head>
 
     <!-- DEFAULT META TAGS -->
-   <?php
-   include('includes/inner_meta.php');
-   ?>
+    <?php
+    include('includes/inner_meta.php');
+    ?>
     
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="files/css/bootstrap_grid.css">
@@ -28,24 +28,13 @@
 
 <body>
  <?php
-  global $current;
-  $current='cars';
-  include('includes/inner_nav.php');
-  ?>
-
-<!-- HERO  -->
-<section id="hero" class="hero-auto text-light" style="background:#1a1a1a;">
-
-    <div id="page-title" class="wrapper align-center">
-        <h4 class="subtitle-2"></h4>
-        <h1 class="uppercase grey-text">Cars</h1>
-        <h5 class="subtitle-1"></h5>
-    </div> <!-- END #page-title -->
-
-</section>
-<!-- HERO -->
-
-<div class="column-section boxed-sticky adapt-height clearfix">
+ global $current;
+ $current='cars';
+ include('includes/inner_nav.php');
+ ?>
+ <br><br>
+  
+  <div class="column-section boxed-sticky adapt-height clearfix">
     <div class="column one-half bigpadding has-animation" style="background:#ffffff;">
         <h2 class="grey-text">Car 2016</h2>
         <ul class="cars-desp-ul">
@@ -56,7 +45,9 @@
             <li><b>Transmission : </b>Custom gears with DANA casing and Gaged CVT</li>
             <li><b>Suspension : </b>Fox Float 3</li>
             <li><b>Brakes : </b>Apache Dual Piston, Custom Brake Discs, Cutting Brakes </li>
+            <br>
         </ul>
+        
     </div>
     <div class="column one-half last-col has-animation" data-delay="200" style="background:url('img/cars/2016.jpg') center center;background-size:cover;">
 

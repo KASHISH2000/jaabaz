@@ -1,3 +1,4 @@
+<!-- Developed by Harshit Kedia as a part of ACM VIT-->
 <!doctype html>
 <html class="no-js">
 <head>
@@ -13,8 +14,10 @@
     <link href="styles/main.css" rel="stylesheet" />
     <link href="styles/vendor.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="styles/bootstrapp.css">
+    <link rel="stylesheet" type="text/css" href="styles/buttonloader.css">
     <link rel="stylesheet" type="text/css" href="styles/mystyle.css">
     <link rel="stylesheet" type="text/css" href="styles/slider_demo3.css">
+
     <style type="text/css">
         body,html,#home{
             overflow-y: hidden !important;
@@ -23,9 +26,65 @@
             text-decoration: none !important;
         }
         .moldura-landing__borda{
-           background-color: transparent;
-           position: relative;
-       }
+         background-color: transparent;
+         position: relative;
+     }
+     .acmvit-made-div{
+        text-align: center;
+        color: #ccc;
+        font-size: 0.77rem;
+        padding-bottom: 20px;
+        padding-top: 5px;
+    }
+    .acmvit-made-div a{
+        text-decoration: none !important;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        z-index: 20000;
+    }
+    .acmvit-made-div a:hover{
+
+    }
+    .anytrack{
+        letter-spacing: 7px;
+    font-weight: bold;
+    }
+    @media (min-width: 769px){
+         .table__vAlign {
+            vertical-align: middle;
+        }
+    }
+    @media(max-width: 960px){
+        .moldura-landing{
+            padding-bottom: 30px;
+        }
+        .contact-us-div{
+            bottom: 45px;
+        }
+        .support-us-div{
+            bottom: 45px;
+        }
+        .acmvit-made-div{
+            margin-bottom: -10px;
+        }
+        .table__vAlign {
+            vertical-align: top;
+        }
+    }
+     .ionclass{
+      color: #f2f2f2 !important;
+    }
+    .ion-social-youtube:hover {
+      color: #cc181e !important;
+    }
+    .ion-social-linkedin:hover{
+      color: #0077B5 !important;
+    }
+     .ion-social-facebook:hover{
+      color:#3b5998 !important;
+    } 
 </style>
 </head>
 <body id="home">
@@ -41,19 +100,19 @@
         <div class="barra-menu"></div>
 
         <nav class="menu --hide">
-         <div class="menu__link --about">
+           <div class="menu__link --about">
             <a class="menu__logo" href="index.html"></a>
             <a class="menu__text link-page" href="who-are-we/">Who are we ?</a>
         </div>
         <div class="menu__link --works">
-         <a class="menu__logo" href="index.html"></a>
-         <a class="menu__text link-page" href="what-we-do/">What we do ?</a>
-     </div>
- </nav>
- <a href="works/index.html" class="back-works link-page --hide">Back to Works <span class="back-works__icon"></span></a>
+           <a class="menu__logo" href="index.html"></a>
+           <a class="menu__text link-page" href="what-we-do/">What we do ?</a>
+       </div>
+   </nav>
+   <a href="works/index.html" class="back-works link-page --hide">Back to Works <span class="back-works__icon"></span></a>
 
 
- <div id="home" class="animation-container --in">
+   <div id="home" class="animation-container --in">
 
 <!-- <div class="barra-loading">
     <div class="barra-loading__barra">
@@ -70,7 +129,8 @@
             <li><span>Image 01</span></li>
             <li><span>Image 02</span></li>
             <li><span>Image 03</span></li>
-            <li><span>Image 04</span></li>    
+            <li><span>Image 04</span></li>
+            <li><span>Image 06</span></li>
         </ul>
         <div class="moldura-landing__left"></div>
         <div class="moldura-landing__right"></div>
@@ -83,12 +143,17 @@
     <div class="support-us-div">
         <a href="supportus.html" class="jaabaz-link" data-toggle="modal" href="#supportusmodal" data-target="#supportusmodal">Support Us</a>
     </div>
+    <div class="acmvit-made-div">
+       <a href="https://www.facebook.com/ACM.VITU/" target="_blank">
+           developed by ACM-VIT
+       </a>
+   </div>
 </div>
 <div class="table">
     <div class="table__vAlign">
         <h2 class="frase"><span class="teamjaabaz"><b><strong>Team Jaabaz</strong></b></span>
             <br>
-            Our Motto will be here</h2>
+           <span class="anytrack"> Any Track. Any Day.</span></h2>
         </div>
     </div>
 <!-- <div class="text-loading">
@@ -119,9 +184,9 @@
 
 
 <footer>
-   <nav class="social">
+ <nav class="social">
     <a class="social__media" target="_blank" href="https://www.facebook.com/teamjaabaz/"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
-    <a class="social__media" target="_blank" href="https://twitter.com/team_jaabaz"><i class="ionclass ion-social-twitter" aria-hidden="true"></i></a>
+    <a class="social__media" target="_blank" href="https://www.linkedin.com/company/9241675?trk=prof-exp-company-name"><i class="ionclass ion-social-linkedin" aria-hidden="true"></i></a>
     <a class="social__media" target="_blank" href="https://www.youtube.com/channel/UCQYPdJIlSCqqYTSI9OAZ0OQ"><i class="ionclass ion-social-youtube" aria-hidden="true"></i></a>
 </nav>
 </footer>
@@ -169,6 +234,66 @@
     $('#contactusmodaldialog').load("contactusmodal.php");
     $('#supportusmodaldialog').load("supportusmodal.php");
 </script>
-
+<script type="text/javascript" src="scripts/buttonloader.js"></script>
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function(){
+        emailjs.init("user_KdsHYnbwRPgcqHJkuyTH7");
+    })();
+</script>
+<script type="text/javascript">
+    function isEmail(email) {
+      var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+      return regex.test(email);
+  }
+  function send_mail()
+  {
+    var name_var=$("#name").val();
+    var email_var=$("#email").val();
+    var subject_var=$("#subject").val();
+    var message_var=$("#message").val();
+    if(name_var=="")
+    {
+        alert("Please fill the required fields");
+    }
+    else if(email_var=="")
+    {
+        alert("Please fill the required fields");
+    }
+    else if(!isEmail(email_var))
+    {
+        alert("Please Enter correct Email id");
+    }
+    else if(subject_var=="")
+    {
+        alert("Please fill the required fields");
+    }
+    else if(message_var=="")
+    {
+        alert("Please fill the required fields");
+    }
+    else
+    {
+        var btn = $('#contact-form-submit');
+        $(btn).buttonLoader('start');
+        emailjs.send("gmail","jaabaz",{name: name_var ,email: email_var, subject:subject_var,message:message_var})
+        .then(function(response) {
+            $(btn).buttonLoader('stop');
+            setTimeout(function () {
+                $("#name").val('');
+                $("#email").val('');
+                $("#subject").val('');
+                $("#message").val('');
+            }, 100);
+            alert("Thank you for contacting us. We will get back to you soon.");
+            console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+        }, function(err) {
+            $(btn).buttonLoader('stop');
+            alert("There was an error. Please try again");
+            console.log("FAILED. error=", err);
+        });
+    }
+}
+</script>
 </body>
 </html>

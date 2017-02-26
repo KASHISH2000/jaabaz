@@ -21,6 +21,9 @@
             list-style-type: initial;
             padding: 5px;
         }
+       #page-body{
+        min-height: 60vh;
+        }
     </style>
     <!-- DOCUMENT TITLE -->
     <title>Team Jaabaz | Sponsors</title>
@@ -28,38 +31,38 @@
 </head>
 
 <body>
- <?php
- global $current;
- $current='sponsors';
- include('includes/inner_nav.php');
- ?>
+    <?php
+    global $current;
+    $current='sponsors';
+    include('includes/inner_nav.php');
+    ?>
+    <br><br><br>
+    <!-- HERO -->
+    <!-- PAGEBODY -->
+    <section id="page-body" class="notoppadding">
+        <div class="wrapper">
 
- <!-- HERO  -->
- <section id="hero" class="hero-auto text-light" style="background:#1a1a1a;">
+            <ul id="portfolio-filter" class="filter" data-related-grid="portfolio-grid">
+                <li class="active" ><a href="#" data-filter=".showall" title="Show All">Show All</a></li>
+                <li><a data-filter=".titlesp" href="#" title="Title Sponsors">Title</a></li>
+                <li><a data-filter=".platinumsp" href="#" title="Platinum Sponsors">Platinum</a></li>
+                <li><a data-filter=".goldsp" href="#" title="Gold Sponsors">Gold</a></li>
+                <li><a data-filter=".silversp" href="#" title="Silver Sponsors">Silver</a></li>
+            </ul>
 
-    <div id="page-title" class="wrapper align-center">
-        <h4 class="subtitle-2"></h4>
-        <h1 class="uppercase grey-text"><strong>Sponsors</strong></h1>
-        <h5 class="subtitle-1"></h5>
-    </div> <!-- END #page-title -->
-
-</section>
-<!-- HERO -->
-<!-- PAGEBODY -->
-<section id="page-body" class="notoppadding">
-    <div class="wrapper">
-
-        <ul id="portfolio-filter" class="filter" data-related-grid="portfolio-grid">
-            <li class="active" ><a href="#" data-filter="*" title="Show All">Show All</a></li>
-            <li><a data-filter=".titlesp" href="#" title="Title Sponsors">Title</a></li>
-            <li><a data-filter=".platinumsp" href="#" title="Platinum Sponsors">Platinum</a></li>
-            <li><a data-filter=".goldsp" href="#" title="Gold Sponsors">Gold</a></li>
-            <li><a data-filter=".silversp" href="#" title="Silver Sponsors">Silver</a></li>
-        </ul>
-
-        <div id="portfolio-grid" class="isotope-grid portfolio-container style-column-4 clearfix">
-            <!--Title-->
-            <div class="isotope-item portfolio-item titlesp">
+            <div id="portfolio-grid" class="isotope-grid portfolio-container style-column-4 isotope-spaced clearfix">
+                <!--Title-->
+                <div class="isotope-item portfolio-item titlesp showall">
+                  <div class="portfolio-media">
+                    <a class="thumb-overlay overlay-effect-1 text-light">
+                   
+                        <div class="overlay-caption hidden-on-start">
+                            <h4 class="caption-name portfolio-name uppercase">Spigen</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="isotope-item portfolio-item titlesp showall">
               <div class="portfolio-media">
                 <a class="thumb-overlay overlay-effect-1 text-light">
                     <img src="img/sponsors/19.jpg" alt="Spigen">
@@ -69,29 +72,49 @@
                 </a>
             </div>
         </div>
-        <div class="isotope-item portfolio-item titlesp">
+        <div class="isotope-item portfolio-item titlesp showall">
           <div class="portfolio-media">
             <a class="thumb-overlay overlay-effect-1 text-light">
                 <img src="img/sponsors/3.jpg" alt="Tekki Take">
                 <div class="overlay-caption hidden-on-start">
                     <!-- <h6 class="caption-sub portfolio-category subtitle-2">Branding</h6> -->
-                    <h4 class="caption-name portfolio-name uppercase">Tekki Take</h4>
+                    <h4 class="caption-name portfolio-name uppercase">Tekkitake</h4>
                 </div>
             </a>
         </div>
     </div>
-<!--platinum-->
- <div class="isotope-item portfolio-item platinumsp">
+    <!--platinum-->
+    <div class="isotope-item portfolio-item platinumsp showall">
       <div class="portfolio-media">
         <a class="thumb-overlay overlay-effect-1 text-light">
-            <img src="img/sponsors/8.jpg" alt="Sequel">
+            <img src="img/sponsors/39.jpg" alt="Sanat">
             <div class="overlay-caption hidden-on-start">
-                <h4 class="caption-name portfolio-name uppercase">Sequel</h4>
+                <h4 class="caption-name portfolio-name uppercase">Sanat</h4>
             </div>
         </a>
     </div>
 </div>
-<div class="isotope-item portfolio-item platinumsp">
+<div class="isotope-item portfolio-item platinumsp showall">
+  <div class="portfolio-media">
+    <a class="thumb-overlay overlay-effect-1 text-light">
+        <img src="img/sponsors/40.jpg" alt="TEL">
+        <div class="overlay-caption hidden-on-start">
+            <h4 class="caption-name portfolio-name uppercase">TEL</h4>
+        </div>
+    </a>
+</div>
+</div>
+<div class="isotope-item portfolio-item platinumsp showall">
+  <div class="portfolio-media">
+    <a class="thumb-overlay overlay-effect-1 text-light">
+        <img src="img/sponsors/8.jpg" alt="Sequel">
+        <div class="overlay-caption hidden-on-start">
+            <h4 class="caption-name portfolio-name uppercase">Sequel</h4>
+        </div>
+    </a>
+</div>
+</div>
+<div class="isotope-item portfolio-item platinumsp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/11.jpg" alt="Galfar Almisnad">
@@ -101,7 +124,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item platinumsp">
+<div class="isotope-item portfolio-item platinumsp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/22.jpg" alt="Roots">
@@ -111,7 +134,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item platinumsp">
+<div class="isotope-item portfolio-item platinumsp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/36.jpg" alt="Toyota">
@@ -121,7 +144,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item platinumsp">
+<div class="isotope-item portfolio-item platinumsp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/14.jpg" alt="Good Year">
@@ -131,7 +154,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item platinumsp">
+<div class="isotope-item portfolio-item platinumsp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/4.jpg" alt="Fox">
@@ -141,17 +164,17 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item platinumsp">
+<div class="isotope-item portfolio-item platinumsp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/35.jpg" alt="Solid Works">
         <div class="overlay-caption hidden-on-start">
-            <h4 class="caption-name portfolio-name uppercase">Solid Works</h4>
+            <h4 class="caption-name portfolio-name uppercase">SolidWorks</h4>
         </div>
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item platinumsp">
+<div class="isotope-item portfolio-item platinumsp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/23.jpg" alt="Briggs and Stratton">
@@ -161,7 +184,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item platinumsp">
+<div class="isotope-item portfolio-item platinumsp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/17.jpg" alt="WAM Racing">
@@ -172,17 +195,17 @@
 </div>
 </div>
 <!--Gold-->
-<div class="isotope-item portfolio-item goldsp">
+<div class="isotope-item portfolio-item goldsp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/10.jpg" alt="Britania">
         <div class="overlay-caption hidden-on-start">
-            <h4 class="caption-name portfolio-name uppercase">Britania</h4>
+            <h4 class="caption-name portfolio-name uppercase">Britannia</h4>
         </div>
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item goldsp">
+<div class="isotope-item portfolio-item goldsp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/21.jpg" alt="Servo">
@@ -192,7 +215,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item goldsp">
+<div class="isotope-item portfolio-item goldsp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/18.jpg" alt="Dinamalar">
@@ -202,7 +225,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item goldsp">
+<div class="isotope-item portfolio-item goldsp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/20.jpg" alt="Magod Laser">
@@ -212,7 +235,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item goldsp">
+<div class="isotope-item portfolio-item goldsp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/38.jpg" alt="Mahashakti Energy Lt.">
@@ -222,18 +245,18 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item goldsp">
+<div class="isotope-item portfolio-item goldsp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/24.jpg" alt="Wellstuff">
         <div class="overlay-caption hidden-on-start">
-            <h4 class="caption-name portfolio-name uppercase">Wellstuff</h4>
+            <h4 class="caption-name portfolio-name uppercase">Welspun</h4>
         </div>
     </a>
 </div>
 </div>
 <!--Silver-->
-<div class="isotope-item portfolio-item silversp">
+<div class="isotope-item portfolio-item silversp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/2.jpg" alt="Wire India Corporation">
@@ -243,7 +266,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item silversp">
+<div class="isotope-item portfolio-item silversp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/5.jpg" alt="Motilal Oswal">
@@ -253,7 +276,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item silversp">
+<div class="isotope-item portfolio-item silversp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/6.jpg" alt="Landmark Constructions">
@@ -263,7 +286,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item silversp">
+<div class="isotope-item portfolio-item silversp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/7.jpg" alt="India Builders">
@@ -273,7 +296,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item silversp">
+<div class="isotope-item portfolio-item silversp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/9.jpg" alt="Caresoft">
@@ -283,7 +306,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item silversp">
+<div class="isotope-item portfolio-item silversp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/12.jpg" alt="CP World">
@@ -293,7 +316,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item silversp">
+<div class="isotope-item portfolio-item silversp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/15.jpg" alt="Hovert">
@@ -303,7 +326,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item silversp">
+<div class="isotope-item portfolio-item silversp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/25.jpg" alt="Zoom Communication">
@@ -313,7 +336,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item silversp">
+<div class="isotope-item portfolio-item silversp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/26.jpg" alt="ISC">
@@ -323,7 +346,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item silversp">
+<div class="isotope-item portfolio-item silversp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/28.jpg" alt="Expofreight">
@@ -333,7 +356,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item silversp">
+<div class="isotope-item portfolio-item silversp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/29.jpg" alt="Sibridge">
@@ -343,7 +366,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item silversp">
+<div class="isotope-item portfolio-item silversp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/27.jpg" alt="Transpek-Silox">
@@ -353,7 +376,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item silversp">
+<div class="isotope-item portfolio-item silversp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/30.jpg" alt="BKT ATV">
@@ -363,7 +386,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item silversp">
+<div class="isotope-item portfolio-item silversp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/31.jpg" alt="Venus">
@@ -373,7 +396,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item silversp">
+<div class="isotope-item portfolio-item silversp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/32.jpg" alt="Endurance">
@@ -383,7 +406,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item silversp">
+<div class="isotope-item portfolio-item silversp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/33.jpg" alt="GSPC">
@@ -393,7 +416,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item silversp">
+<div class="isotope-item portfolio-item silversp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/34.jpg" alt="Govt. of Jharkhand">
@@ -403,7 +426,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item silversp">
+<div class="isotope-item portfolio-item silversp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/37.jpg" alt="Velman">
@@ -413,7 +436,7 @@
     </a>
 </div>
 </div>
-<div class="isotope-item portfolio-item silversp">
+<div class="isotope-item portfolio-item silversp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
         <img src="img/sponsors/1.jpg" alt="The Pen World">
@@ -427,8 +450,6 @@
 </div> <!-- END #portfolio-grid .isotope-grid -->
 
 </div> <!-- END .wrapper -->
-
-<div class="spacer-big"></div>
 
 </section>
 <!-- PAGEBODY -->

@@ -37,6 +37,11 @@ body{
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
+.hero-back-button:hover{
+	background-color: #92152c;
+	border: none!important;
+	text-decoration: none !important;
+}
 .button-div{
 	padding: 20px;
 }
@@ -62,11 +67,7 @@ a:hover{
 	transform: scaleX(1);
 	-moz-transform:scaleX(1);
 }
-.hero-back-button:hover{
-	background-color: #92152c;
-	border: none!important;
-	text-decoration: none !important;
-}
+
 .display-inline-block{
 	display: inline-block;
 }

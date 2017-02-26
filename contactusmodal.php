@@ -1,3 +1,4 @@
+
 <div class="modal-content" id="contactus">
 	<div class="modal-headerr" style="padding: 10px;">
 		<br>
@@ -35,7 +36,7 @@
 						<span class="underline"></span>
 					</h2>
 					<h1 class="text-center" style="color:#dc092f;">Deva Harsha<br><span class="contactus-position">(Public Relation Lead)</span></h1>
-					<h2 class="text-center person-box-phone">+91 9894676688</h2>
+					<h2 class="text-center person-box-phone">+91 9944579079</h2>
 				</div>
 			</div>
 			<br>
@@ -55,26 +56,27 @@
 				</div>
 				<div class="col-md-4">
 					<div class="form-container">
+					<h3 class="text-center"><a href="mailto:official@teamjaabaz.com">official@teamjaabaz.com</a></h3>
 						<h2 style="color:#dc092f;" class="text-center">We’d love to hear from you</h2>
-						<form method="post" action="contact.php">	
+						
 							<div class="text-field-name">
-								<input type="text" title="name" required autocomplete="off" name="name" placeholder="Name*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Name*';}"> 
+								<input type="text" title="name" required autocomplete="off" name="name" id="name" placeholder="Name*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Name*';}"> 
 							</div>
 							<div class="text-field-name">
-								<input type="email" title="Your Email" required autocomplete="off" name="email" placeholder="Email*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Email*';}">
+								<input type="email" title="Your Email" required autocomplete="off" name="email" id="email" placeholder="Email*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Email*';}">
 							</div>
 							<div class="text-field-subject">
-								<input type="text" title="Subject" required autocomplete="off" name="subject" placeholder="Subject*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Subject*';}">
+								<input type="text" title="Subject" required autocomplete="off" name="subject" id="subject" placeholder="Subject*" onfocus="this.placeholder = '';" onblur="if (this.placeholder == '') {this.placeholder = 'Subject*';}">
 							</div>
 
 							<div class="text-field-message">
-								<textarea name="message" title="Message" required autocomplete="off" placeholder="Message*" onfocus="if(this.placeholder == 'Message') this.placeholder='';" onblur="if(this.placeholder == '') this.placeholder='Message*';"></textarea>
+								<textarea name="message" id="message" title="Message" required autocomplete="off" placeholder="Message*" onfocus="if(this.placeholder == 'Message') this.placeholder='';" onblur="if(this.placeholder == '') this.placeholder='Message*';"></textarea>
 							</div>
 
 							<div class="text-field-submit">
-								<input type="submit" value="Submit"> 
+							<button class="submit-but has-spinner" onclick="send_mail();"  data-style="zoom-in" id="contact-form-submit"><span class="ladda-label">Submit</span></button>
 							</div>
-						</form>
+					
 					</div>
 				</div>
 			</div>
@@ -91,6 +93,6 @@
 		$(".google-maps-div-wrap .overlay").fadeOut();
 	});
 	$(".google-maps-div-wrap").mouseleave(function(){
-$(".google-maps-div-wrap .overlay").fadeIn();
+		$(".google-maps-div-wrap .overlay").fadeIn();
 	});
 </script>

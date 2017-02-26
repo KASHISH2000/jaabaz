@@ -19,6 +19,12 @@
   <link rel="stylesheet" id="common_inner"  href="files/css/common_inner.css" type="text/css" media="all" />
 
   <style type="text/css">
+    body{
+      background-image: url('img/bg-main.png');
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
     .custom-col-achi *{
       vertical-align: middle;
     }
@@ -38,14 +44,15 @@
       color: #da2d19;
     }
     .custom-col-achi .colored strong{
-      color: #da2d19;
+      color: #fff;
     }
     .achi-box{
       border-bottom: 1px solid rgba(0,0,0,0.12);
       padding: 30px 10px;
       cursor: default;
-      background:rgba(191, 191, 191, 0.06);
+      background:rgba(191, 191, 191, 0.2);
       border-radius: 10px;
+      margin-bottom: 10px;
     }
     .achi-trophy{
       display: inline-block;
@@ -57,10 +64,19 @@
     .achi-desc{
       display: block;
       margin-left: 40px;
+      color: #f2f2f2;
     }
     .hoverable:hover{
       transition: box-shadow .25s;
       box-shadow: 0px 5px 6px 0 rgba(0, 0, 0, 0.12), 0px 0px 0px 0 rgba(0,0,0,0.19);
+    }
+    .achi-date{
+    }
+    .button-div{
+      -webkit-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
     }
     @media(min-width: 769px){
       .custom-col-achi{
@@ -76,75 +92,42 @@
 </head>
 
 <body>
-  <?php
-  global $current;
-  $current='achievements';
-  include('includes/inner_nav.php');
-  ?>
 
-  <!-- HERO  -->
-  <section id="hero" class="hero-auto text-light" style="background:#1a1a1a;">
-
-    <div id="page-title" class="wrapper align-center">
-      <h4 class="subtitle-2"></h4>
-      <h1 class="uppercase grey-text"><strong>Achievements</strong></h1>
-      <h5 class="subtitle-1"></h5>
-    </div> <!-- END #page-title -->
-
-  </section>
-  <!-- HERO -->
-  <!--********MAIN CONTENT*********!-->
-  <!-- <div class="container">
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=297540167315276";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <div class="container">
     <div class="row">
-      <div class="custom-col-achi">
-        <div class="table">
-          <table>
-            <tbody>
-              <tr>
-              <td><i class="ion ion-trophy"></i></td>
-                <td><span class="colored achi-event-name"><strong>BAJA SAE TENNESSE, USA</strong></span></td>
-                <td>10th position in design at international event conducted by SAE in the us</td>
-              </tr>
-              <tr>
-                <td><i class="ion ion-trophy"></i></td>
-                <td><span class="colored achi-event-name"><strong>OESA GENERATION AUTO VIDEO CONTEST</strong></span></td>
-                <td>2nd Place</td>
-              </tr>
-              <tr>
-                <td><i class="ion ion-trophy"></i></td>
-                <td><span class="colored achi-event-name"><strong>SOUTH AFRICA – SASOL BAJA</strong></span></td>
-                <td><b>1st</b> – feasibility of mass production, <b>3rd</b> – cost feasibility, <b>5th</b> – design event</td>
-              </tr>
-              <tr>
-                <td><i class="ion ion-trophy"></i></td>
-                <td><span class="colored achi-event-name"><strong>VIRTUAL MINI BAJA – SAE INDIA</strong></span></td>
-                <td>1st prize in national level competition out of 150 teams.</td>
-              </tr>
-              <tr>
-               <td><i class="ion ion-trophy"></i></td>
-                <td><span class="colored achi-event-name"><strong>BAJA SAE OREGON, USA</strong></span></td>
-                <td>Came 19th out of the 100 teams that participated. First ever international season for team jaabaz</td>
-              </tr>
-
-            </tbody>
-          </table>
+      <br>
+      <div class="col-xs-12">
+        <div class="button-div">
+          <a href="what-we-do/?jumpto=achievements">
+            <button class="hero-back-button wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1.5s"> <i class="ion-android-arrow-back" aria-hidden="true"></i> Go back</button>
+          </a>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
+  <br><br>
   <div class="container">
+
     <div class="row">
       <div class="custom-col-achi">
-      <div class="achi-box hoverable">
+        <div class="achi-box hoverable">
           <div class="achi-trophy">
             <i class="ion ion-trophy"></i>
           </div>
           <div class="achi-event-name">
-            <span class="colored achi-event-name"><strong>BAJA SAE TENNESSE, USA</strong></span>
+            <span class="colored achi-event-name"><strong>BAJA SAE TENNESSEE, USA, <span class="achi-date">2016</span></strong></span>
           </div>
           <div class="achi-desc">
             <ul>
-              <li>10th position in design at international event conducted by SAE in the us</li>
+              <li>10th position in design at international event conducted by SAE in the US</li>
             </ul>
           </div>
         </div>
@@ -153,11 +136,11 @@
             <i class="ion ion-trophy"></i>
           </div>
           <div class="achi-event-name">
-            <span class="colored achi-event-name"><strong>BAJA SAE TENNESSE, USA</strong></span>
+            <span class="colored achi-event-name"><strong>OESA GENERATION AUTO VIDEO CONTEST, <span class="achi-date">2014</span></strong></span>
           </div>
           <div class="achi-desc">
             <ul>
-              <li>10th position in design at international event conducted by SAE in the us</li>
+              <li>2nd Place</li>
             </ul>
           </div>
         </div>
@@ -166,11 +149,13 @@
             <i class="ion ion-trophy"></i>
           </div>
           <div class="achi-event-name">
-            <span class="colored achi-event-name"><strong>BAJA SAE TENNESSE, USA</strong></span>
+            <span class="colored achi-event-name"><strong>SASOL BAJA, South Africa, <span class="achi-date">2011</span></strong></span>
           </div>
           <div class="achi-desc">
             <ul>
-              <li>10th position in design at international event conducted by SAE in the us</li>
+              <li>1st - Feasibility of Mass Production</li>
+              <li>3rd - Cost Feasibility</li>
+              <li>5th - Design Event</li>
             </ul>
           </div>
         </div>
@@ -179,22 +164,7 @@
             <i class="ion ion-trophy"></i>
           </div>
           <div class="achi-event-name">
-            <span class="colored achi-event-name"><strong>SOUTH AFRICA – SASOL BAJA</strong></span>
-          </div>
-          <div class="achi-desc">
-            <ul>
-              <li><b>1st</b> – feasibility of mass production</li>
-              <li><b>3rd</b> – cost feasibility</li>
-              <li> <b>5th</b> – design event</li>
-            </ul>
-          </div>
-        </div>
-        <div class="achi-box hoverable">
-          <div class="achi-trophy">
-            <i class="ion ion-trophy"></i>
-          </div>
-          <div class="achi-event-name">
-            <span class="colored achi-event-name"><strong>VIRTUAL MINI BAJA – SAE INDIA</strong></span>
+            <span class="colored achi-event-name"><strong>VIRTUAL MINI BAJA – SAE INDIA, <span class="achi-date">2010</span></strong></span>
           </div>
           <div class="achi-desc">
             <ul>
@@ -207,12 +177,14 @@
             <i class="ion ion-trophy"></i>
           </div>
           <div class="achi-event-name">
-            <span class="colored achi-event-name"><strong>BAJA SAE OREGON, USA</strong></span>
+            <span class="colored achi-event-name">
+              <strong>BAJA SAE OREGON, USA, <span class="achi-date">2009</span></strong>
+            </span>
           </div>
           <div class="achi-desc">
             <ul>
-              <li>Came 19th out of the 100 teams that participated.</li>
-              <li>First ever international season for team jaabaz</li>
+              <li>Came 19th out of 100 teams that participated.</li>
+              <li>First ever international season for Team Jaabaz</li>
             </ul>
           </div>
         </div>
@@ -254,6 +226,23 @@
             $('body').delay(350).css({'overflow':'visible'});
           })
     //]]>
+  </script>
+  <script type="text/javascript">
+    var gobackTop = $('.button-div').offset().top;  
+    $(window).scroll(function() {                  // assign scroll event listener
+
+    var currentScroll = $(window).scrollTop(); // get current position
+    if (currentScroll >= gobackTop) {           // apply position: fixed if you
+        $('.button-div').css({                      // scroll to that element or below it
+          position: 'fixed',
+          top: '5px'
+        });
+    } else {                                   // apply position: static
+        $('.button-div').css({                      // if you scroll above it
+          position: 'static'
+        });
+      }
+    });
   </script>
   <!-- SCRIPTS -->
 

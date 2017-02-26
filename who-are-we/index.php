@@ -15,9 +15,71 @@
     .onhover-nounderline:hover{
       text-decoration: none !important;
     }
-    hr.thoda-light{
-      border-top: 1px solid #7b7070 !important;
+    .team-modal{
+      background-color: #f2f2f2 !important;
     }
+    .team-modal .modal-dialog{
+      background-color: #fff !important;
+    }
+    .team-modal .modal-content{
+      background-color: #f2f2f2 !important;
+      color: #000 !important;
+      box-shadow: none;
+      border:none;
+    }
+    .team-modal .ion-close-round{
+      color: #000 !important;
+    }
+    .team-modal .ch-item:hover {
+      box-shadow: inset 0 0 0 100px rgba(242, 242, 242, 0.7), inset 0 0 0 0px rgba(255,255,255,0.8), 0 1px 2px rgba(0,0,0,0.1);
+    }
+    .team-modal .ch-info *{
+      color: #000 !important;
+    }
+    .team-modal .ch-info{
+      padding: 5px;
+    }
+    .team-modal .ch-info h3{
+      text-shadow: 0 0 11px #fff, 0 1px 14px rgb(0, 0, 0);
+      padding: 0px;
+      text-align: left;
+      white-space: pre-line;
+    }
+    .team-modal .ch-info .ch-info-email{
+      word-wrap: break-word;
+      text-align: left;
+    }
+    .team-modal .box-col{
+      padding: 0px 5px;
+    }
+    .team-modal hr.thoda-light{
+      border-top: 1px solid #bdbdbd !important;
+    }
+    .team-modal .ch-social-div{
+      left: 44%;
+    }
+    .ionclass-ll:hover{
+      color:#0077B5 !important;
+    }
+    .ch-social-div *{
+      text-decoration:none !important;
+    }
+    .white-hr {
+      border-color: #6d6d6d !important;
+    }
+    .ionclass{
+      color: #f2f2f2 !important;
+    }
+    .ion-social-youtube:hover {
+      color: #cc181e !important;
+    }
+    .ion-social-linkedin:hover{
+      color: #0077B5 !important;
+    }
+    .ion-social-facebook:hover{
+      color:#3b5998 !important;
+    } 
+
   </style>
 
 </head>
@@ -36,10 +98,10 @@
       <a class="menu__text link-page onhover-nounderline jaabaz-link" href="../what-we-do/">What We Doo ?</a>
     </div> -->
     <div class="top-link-div">
-      <a href="../index.php"><img src="../img/logo-white.png" class="logo-link-img"></a>
-      <div class="top-link-line"></div>
-      <div class="top-link-text"><a href="../what-we-do/">What We Do ?</a></div>
-    </div>
+     <a href="../index.php" class="link-logo-a"></a>
+     <div class="top-link-line"></div>
+     <div class="top-link-text"><a href="../what-we-do/">What We Do ?</a></div>
+   </div>
    <!--  <div class="menu__link --works">
      <a class="menu__logo jaabaz-link" href="../"></a>
      <a class="menu__text link-page onhover-nounderline jaabaz-link" href="../what-we-do/">What We Do ?</a>
@@ -74,20 +136,18 @@
       <div class="table__vAlign">
         <div class="container">
           <a class="work__link link-page">
-          <br>
+            <br>
             <h2 class="work__title">VIT University</h2>
             <p class="work__tags">
 
               VIT University, Vellore is one of India’s most reputed private
-              universities , rated among the premier institutes for student
+              universities, rated among the premier institutes for student
               centric research and project work, as per a study carried out
               by The Hindu English daily, published in April 2013, also
-              ranked 8 th best engineering institute in India, 2013 by India
+              ranked 8th best engineering institute in India, 2013 by India
               Today. VIT University has been ranked as the best private
-              engineering institution by the Ministry of Human Resource
-              and Development under National Institutional Ranking
-              Framework (NIRF) rankings 2016. It is located in Vellore , 150
-              kilometers from Chennai, VIT is home to a total of over
+              engineering institution under National Institutional Ranking
+              Framework (NIRF) rankings 2016. VIT is home to a total of over
               20,000 students of various streams and specializations,
               comprising both Indian and foreign nationals.
             </p>
@@ -109,10 +169,9 @@
           <h2 class="work__title">Baja SAE</h2>
           <p class="work__tags">
             Baja SAE is an intercollegiate design competition run by
-            the Society of Automotive Engineers (SAE). Teams of
-            students from universities all over the world design and build
+            the Society of Automotive Engineers (SAE). Student teams from universities all over the world design and build
             small off-road cars. The cars have 10 bhp (7.5kW) engines.
-            The off road cars manufactured has to follow certain safety
+            The off road car manufactured has to follow certain safety
             rules as specified in Baja SAE rulebook. The goal in Baja
             SAE racing is to design, build and race off-road vehicles that
             can withstand the harshest elements of rough terrain. The
@@ -167,17 +226,17 @@
        <a class="work__link link-page onhover-nounderline">
         <h2 class="work__title">Meet the Team</h2>
         <p class="work__tags">
-          <span id="butteam17" class="spanbut onhover-nounderline" data-toggle="modal" data-target="#team17">
+          <span id="butteam17" class="spanbut onhover-nounderline team-link" data-toggle="modal" data-target="#team17">
             <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
             Team 2017
           </span>
           <br><br>
-          <span id="butteam16" class="spanbut onhover-nounderline" data-toggle="modal" data-target="#team16">
+          <span id="butteam16" class="spanbut onhover-nounderline team-link" data-toggle="modal" data-target="#team16">
             <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
             Team 2016
           </span>
           <br><br>
-          <span id="butteam15" class="spanbut onhover-nounderline" data-toggle="modal" data-target="#team15">
+          <span id="butteam15" class="spanbut onhover-nounderline team-link" data-toggle="modal" data-target="#team15">
             <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
             Team 2015
           </span>
@@ -193,7 +252,7 @@
 
 
 <!-- Team 17 Modal -->
-<div id="team17" class="modal fade" role="dialog">
+<div id="team17" class="modal fade team-modal" role="dialog">
   <div class="modal-dialog" id="team17modaldialog">
     <div class="modal-body text-center">
       <img src="../img/loading.gif" style="width:100px !important;" />
@@ -204,7 +263,7 @@
   </div>
 </div>
 <!-- Team 16 Modal -->
-<div id="team16" class="modal fade" role="dialog">
+<div id="team16" class="modal fade team-modal" role="dialog">
   <div class="modal-dialog" id="team16modaldialog">
     <div class="modal-body text-center">
       <img src="../img/loading.gif" style="width:100px !important;" />
@@ -215,7 +274,7 @@
   </div>
 </div>
 <!-- Team 15 Modal -->
-<div id="team15" class="modal fade" role="dialog">
+<div id="team15" class="modal fade team-modal" role="dialog">
   <div class="modal-dialog" id="team15modaldialog">
     <div class="modal-body text-center">
       <img src="../img/loading.gif" style="width:100px !important;" />
@@ -255,8 +314,9 @@
 <footer>
   <nav class="social">
     <a class="social__media" target="_blank" href="https://www.facebook.com/teamjaabaz/"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
-    <a class="social__media" target="_blank" href="https://twitter.com/team_jaabaz"><i class="ionclass ion-social-twitter" aria-hidden="true"></i></a>
+    <a class="social__media" target="_blank" href="https://www.linkedin.com/company/9241675?trk=prof-exp-company-name"><i class="ionclass ion-social-linkedin" aria-hidden="true"></i></a>
     <a class="social__media" target="_blank" href="https://www.youtube.com/channel/UCQYPdJIlSCqqYTSI9OAZ0OQ"><i class="ionclass ion-social-youtube" aria-hidden="true"></i></a>
+
   </nav>
 </footer>
 
@@ -335,11 +395,82 @@
 <script type="text/javascript">
   function gotomeettheteam(){
    $("#meettheteama").click();
+    $(".team-modal .modal-body").scrollTop(0);
  }
+</script>
+<script type="text/javascript" src="../scripts/buttonloader.js"></script>
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+  (function(){
+    emailjs.init("user_KdsHYnbwRPgcqHJkuyTH7");
+  })();
+</script>
+<script type="text/javascript">
+  function isEmail(email) {
+    var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    return regex.test(email);
+  }
+  function send_mail()
+  {
+    var name_var=$("#name").val();
+    var email_var=$("#email").val();
+    var subject_var=$("#subject").val();
+    var message_var=$("#message").val();
+    if(name_var=="")
+    {
+      alert("Please fill the required fields");
+    }
+    else if(email_var=="")
+    {
+      alert("Please fill the required fields");
+    }
+    else if(!isEmail(email_var))
+    {
+      alert("Please Enter correct Email id");
+    }
+    else if(subject_var=="")
+    {
+      alert("Please fill the required fields");
+    }
+    else if(message_var=="")
+    {
+      alert("Please fill the required fields");
+    }
+    else
+    {
+      var btn = $('#contact-form-submit');
+      $(btn).buttonLoader('start');
+      emailjs.send("gmail","jaabaz",{name: name_var ,email: email_var, subject:subject_var,message:message_var})
+      .then(function(response) {
+        $(btn).buttonLoader('stop');
+        setTimeout(function () {
+          $("#name").val('');
+          $("#email").val('');
+          $("#subject").val('');
+          $("#message").val('');
+        }, 100);
+        alert("Thank you for contacting us. We will get back to you soon.");
+        console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+      }, function(err) {
+        $(btn).buttonLoader('stop');
+        alert("There was an error. Please try again");
+        console.log("FAILED. error=", err);
+      });
+    }
+  }
 </script>
 <script type="text/javascript">
   // $("#meettheteama").click();
   // $("#butteam17").click();
+</script>
+<script type="text/javascript">
+ function scroll_top_modal(){
+ 
+}
+$(".team-link").click(function(){
+   $(".team-modal .modal-body").scrollTop(0);
+});
+
 </script>
 </body>
 </html>

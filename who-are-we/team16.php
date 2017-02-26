@@ -2,12 +2,12 @@
 <?php
  //       ["Full Nam","Department","image","FB LINK","linked in"]
 /*Team leaders 0-2*/
-$team_leaders[0]=["Yashwant Singh","Team Captain","yashwant","http://fb.com","https://www.linkedin.com/"];
+$team_leaders[0]=["Yashwant Singh","Team Co-Captain","yashwant","http://fb.com","https://www.linkedin.com/"];
 $team_leaders[]=["Shyam","Team Co-Captain","shyam","http://fb.com","https://www.linkedin.com/"];
 $team_leaders[]=["Raja Singhal","Team Manager","raja","http://fb.com","https://www.linkedin.com/"];
 
 /*Vehicle Dynamics 7-15*/
-$team_vehicle[0]=["Vehicle Dynamics Lead","Vehicle Dynamics Lead","vehicle","http://fb.com","https://www.linkedin.com/"];
+$team_vehicle[0]=["Swapnil Ghiya","Vehicle Dynamics Lead","vehicle","http://fb.com","https://www.linkedin.com/"];
 $team_vehicle[]=["Aditya G","Vehicle Dynamics","adityag","http://fb.com","https://www.linkedin.com/"];
 $team_vehicle[]=["Santosh Kumar","Vehicle Dynamics","santosh","http://fb.com","https://www.linkedin.com/"];
 $team_vehicle[]=["Chaitanya","Vehicle Dynamics","chaitanya","http://fb.com","https://www.linkedin.com/"];
@@ -21,10 +21,10 @@ $team_transmission[]=["Priyank Agarwal","Transmisssion","priyank","http://fb.com
 $team_transmission[]=["Tarun","Transmisssion","tarun","http://fb.com","https://www.linkedin.com/"];
 
 /*Marketing and Management-*/
-$team_marketing[0]=["Aditya","Marketing and Management","aditya","http://fb.com","https://www.linkedin.com/"];
-$team_marketing[]=["affrid","Marketing and Management","affrid","http://fb.com","https://www.linkedin.com/"];
-$team_marketing[]=["Devaraaj","Marketing and Marketing","devaraaj","http://fb.com","https://www.linkedin.com/"];
-$team_marketing[]=["HariKrishna","Marketing and Management","harikrishna","http://fb.com","https://www.linkedin.com/"];
+$team_marketing[0]=["Deva Harsha","Marketing and Management","deva","http://fb.com","https://www.linkedin.com/"];
+$team_marketing[]=["Affrid","Marketing and Management","affrid","http://fb.com","https://www.linkedin.com/"];
+$team_marketing[]=["Devaraaj","Marketing and Management","devaraaj","http://fb.com","https://www.linkedin.com/"];
+$team_marketing[]=["Harikrishna","Marketing and Management","harikrishna","http://fb.com","https://www.linkedin.com/"];
 $team_marketing[]=["Jayanth","Marketing and Management","jayanth","http://fb.com","https://www.linkedin.com/"];
 $team_marketing[]=["Shylendhar","Marketing and Management","shylendhar","http://fb.com","https://www.linkedin.com/"];
 
@@ -58,7 +58,7 @@ $team_manufacturing[]=["Aditya Bhansali","Business Head","aditya","http://fb.com
 <div class="modal-content">
 	<div class="modal-headerr" style="padding: 10px;">
 		<br>
-		<button type="button" class="close"  onclick="gotomeettheteam();" data-dismiss="modal" style="color:#fff !important;"><i class="ion-close-round" style="color:#fff !important;"></i>&nbsp;&nbsp;</button>
+		<button type="button" class="close"  onclick="gotomeettheteam();" data-dismiss="modal"><i class="ion-close-round"></i>&nbsp;&nbsp;</button>
 		<h1 class="modal-title text-center">Team 2016</h1>
 	</div>
 	<div class="modal-body">
@@ -78,17 +78,13 @@ $team_manufacturing[]=["Aditya Bhansali","Business Head","aditya","http://fb.com
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
 							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team16/<?php echo $img;?>.JPG');">
 								<div class="ch-info">
-									<h3><?php echo $name;?>
-										<br>
-										<div class="ch-social-div">	
-										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
-										</div>
-									</h3>
+									<h3><?php echo $name;?></h3>
+									<br>
+
+
 								</div>
 							</div>
-
-							<h3 class="text-center"><?php echo $name;?></h3>
-							<h3 class="text-center deptname"><?php echo $dept;?></h3>
+							<h3 class="text-center"><?php echo $dept;?></h3>
 
 						</div>
 						<?php
@@ -112,17 +108,11 @@ $team_manufacturing[]=["Aditya Bhansali","Business Head","aditya","http://fb.com
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
 							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team16/<?php echo $img;?>.JPG');">
 								<div class="ch-info">
-									<h3><?php echo $name;?>
-										<br>
-										<div class="ch-social-div">	
-										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
-										</div>
-									</h3>
+									<h3><?php echo $name;?>	</h3>
+									<br>
 								</div>
 							</div>
-
-							<h3 class="text-center"><?php echo $name;?></h3>
-							<h3 class="text-center deptname"><?php echo $dept;?></h3>
+							<h3 class="text-center"><?php echo $dept;?></h3>
 
 						</div>
 						<?php
@@ -146,17 +136,11 @@ $team_manufacturing[]=["Aditya Bhansali","Business Head","aditya","http://fb.com
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
 							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team16/<?php echo $img;?>.JPG');">
 								<div class="ch-info">
-									<h3><?php echo $name;?>
-										<br>
-										<div class="ch-social-div">	
-										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
-										</div>
-									</h3>
+									<h3><?php echo $name;?></h3>
+									<br>					
 								</div>
 							</div>
-
-							<h3 class="text-center"><?php echo $name;?></h3>
-							<h3 class="text-center deptname"><?php echo $dept;?></h3>
+							<h3 class="text-center"><?php echo $dept;?></h3>
 
 						</div>
 						<?php
@@ -180,17 +164,11 @@ $team_manufacturing[]=["Aditya Bhansali","Business Head","aditya","http://fb.com
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
 							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team16/<?php echo $img;?>.JPG');">
 								<div class="ch-info">
-									<h3><?php echo $name;?>
-										<br>
-										<div class="ch-social-div">	
-										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
-										</div>
-									</h3>
+									<h3><?php echo $name;?></h3>
+									<br>
 								</div>
 							</div>
-
-							<h3 class="text-center"><?php echo $name;?></h3>
-							<h3 class="text-center deptname"><?php echo $dept;?></h3>
+							<h3 class="text-center"><?php echo $dept;?></h3>
 
 						</div>
 						<?php
@@ -214,17 +192,11 @@ $team_manufacturing[]=["Aditya Bhansali","Business Head","aditya","http://fb.com
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
 							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team16/<?php echo $img;?>.JPG');">
 								<div class="ch-info">
-									<h3><?php echo $name;?>
-										<br>
-										<div class="ch-social-div">	
-										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
-										</div>
-									</h3>
+									<h3><?php echo $name;?></h3>
+									<br>
 								</div>
 							</div>
-
-							<h3 class="text-center"><?php echo $name;?></h3>
-							<h3 class="text-center deptname"><?php echo $dept;?></h3>
+							<h3 class="text-center"><?php echo $dept;?></h3>
 
 						</div>
 						<?php
@@ -248,17 +220,11 @@ $team_manufacturing[]=["Aditya Bhansali","Business Head","aditya","http://fb.com
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
 							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team16/<?php echo $img;?>.JPG');">
 								<div class="ch-info">
-									<h3><?php echo $name;?>
-										<br>
-										<div class="ch-social-div">	
-										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
-										</div>
-									</h3>
+									<h3><?php echo $name;?></h3>
+									<br>	
 								</div>
 							</div>
-
-							<h3 class="text-center"><?php echo $name;?></h3>
-							<h3 class="text-center deptname"><?php echo $dept;?></h3>
+							<h3 class="text-center"><?php echo $dept;?></h3>
 
 						</div>
 						<?php
@@ -282,17 +248,11 @@ $team_manufacturing[]=["Aditya Bhansali","Business Head","aditya","http://fb.com
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
 							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team16/<?php echo $img;?>.JPG');">
 								<div class="ch-info">
-									<h3><?php echo $name;?>
-										<br>
-										<div class="ch-social-div">	
-										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
-										</div>
-									</h3>
+									<h3><?php echo $name;?></h3>
+									<br>
 								</div>
 							</div>
-
-							<h3 class="text-center"><?php echo $name;?></h3>
-							<h3 class="text-center deptname"><?php echo $dept;?></h3>
+							<h3 class="text-center"><?php echo $dept;?></h3>
 
 						</div>
 						<?php
@@ -316,17 +276,11 @@ $team_manufacturing[]=["Aditya Bhansali","Business Head","aditya","http://fb.com
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
 							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team16/<?php echo $img;?>.JPG');">
 								<div class="ch-info">
-									<h3><?php echo $name;?>
-										<br>
-										<div class="ch-social-div">	
-										<a href="<?php echo $fb ;?>" target="_blank"><i class="ionclass ion-social-facebook" aria-hidden="true"></i></a>
-										</div>
-									</h3>
+									<h3><?php echo $name;?></h3>
+									<br>
 								</div>
 							</div>
-
-							<h3 class="text-center"><?php echo $name;?></h3>
-							<h3 class="text-center deptname"><?php echo $dept;?></h3>
+							<h3 class="text-center"><?php echo $dept;?></h3>
 
 						</div>
 						<?php

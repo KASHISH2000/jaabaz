@@ -3855,8 +3855,8 @@ th {
     }
     .table__vAlign {
         display: table-cell;
+        vertical-align: middle;
         height: 100%;
-        vertical-align: middle
     }
     .table__vAlign.\--bottom {
         vertical-align: bottom
@@ -9614,8 +9614,8 @@ th {
 .ion-contactus:hover{
     color: #dc092f !important;
 }
-#contactus form input[type=text],
-#contactus form input[type=email],
+#contactus input[type=text],
+#contactus input[type=email],
 #contactus textarea {
     width: 100%;
     padding: 15px 0;
@@ -9638,7 +9638,7 @@ th {
     height: 13.5rem!important;
     border-radius: 4px;
 }
-#contactus form input[type=submit] {
+#contactus .submit-but {
     padding: .7em 0.8em;
     padding-left: 0.8em;
     padding-right: 0.8em;
@@ -9656,12 +9656,13 @@ th {
     -o-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
+    cursor: pointer;
 }
-#contactus form input:focus,
+#contactus input:focus,
 #contactus textarea:focus {
     border: 1px solid #1a8af3!important;
 }
-#contactus form input[type=submit]:hover {
+#contactus .submit-but:hover {
     background-color: rgba(220, 9, 47, 0.89);
     border: none!important;
 }
@@ -9670,6 +9671,27 @@ th {
 }
 .container-contactus-modal{
     padding: 40px;
+}
+.spin-me{
+ -webkit-animation:spin 4s linear infinite;
+ -moz-animation:spin 4s linear infinite;
+ animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% {
+       -moz-transform: rotate(360deg); 
+   } 
+}
+@-webkit-keyframes spin {
+   100% {
+      -webkit-transform: rotate(360deg); 
+  } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg);
+    } 
 }
 .underline-head{
 
@@ -9690,7 +9712,7 @@ th {
  -webkit-transform: scaleX(0);
  -moz-transform: scaleX(0);
  -ms-transform: scaleX(0);
-  -o-transform: scaleX(0);
+ -o-transform: scaleX(0);
  transform: scaleX(0);
  -webkit-transition: all .5s ease-out;
  -moz-transition: all .5s ease-out;
@@ -9714,9 +9736,7 @@ th {
 .contactus-person-box:hover{
     background-color: #202020;
 }
-.form-container{
-    padding: 20px;
-}
+
 .google-maps-div-wrap{
     width:100%;margin-left:auto;margin-right:auto;max-width:100%;overflow:hidden;height:600px;color:red;
 }
@@ -9739,6 +9759,9 @@ th {
     .form-container{
         padding: 0px;
     }
+    .form-container{
+    padding: 20px;
+}
 }
 @media (max-width: 768px) {
     #contactus form input {
@@ -9764,6 +9787,9 @@ th {
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   text-decoration: none !important;
+}
+.jaabaz-link{
+    color: #f2f2f2 !important;
 }
 .jaabaz-link:hover{
   color: #dc092f !important;
