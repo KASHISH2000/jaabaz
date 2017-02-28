@@ -20,7 +20,7 @@
 
   <style type="text/css">
     body{
-      background-image: url('img/bg-main.png');
+      background-image: url('img/bg-main.jpg');
       background-size: cover;
       background-attachment: fixed;
     }

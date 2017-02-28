@@ -26,24 +26,24 @@
 /* For Cars*/
 .work.\--beach-park .work__obj.\--bg , .carsbg{
 	background-color: transparent;;
-	background-image: url('../img/carsbg.png') !important;
+	background-image: url('../img/carsbg.jpg') !important;
 	background-size: cover;
 }
 
 /* For Achievements*/
 .work.\--shopping-recife .work__obj.\--bg , .achievementsbg{
 	background-color: transparent;
-	background-image: url('../img/achievementsbg.png') !important;
+	background-image: url('../img/achievementsbg.jpg') !important;
 	background-size: cover;
 }
 /* For media*/
 .mediabg .work__obj, .mediabg{
-	background-image: url('../img/mediabg.png') !important;
+	background-image: url('../img/mediabg.jpg') !important;
 	background-size: cover;
 }
 @media(min-width: 1250px){
 	.mediabg .work__obj, .mediabg{
-		background-image: url('../img/mediabg.png') !important;
+		background-image: url('../img/mediabg.jpg') !important;
 		background-size: cover;
 		background-position: 0px -220px;
 	}
@@ -54,12 +54,12 @@
 
 /* For marketing*/
 .marketingbg .work__obj , .marketingbg{
-	background-image: url('../img/marketingbg.png') !important;
+	background-image: url('../img/marketingbg.jpg') !important;
 	background-size: cover;
 }
 /* For sponsors*/
 .sponsorsbg .work__obj , .sponsorsbg{
-	background-image: url('../img/sponsorsbg.png') !important;
+	background-image: url('../img/sponsorsbg.jpg') !important;
 	background-size: cover;
 }
 .work__link:hover{

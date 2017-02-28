@@ -1,28 +1,31 @@
+  <?php
+  global $baseUrl;
+  ?>
   <meta charset="utf-8">
   <meta name="description" content="We, Team Jaabaz, are a team of undergraduate students operating out of VIT University Vellore, and we manufacture an All-Terrain Vehicle, indigenously designed, every year and compete with teams internationally, in Baja SAE competitions organized by the Society of Automotive Engineers (SAE) in the United States of America.">
   <meta name="keywords" content="Team Jaabaz,VIT University,Racing,All-Terrain,Baja SAE,ACM VIT, Harshit Kedia">
   <meta name="og:description" content="We, Team Jaabaz, are a team of undergraduate students operating out of VIT University Vellore, and we manufacture an All-Terrain Vehicle, indigenously designed, every year and compete with teams internationally, in Baja SAE competitions organized by the Society of Automotive Engineers (SAE) in the United States of America."/>
   <meta name="og:url" content="https://www.teamjaabaz.com/"/>
   <meta name="og:title" content="Team Jaabaz | VIT University"/>
-  <meta name="og:image" content="http://teamjaabaz.com/img/favicons/apple-icon-180x180.png"/>
+  <meta name="og:image" content="<?php echo $baseUrl;?>img/logo_small.png"/>
   <meta name="author" content="ACM VIT, Harshit Kedia">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" content="#000">
   <!--favicons-->
-  <link rel="apple-touch-icon" sizes="57x57" href="http://teamjaabaz.com/img/favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="http://teamjaabaz.com/img/favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="http://teamjaabaz.com/img/favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="http://teamjaabaz.com/img/favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="http://teamjaabaz.com/img/favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="http://teamjaabaz.com/img/favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="http://teamjaabaz.com/img/favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="http://teamjaabaz.com/img/favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="http://teamjaabaz.com/img/favicons/apple-icon-180x180.png">
+  <!-- <link rel="apple-touch-icon" sizes="57x57" href="<?php echo $baseUrl?>img/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="<?php echo $baseUrl?>img/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="<?php echo $baseUrl?>img/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="<?php echo $baseUrl?>img/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="<?php echo $baseUrl?>img/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="<?php echo $baseUrl?>img/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="<?php echo $baseUrl?>img/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="<?php echo $baseUrl?>img/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $baseUrl?>img/favicons/apple-icon-180x180.png">
   <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="http://teamjaabaz.com/img/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="http://teamjaabaz.com/img/favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="http://teamjaabaz.com/img/favicons/favicon-16x16.png">
-  <link rel="manifest" href="http://teamjaabaz.com/img/favicons/manifest.json">
+  <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $baseUrl?>img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="<?php echo $baseUrl?>img/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $baseUrl?>img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="<?php echo $baseUrl?>img/favicons/manifest.json"> -->
 
   <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
   <style type="text/css">

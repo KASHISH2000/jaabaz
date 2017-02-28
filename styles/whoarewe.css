@@ -23,19 +23,19 @@
 /* For VIT University*/
 .vituniversitybg .work__obj , .vituniversitybg{
 	background-color: transparent;;
-	background-image: url('../img/vituniversitybg.png') !important;
+	background-image: url('../img/vituniversitybg.jpg') !important;
 	background-size: cover;
 }
 
 /* For Baja SAE*/
 .bajasaebg .work__obj, .bajasaebg{
 	background-color: transparent;
-	background-image: url('../img/bajasaebg.png') !important;
+	background-image: url('../img/bajasaebg.jpg') !important;
 	background-size: cover;
 }
 /* For Team Jaabaz*/
 .teamjaabazbg .work__obj, .teamjaabazbg{
-	background-image: url('../img/teamjaabazbg.png') !important;
+	background-image: url('../img/teamjaabazbg.jpg') !important;
 	background-size: cover;
 top: 0%;
 }
@@ -45,7 +45,7 @@ top: 0%;
 }
 /* For Meet the team*/
 .meettheteambg .work__obj, .meettheteambg {
-	background-image: url('../img/meettheteambg.png') !important;
+	background-image: url('../img/meettheteambg.jpg') !important;
 	background-size: cover;
 	background-position: 0px -130px;
 }
