@@ -23,7 +23,7 @@
         }
     </style>
     <!-- DOCUMENT TITLE -->
-    <title>Team Jaabaz | Marketing Activities</title>
+    <title>Marketing Activities</title>
 
 </head>
 

@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js">
 <head>
-  <title>Team Jaabaz | Who Are We</title>
+  <title>Who Are We</title>
   <?php
   include('../meta.php');
   ?>

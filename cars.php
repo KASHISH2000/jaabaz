@@ -22,7 +22,7 @@
         }
     </style>
     <!-- DOCUMENT TITLE -->
-    <title>Team Jaabaz | Cars</title>
+    <title>Cars</title>
 
 </head>
 

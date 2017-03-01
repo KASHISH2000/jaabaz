@@ -6,7 +6,7 @@ if(isset($_GET['jumpto']))
 <!doctype html>
 <html class="no-js">
 <head>
-  <title>Team Jaabaz | What We Do</title>
+  <title>What We Do</title>
   <?php
   include('../meta.php');
   ?>

@@ -1,6 +1,6 @@
 <?php
 global $baseUrl;
-$baseUrl="http://marimuthuk.com/jaabaz/";
+$baseUrl="http://teamjaabaz.com/";
 ?>
 <!-- Developed by Harshit Kedia as a part of ACM VIT-->
 <!doctype html>

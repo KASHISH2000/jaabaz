@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="styles/lightbox/lightbox.css">
     <link rel="stylesheet" id="common-style-css"  href="files/css/common_inner.css" type="text/css" media="all" />
     <!-- DOCUMENT TITLE -->
-    <title>Team Jaabaz | Media</title>
+    <title>Media</title>
     <style type="text/css">
         .youtube-iframe{
             width: 100%;

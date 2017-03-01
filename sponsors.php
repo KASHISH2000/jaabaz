@@ -26,7 +26,7 @@
         }
     </style>
     <!-- DOCUMENT TITLE -->
-    <title>Team Jaabaz | Sponsors</title>
+    <title>Sponsors</title>
 
 </head>
 

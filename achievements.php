@@ -87,7 +87,7 @@
     }
   </style>
   <!-- DOCUMENT TITLE -->
-  <title>Team Jaabaz | Achievements</title>
+  <title>Achievements</title>
 
 </head>
 
