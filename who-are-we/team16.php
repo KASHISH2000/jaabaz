@@ -19,6 +19,7 @@ $team_transmission[]=["Akshay","Transmission","akshay","http://fb.com","https://
 $team_transmission[]=["Manikandan","Transmisssion","manikandan","http://fb.com","https://www.linkedin.com/"];
 $team_transmission[]=["Priyank Agarwal","Transmisssion","priyank","http://fb.com","https://www.linkedin.com/"];
 $team_transmission[]=["Tarun","Transmisssion","tarun","http://fb.com","https://www.linkedin.com/"];
+$team_transmission[]=["Anshuman MV","Transmisssion","anshuman","http://fb.com","https://www.linkedin.com/"];
 
 /*Marketing and Management-*/
 $team_marketing[0]=["Deva Harsha","Marketing and Management","deva","http://fb.com","https://www.linkedin.com/"];
