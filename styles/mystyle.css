@@ -45,7 +45,7 @@ body{
 	margin-left: -76px;
 	top: 12%;
 	left: 36%;
-	background: url('../img/logo.png') 0 0 no-repeat;
+	background: url('../img/new_logo.png') 0 0 no-repeat;
 	background-size: auto 100%;
 	-moz-animation: down 1s cubic-bezier(0.42, 0, 0, 0.995), fade 1s cubic-bezier(0.42, 0, 0, 0.995);
 	-webkit-animation: down 1s cubic-bezier(0.42, 0, 0, 0.995), fade 1s cubic-bezier(0.42, 0, 0, 0.995);

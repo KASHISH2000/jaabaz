@@ -13,7 +13,7 @@
 				<br><br><br>
 			</div>
 			<div class="brochure-div col-md-6 col-md-offset-3">
-				<iframe style="width:100%; height:340px;" src="//e.issuu.com/embed.html#26852532/44370094" frameborder="0" allowfullscreen></iframe>
+			<iframe src="https://e.issuu.com/anonymous-embed.html?u=harshitkedia&d=team_jaabaz_brochure" style="border:none;width:100%;height:500px;" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>

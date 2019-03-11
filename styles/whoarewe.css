@@ -45,7 +45,7 @@ top: 0%;
 }
 /* For Meet the team*/
 .meettheteambg .work__obj, .meettheteambg {
-	background-image: url('../img/meettheteambg.jpg') !important;
+	background-image: url('../img/meettheteambg.JPG') !important;
 	background-size: cover;
 	background-position: 0px -130px;
 }

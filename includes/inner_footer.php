@@ -4,7 +4,7 @@
         <div class="clearfix">
             <div class="col-md-3 footer-col-3-first">
                <div class="widget">
-                   <a href="index.php"><img src="img/logo_footer2.png" srcset="img/logo_footer2.png 1x, img/logo_footer2.png 2x" alt="Jaabaz" class="footer-logo"></a>
+                   <a href="index.php"><img src="img/new_logo.png" srcset="img/new_logo.png 1x, img/new_logo.png 2x" alt="Jaabaz" class="footer-logo"></a>
                    <div class="spacer-mini"></div>
                    <ul class="socialmedia-widget hover-fade-1 text-center">
                     <li class="facebook"><a href="https://www.facebook.com/teamjaabaz/" target="_blank"></a></li>

@@ -33,7 +33,7 @@
 /* For Achievements*/
 .work.\--shopping-recife .work__obj.\--bg , .achievementsbg{
 	background-color: transparent;
-	background-image: url('../img/achievementsbg.jpg') !important;
+	background-image: url('../img/achievementsbg.JPG') !important;
 	background-size: cover;
 }
 /* For media*/
@@ -59,7 +59,7 @@
 }
 /* For sponsors*/
 .sponsorsbg .work__obj , .sponsorsbg{
-	background-image: url('../img/sponsorsbg.jpg') !important;
+	background-image: url('../img/sponsorsbg.jpeg') !important;
 	background-size: cover;
 }
 .work__link:hover{

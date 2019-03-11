@@ -53,15 +53,15 @@
             <div id="portfolio-grid" class="isotope-grid portfolio-container style-column-4 isotope-spaced clearfix">
                 <!--Title-->
                 <div class="isotope-item portfolio-item titlesp showall">
-                  <div class="portfolio-media">
-                    <a class="thumb-overlay overlay-effect-1 text-light">
-                   
-                        <div class="overlay-caption hidden-on-start">
-                            <h4 class="caption-name portfolio-name uppercase">Spigen</h4>
-                        </div>
-                    </a>
-                </div>
-            </div>
+  <div class="portfolio-media">
+    <a class="thumb-overlay overlay-effect-1 text-light">
+        <img src="img/sponsors/41.jpg" alt="Hose Express">
+        <div class="overlay-caption hidden-on-start">
+            <h4 class="caption-name portfolio-name uppercase">Hose Express</h4>
+        </div>
+    </a>
+</div>
+</div>
             <div class="isotope-item portfolio-item titlesp showall">
               <div class="portfolio-media">
                 <a class="thumb-overlay overlay-effect-1 text-light">
@@ -84,6 +84,38 @@
         </div>
     </div>
     <!--platinum-->
+    <div class="isotope-item portfolio-item platinumsp showall">
+  <div class="portfolio-media">
+    <a class="thumb-overlay overlay-effect-1 text-light">
+        <img src="img/sponsors/42.jpg" alt="The Pen World">
+        <div class="overlay-caption hidden-on-start">
+            <h4 class="caption-name portfolio-name uppercase">Burnout</h4>
+        </div>
+    </a>
+</div>
+</div>
+
+<div class="isotope-item portfolio-item platinumsp showall">
+  <div class="portfolio-media">
+    <a class="thumb-overlay overlay-effect-1 text-light">
+        <img src="img/sponsors/43.jpg" alt="The Pen World">
+        <div class="overlay-caption hidden-on-start">
+            <h4 class="caption-name portfolio-name uppercase">Elite Engineering</h4>
+        </div>
+    </a>
+</div>
+</div>
+
+<div class="isotope-item portfolio-item platinumsp showall">
+  <div class="portfolio-media">
+    <a class="thumb-overlay overlay-effect-1 text-light">
+        <img src="img/sponsors/44.jpg" alt="The Pen World">
+        <div class="overlay-caption hidden-on-start">
+            <h4 class="caption-name portfolio-name uppercase">Jeep</h4>
+        </div>
+    </a>
+</div>
+</div>
     <div class="isotope-item portfolio-item platinumsp showall">
       <div class="portfolio-media">
         <a class="thumb-overlay overlay-effect-1 text-light">
@@ -198,7 +230,39 @@
 <div class="isotope-item portfolio-item goldsp showall">
   <div class="portfolio-media">
     <a class="thumb-overlay overlay-effect-1 text-light">
-        <img src="img/sponsors/10.jpg" alt="Britania">
+        <img src="img/sponsors/45.jpg" alt="Atinooh">
+        <div class="overlay-caption hidden-on-start">
+            <h4 class="caption-name portfolio-name uppercase">Atinooh</h4>
+        </div>
+    </a>
+</div>
+</div>
+
+<div class="isotope-item portfolio-item goldsp showall">
+  <div class="portfolio-media">
+    <a class="thumb-overlay overlay-effect-1 text-light">
+        <img src="img/sponsors/46.jpg" alt="Deccan Pumps">
+        <div class="overlay-caption hidden-on-start">
+            <h4 class="caption-name portfolio-name uppercase">Deccan Pumps</h4>
+        </div>
+    </a>
+</div>
+</div>
+
+<div class="isotope-item portfolio-item goldsp showall">
+  <div class="portfolio-media">
+    <a class="thumb-overlay overlay-effect-1 text-light">
+        <img src="img/sponsors/47.jpg" alt="Lapcare">
+        <div class="overlay-caption hidden-on-start">
+            <h4 class="caption-name portfolio-name uppercase">Lapcare</h4>
+        </div>
+    </a>
+</div>
+</div>
+<div class="isotope-item portfolio-item goldsp showall">
+  <div class="portfolio-media">
+    <a class="thumb-overlay overlay-effect-1 text-light">
+        <img src="img/sponsors/10.jpg" alt="Britannia">
         <div class="overlay-caption hidden-on-start">
             <h4 class="caption-name portfolio-name uppercase">Britannia</h4>
         </div>

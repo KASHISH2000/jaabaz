@@ -115,9 +115,58 @@
   </div>
   <br><br>
   <div class="container">
-
+    <!--
+      
+     -->
     <div class="row">
       <div class="custom-col-achi">
+      <div class="achi-box hoverable">
+          <div class="achi-trophy">
+            <i class="ion ion-trophy"></i>
+          </div>
+          <div class="achi-event-name">
+            <span class="colored achi-event-name"><strong>BAJA SAE KANSAS</strong></span>
+          </div>
+          <div class="achi-desc">
+          <ul>
+							<li>18th in Design Presentation</li>
+							<li>24th in Sales Presentation</li>
+						</ul>
+          </div>
+        </div>
+        <div class="achi-box hoverable">
+          <div class="achi-trophy">
+            <i class="ion ion-trophy"></i>
+          </div>
+          <div class="achi-event-name">
+            <span class="colored achi-event-name"><strong>ENDURO STUDENT INDIA, <span class="achi-date">2018</span></strong></span>
+          </div>
+          <div class="achi-desc">
+          <ul>
+							<li>7th in Design Presentation</li>
+							<li>7th in Maneuverability</li>
+							<li>5th in DixtX</li>
+							<li>5th in Overall Dynamics</li>
+							<li>7th Overall Nationally</li>
+						</ul>
+          </div>
+        </div>
+        <div class="achi-box hoverable">
+          <div class="achi-trophy">
+            <i class="ion ion-trophy"></i>
+          </div>
+          <div class="achi-event-name">
+            <span class="colored achi-event-name"><strong>BAJA SAE CALIFORNIA, <span class="achi-date">2017</span></strong></span>
+          </div>
+          <div class="achi-desc">
+          <ul>
+							<li>20th in Design Event</li>
+							<li>14th in Cost Event</li>
+							<li>14th in Sales Presentation</li>
+							<li>27th Overall Internationally</li>
+						</ul>
+          </div>
+        </div>
         <div class="achi-box hoverable">
           <div class="achi-trophy">
             <i class="ion ion-trophy"></i>

@@ -11,9 +11,9 @@ $baseUrl="http://teamjaabaz.com/";
     include('meta.php');
     ?>
     <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
-    <link rel="apple-touch-icon" href="img/logo_small.png">
-    <link rel="icon" type="image/png" href="img/logo_small.png">
-    <meta name="msapplication-TileImage" content="img/logo_small.png">
+    <link rel="apple-touch-icon" href="img/new_logo.png">
+    <link rel="icon" type="image/png" href="img/new_logo.png">
+    <meta name="msapplication-TileImage" content="img/new_logo.png">
     <link rel="stylesheet" type="text/css" href="styles/ionicons.min.css">
     <link href="styles/main.css" rel="stylesheet"/>
     <link href="styles/vendor.css" rel="stylesheet"/>
@@ -133,7 +133,9 @@ $baseUrl="http://teamjaabaz.com/";
             <li><span>Image 02</span></li>
             <li><span>Image 03</span></li>
             <li><span>Image 04</span></li>
+            <li><span>Image 05</span></li>
             <li><span>Image 06</span></li>
+            <li><span>Image 07</span></li>
         </ul>
         <div class="moldura-landing__left"></div>
         <div class="moldura-landing__right"></div>

@@ -226,6 +226,16 @@
        <a class="work__link link-page onhover-nounderline">
         <h2 class="work__title">Meet the Team</h2>
         <p class="work__tags">
+          <span id="butteam19" class="spanbut onhover-nounderline team-link" data-toggle="modal" data-target="#team19">
+            <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
+            Team 2019
+          </span>
+          <br><br>
+          <span id="butteam18" class="spanbut onhover-nounderline team-link" data-toggle="modal" data-target="#team18">
+            <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
+            Team 2018
+          </span>
+          <br><br>     
           <span id="butteam17" class="spanbut onhover-nounderline team-link" data-toggle="modal" data-target="#team17">
             <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
             Team 2017
@@ -251,6 +261,27 @@
 </div>
 
 
+<!-- Team 19 Modal -->
+<div id="team19" class="modal fade team-modal" role="dialog">
+  <div class="modal-dialog" id="team19modaldialog">
+    <div class="modal-body text-center">
+      <img src="../img/loading.gif" style="width:100px !important;" />
+    </div>
+    <div class="modal-footerr text-center">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
+<div id="team18" class="modal fade team-modal" role="dialog">
+  <div class="modal-dialog" id="team18modaldialog">
+    <div class="modal-body text-center">
+      <img src="../img/loading.gif" style="width:100px !important;" />
+    </div>
+    <div class="modal-footerr text-center">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
 <!-- Team 17 Modal -->
 <div id="team17" class="modal fade team-modal" role="dialog">
   <div class="modal-dialog" id="team17modaldialog">
@@ -341,6 +372,8 @@
   <script src="../scripts/main.js"></script>
 
   <script type = "text/javascript">
+    $('#team19modaldialog').load("team19.php");
+    $('#team18modaldialog').load("team18.php");
     $('#team17modaldialog').load("team17.php");
     $('#team16modaldialog').load("team16.php");
     $('#team15modaldialog').load("team15.php");
@@ -349,6 +382,23 @@
   </script>
   <script type="text/javascript">
     setInterval(function(){
+     //for team19
+     var cw = $('#team19 .box').width();
+     var ht=(cw+0)+'px';
+     var ht2=(cw+0+100) + 'px';
+     $('#team19 .box').css({'height':ht}); 
+     $('#team19 .overlay').css({'height':ht});
+     $('#team19 .boxcol').css({'height':ht2});
+
+     //for team18
+     var cw = $('#team18 .box').width();
+     var ht=(cw+0)+'px';
+     var ht2=(cw+0+100) + 'px';
+     $('#team18 .box').css({'height':ht}); 
+     $('#team18 .overlay').css({'height':ht});
+     $('#team18 .boxcol').css({'height':ht2});
+
+     //for team17
      var cw = $('#team17 .box').width();
      var ht=(cw+0)+'px';
      var ht2=(cw+0+100) + 'px';

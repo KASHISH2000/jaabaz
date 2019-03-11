@@ -19,8 +19,8 @@
 					<h2 class="text-center underline-head">Technical Department
 						<span class="underline"></span>
 					</h2>
-					<h1 class="text-center" style="color:#dc092f;">Bhuvanesh Jain<br><span class="contactus-position">(Team Captain)</span></h1>
-					<h2 class="text-center person-box-phone">+91 8903341139</h2>
+					<h1 class="text-center" style="color:#dc092f;">Govind Karwa<br><span class="contactus-position">(Team Captain)</span></h1>
+					<h2 class="text-center person-box-phone">+91 8390728275</h2>
 					<!-- <h1 class="text-center" style="color:#dc092f;">Som Dwivedi<br>(<span class="contactus-position">Team Co-Captain</span>)</h1>
 					<h2 class="text-center person-box-phone">+91 9486476740</h2> -->
 				</div>
@@ -28,16 +28,16 @@
 					<h2 class="text-center underline-head">Marketing Department
 						<span class="underline"></span>
 					</h2>
-					<h1 class="text-center" style="color:#dc092f;">Harikrishna Pansuriya<br><span class="contactus-position">(Team Manager)</span></h1>
-					<h2 class="text-center person-box-phone">+91 9600255648</h2>
+					<h1 class="text-center" style="color:#dc092f;">Karan Waghela<br><span class="contactus-position">(Team Manager)</span></h1>
+					<h2 class="text-center person-box-phone">+91 9790666304</h2>
 				</div>
-				<div class="contactus-person-box col-md-3 col-xs-12">
+				<!-- <div class="contactus-person-box col-md-3 col-xs-12">
 					<h2 class="text-center underline-head">Join Jaabaz family
 						<span class="underline"></span>
 					</h2>
 					<h1 class="text-center" style="color:#dc092f;">Deva Harsha<br><span class="contactus-position">(Public Relation Lead)</span></h1>
 					<h2 class="text-center person-box-phone">+91 9944579079</h2>
-				</div>
+				</div> -->
 			</div>
 			<br>
 			<div class="row">
@@ -56,7 +56,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="form-container">
-					<h3 class="text-center"><a href="mailto:official@teamjaabaz.com">official@teamjaabaz.com</a></h3>
+					<h3 class="text-center"><a href="mailto:official@teamjaabaz.com">teamjaabazracing@gmail.com</a></h3>
 						<h2 style="color:#dc092f;" class="text-center">We’d love to hear from you</h2>
 						
 							<div class="text-field-name">

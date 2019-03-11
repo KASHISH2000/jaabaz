@@ -45,6 +45,66 @@
 	<main>
 		<div class="container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
 			<section id="cd-timeline" class="cd-container">
+			<div class="cd-timeline-block underline-box" id="cd_block0">
+					<div class="cd-timeline-img cd-picture">
+						<!-- <img src="img/general/cars/prv16.png" class="" alt="Picture"> -->
+						<h3 class="cd-img-date">16'</h3>
+					</div>
+					<div class="cd-timeline-content wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+						<h2 class="cd-heading display-inline-block">BAJA SAE KANSAS
+						<span class="underline"></span>
+						</h2>
+						<ul>
+							<li>18th in Design Presentation</li>
+							<li>24th in Sales Presentation</li>
+						</ul>
+						
+						<!-- <span class="cd-date">Jan 14</span> -->
+					</div> 
+				</div>
+
+			<div class="cd-timeline-block underline-box" id="cd_block0">
+					<div class="cd-timeline-img cd-picture">
+						<!-- <img src="img/general/cars/prv16.png" class="" alt="Picture"> -->
+						<h3 class="cd-img-date">16'</h3>
+					</div>
+					<div class="cd-timeline-content wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+						<h2 class="cd-heading display-inline-block">ENDURO STUDENT INDIA, 2018
+						<span class="underline"></span>
+						</h2>
+						<ul>
+							<li>7th in Design Presentation</li>
+							<li>7th in Maneuverability</li>
+							<li>5th in DixtX</li>
+							<li>5th in Overall Dynamics</li>
+							<li>7th Overall Nationally</li>
+						</ul>
+						
+						<!-- <span class="cd-date">Jan 14</span> -->
+					</div> 
+				</div>
+
+			<div class="cd-timeline-block underline-box" id="cd_block0">
+					<div class="cd-timeline-img cd-picture">
+						<!-- <img src="img/general/cars/prv16.png" class="" alt="Picture"> -->
+						<h3 class="cd-img-date">16'</h3>
+					</div>
+					<div class="cd-timeline-content wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+						<h2 class="cd-heading display-inline-block">BAJA SAE CALIFORNIA, 2017
+						<span class="underline"></span>
+						</h2>
+						<ul>
+							<li>20th in Design Event</li>
+							<li>14th in Cost Event</li>
+							<li>14th in Sales Presentation</li>
+							<li>27th Overall Internationally</li>
+						</ul>
+						
+						<!-- <span class="cd-date">Jan 14</span> -->
+					</div> 
+				</div>
+
+				
 
 				<!-- first block-->
 				<div class="cd-timeline-block underline-box" id="cd_block0">
