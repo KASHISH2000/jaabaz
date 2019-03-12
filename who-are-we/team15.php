@@ -57,7 +57,7 @@ $team_steering[0]=["Bhushan","Steering","bhushan","http://fb.com","https://www.l
 						$ll=$team_leaders[$i][4];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team15/<?php echo $img;?>.JPG');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team15/<?php echo $img;?>.jpeg');">
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
@@ -88,7 +88,7 @@ $team_steering[0]=["Bhushan","Steering","bhushan","http://fb.com","https://www.l
 						$ll=$team_vehicle[$i][4];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team15/<?php echo $img;?>.JPG');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team15/<?php echo $img;?>.jpeg');">
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
@@ -120,7 +120,7 @@ $team_steering[0]=["Bhushan","Steering","bhushan","http://fb.com","https://www.l
 						$ll=$team_transmission[$i][4];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team15/<?php echo $img;?>.JPG');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team15/<?php echo $img;?>.jpeg');">
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
@@ -152,7 +152,7 @@ $team_steering[0]=["Bhushan","Steering","bhushan","http://fb.com","https://www.l
 						$ll=$team_marketing[$i][4];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team15/<?php echo $img;?>.JPG');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team15/<?php echo $img;?>.jpeg');">
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
@@ -184,7 +184,7 @@ $team_steering[0]=["Bhushan","Steering","bhushan","http://fb.com","https://www.l
 						$ll=$team_design[$i][4];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team15/<?php echo $img;?>.JPG');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team15/<?php echo $img;?>.jpeg');">
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
@@ -216,7 +216,7 @@ $team_steering[0]=["Bhushan","Steering","bhushan","http://fb.com","https://www.l
 						$ll=$team_brakes[$i][4];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team15/<?php echo $img;?>.JPG');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team15/<?php echo $img;?>.jpeg');">
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>
@@ -248,7 +248,7 @@ $team_steering[0]=["Bhushan","Steering","bhushan","http://fb.com","https://www.l
 						$ll=$team_steering[$i][4];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team15/<?php echo $img;?>.JPG');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team15/<?php echo $img;?>.jpeg');">
 								<div class="ch-info">
 									<h3><?php echo $name;?>
 										<br>

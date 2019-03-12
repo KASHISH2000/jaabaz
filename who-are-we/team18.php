@@ -79,7 +79,7 @@ $team_manufacturing[]=["Ayush Vaja","Management","ayush2","https://www.facebook.
 						$email=$team_leaders[$i][5];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team18/<?php echo $img;?>.JPG');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team18/<?php echo $img;?>.jpeg');">
 								<div class="ch-info">
 									<h3><?php echo $name;?></h3>
 								</div>
@@ -107,7 +107,7 @@ $team_manufacturing[]=["Ayush Vaja","Management","ayush2","https://www.facebook.
 						$email=$team_vehicle[$i][5];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team18/<?php echo $img;?>.JPG');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team18/<?php echo $img;?>.jpeg');">
 								<div class="ch-info">
 									<h3><?php echo $name;?></h3>
 								</div>
@@ -135,7 +135,7 @@ $team_manufacturing[]=["Ayush Vaja","Management","ayush2","https://www.facebook.
 						$email=$team_transmission[$i][5];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team18/<?php echo $img;?>.JPG');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team18/<?php echo $img;?>.jpeg');">
 								<div class="ch-info">
 									<h3><?php echo $name;?></h3>
 								</div>
@@ -163,7 +163,7 @@ $team_manufacturing[]=["Ayush Vaja","Management","ayush2","https://www.facebook.
 						$email=$team_marketing[$i][5];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team18/<?php echo $img;?>.JPG');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team18/<?php echo $img;?>.jpeg');">
 								<div class="ch-info">
 									<h3><?php echo $name;?></h3>
 								</div>
@@ -191,7 +191,7 @@ $team_manufacturing[]=["Ayush Vaja","Management","ayush2","https://www.facebook.
 						$email=$team_design[$i][5];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team18/<?php echo $img;?>.JPG');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team18/<?php echo $img;?>.jpeg');">
 								<div class="ch-info">
 									<h3><?php echo $name;?></h3>
 								</div>
@@ -219,7 +219,7 @@ $team_manufacturing[]=["Ayush Vaja","Management","ayush2","https://www.facebook.
 						$email=$team_brakes[$i][5];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team18/<?php echo $img;?>.JPG');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team18/<?php echo $img;?>.jpeg');">
 								<div class="ch-info">
 									<h3><?php echo $name;?></h3>
 								</div>
@@ -278,7 +278,7 @@ $team_manufacturing[]=["Ayush Vaja","Management","ayush2","https://www.facebook.
 						$email=$team_manufacturing[$i][5];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team18/<?php echo $img;?>.JPG');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team18/<?php echo $img;?>.jpeg');">
 								<div class="ch-info">
 									<h3><?php echo $name;?></h3>
 								</div>

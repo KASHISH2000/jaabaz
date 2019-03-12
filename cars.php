@@ -86,12 +86,12 @@
         </ul>
         
     </div>
-    <div class="column one-half last-col has-animation" data-delay="200" style="background:url('img/cars/2016.jpg') center center;background-size:cover;">
+    <div class="column one-half last-col has-animation" data-delay="200" style="background:url('img/cars/2016.jpeg') center center;background-size:cover;">
 
     </div>
 </div> <!-- END .column-section -->
 <div class="column-section boxed-sticky adapt-height clearfix">
-    <div class="column one-half last-col has-animation" data-delay="200" style="background:url('img/cars/2015.jpg') center center;background-size:cover;">
+    <div class="column one-half last-col has-animation" data-delay="200" style="background:url('img/cars/2015.jpeg') center center;background-size:cover;">
 
     </div>
     <div class="column one-half bigpadding has-animation" style="background:#ffffff;">
@@ -122,12 +122,12 @@
             </li>
         </ul>
     </div>
-    <div class="column one-half last-col has-animation" data-delay="200" style="background:url('img/cars/2014.jpg') center center;background-size:cover;">
+    <div class="column one-half last-col has-animation" data-delay="200" style="background:url('img/cars/2014.jpeg') center center;background-size:cover;">
 
     </div>
 </div> <!-- END .column-section -->
 <div class="column-section boxed-sticky adapt-height clearfix">
-    <div class="column one-half last-col has-animation" data-delay="200" style="background:url('img/cars/2013.jpg') center center;background-size:cover;">
+    <div class="column one-half last-col has-animation" data-delay="200" style="background:url('img/cars/2013.jpeg') center center;background-size:cover;">
 
     </div>
     <div class="column one-half bigpadding has-animation" style="background:#ffffff;">
@@ -158,12 +158,12 @@
             </li>
         </ul>
     </div>
-    <div class="column one-half last-col has-animation" data-delay="200" style="background:url('img/cars/2011.jpg') center center;background-size:cover;">
+    <div class="column one-half last-col has-animation" data-delay="200" style="background:url('img/cars/2011.jpeg') center center;background-size:cover;">
 
     </div>
 </div> <!-- END .column-section -->
 <div class="column-section boxed-sticky adapt-height clearfix">
-    <div class="column one-half last-col has-animation" data-delay="200" style="background:url('img/cars/2010.jpg') center center;background-size:cover;">
+    <div class="column one-half last-col has-animation" data-delay="200" style="background:url('img/cars/2010.jpeg') center center;background-size:cover;">
 
     </div>
     <div class="column one-half bigpadding has-animation" style="background:#ffffff;">
@@ -194,7 +194,7 @@
             </li>
         </ul>
     </div>
-    <div class="column one-half last-col has-animation" data-delay="200" style="background:url('img/cars/2009.jpg') center center;background-size:cover;">
+    <div class="column one-half last-col has-animation" data-delay="200" style="background:url('img/cars/2009.jpeg') center center;background-size:cover;">
 
     </div>
 </div> <!-- END .column-section -->
