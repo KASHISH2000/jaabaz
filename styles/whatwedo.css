@@ -33,7 +33,7 @@
 /* For Achievements*/
 .work.\--shopping-recife .work__obj.\--bg , .achievementsbg{
 	background-color: transparent;
-	background-image: url('../img/achievementsbg.JPG') !important;
+	background-image: url('../img/achievementsbg.jpg') !important;
 	background-size: cover;
 }
 /* For media*/
