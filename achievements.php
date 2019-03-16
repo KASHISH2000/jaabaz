@@ -125,7 +125,7 @@
             <i class="ion ion-trophy"></i>
           </div>
           <div class="achi-event-name">
-            <span class="colored achi-event-name"><strong>BAJA SAE KANSAS</strong></span>
+            <span class="colored achi-event-name"><strong>BAJA SAE KANSAS, <span class="achi-date">2018</span></strong></span>
           </div>
           <div class="achi-desc">
           <ul>

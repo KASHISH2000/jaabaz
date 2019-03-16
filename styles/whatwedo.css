@@ -40,12 +40,13 @@
 .mediabg .work__obj, .mediabg{
 	background-image: url('../img/mediabg.jpg') !important;
 	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
 }
 @media(min-width: 1250px){
 	.mediabg .work__obj, .mediabg{
 		background-image: url('../img/mediabg.jpg') !important;
 		background-size: cover;
-		background-position: 0px -220px;
 	}
 }
 .mediabg .work__obj{

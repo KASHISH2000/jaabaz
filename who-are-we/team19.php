@@ -14,7 +14,7 @@ $team_vehicle[]=["Sidhant Digvijay","Manufacturing Co-Head","sidhant","https://w
 $team_transmission[0]=["Dhruvin Vora","Vehicle Dynamics Lead","dhruvin","https://www.facebook.com/mkandan09","https://www.linkedin.com/in/manikandan-sridhar-876aa0b6","mkandans9896@gmail.com"];
 $team_transmission[]=["Srijan Lawrence","Suspension Lead","srijan","https://www.facebook.com/priyank.agarwal.1023","https://www.linkedin.com/in/priyank-agarwal-141a50105/","priyank.agarwal96@gmail.com"];
 $team_transmission[]=["Sridhar Thakar","Vehicle Dynamics","sridhar","https://www.facebook.com/felixjrover","https://www.linkedin.com/in/felix-joseph-a34267121","felix.joseph2015@vit.ac.in"];
-$team_transmission[]=["Gaurav Chandavarkar","Vehicle Dyanimcs","gaurav","https://www.facebook.com/nikhil.kumar.1238","https://www.linkedin.com/in/nikhil-kumar-356b58103","nikilmys@gmail.com"];
+$team_transmission[]=["Gaurav Chandavarkar","Vehicle Dynamics","gaurav","https://www.facebook.com/nikhil.kumar.1238","https://www.linkedin.com/in/nikhil-kumar-356b58103","nikilmys@gmail.com"];
 $team_transmission[]=["Shlok Deshmukh","Vehicle Dynamics","shlok","https://www.facebook.com/palash.agrawal.7161","http://www.linkedin.com/in/palash-agrawal-a6681b123","palashagrawal18@gmail.com"];
 $team_transmission[]=["Rohit Awasthi","Vehicle Dynamics","rohit"," https://www.facebook.com/chiranjeev.solanki","https://www.linkedin.com/in/chiranjeev-solanki-685123135","chiranjeev.solanki@gmail.com"];
 
@@ -76,7 +76,11 @@ $team_manufacturing[]=["Deep Patel","Management and Marketing","deep","https://w
 						$email=$team_leaders[$i][5];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team19/<?php echo $img;?>.jpeg');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team19/<?php echo $img;?>.jpeg');
+							height: 100%;
+  							background-position: center;
+  							background-repeat: no-repeat;
+  							background-size: cover;">
 								<div class="ch-info">
 									<h3><?php echo $name;?></h3>
 								</div>
@@ -104,7 +108,12 @@ $team_manufacturing[]=["Deep Patel","Management and Marketing","deep","https://w
 						$email=$team_vehicle[$i][5];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team19/<?php echo $img;?>.jpeg');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team19/<?php echo $img;?>.jpeg');
+							height: 100%;
+  							background-position: center;
+  							background-repeat: no-repeat;
+  							background-size: cover;
+							">
 								<div class="ch-info">
 									<h3><?php echo $name;?></h3>
 								</div>
@@ -132,7 +141,11 @@ $team_manufacturing[]=["Deep Patel","Management and Marketing","deep","https://w
 						$email=$team_transmission[$i][5];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team19/<?php echo $img;?>.jpeg');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team19/<?php echo $img;?>.jpeg');
+							height: 100%;
+  							background-position: center;
+  							background-repeat: no-repeat;
+  							background-size: cover;">
 								<div class="ch-info">
 									<h3><?php echo $name;?></h3>
 								</div>
@@ -160,7 +173,11 @@ $team_manufacturing[]=["Deep Patel","Management and Marketing","deep","https://w
 						$email=$team_marketing[$i][5];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team19/<?php echo $img;?>.jpeg');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team19/<?php echo $img;?>.jpeg');
+							height: 100%;
+  							background-position: center;
+  							background-repeat: no-repeat;
+  							background-size: cover;">
 								<div class="ch-info">
 									<h3><?php echo $name;?></h3>
 								</div>
@@ -188,7 +205,11 @@ $team_manufacturing[]=["Deep Patel","Management and Marketing","deep","https://w
 						$email=$team_design[$i][5];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team19/<?php echo $img;?>.jpeg');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team19/<?php echo $img;?>.jpeg');
+							height: 100%;
+  							background-position: center;
+  							background-repeat: no-repeat;
+  							background-size: cover;">
 								<div class="ch-info">
 									<h3><?php echo $name;?></h3>
 								</div>
@@ -216,7 +237,43 @@ $team_manufacturing[]=["Deep Patel","Management and Marketing","deep","https://w
 						$email=$team_brakes[$i][5];
 						?>
 						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
-							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team19/<?php echo $img;?>.jpeg');">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team19/<?php echo $img;?>.jpeg');
+							height: 100%;
+  							background-position: center;
+  							background-repeat: no-repeat;
+  							background-size: cover;">
+								<div class="ch-info">
+									<h3><?php echo $name;?></h3>
+								</div>
+							</div>
+							<h3 class="text-center"><?php echo $dept;?></h3>
+
+						</div>
+						<?php
+					}
+					?>
+				</ul>
+			</div>
+			<hr class="thoda-light">
+			<div class="row">
+				<ul class="ch-grid">
+					<?php
+					$i=0;
+					for($i=0;$i<count($team_manufacturing);$i++)
+					{
+						$name=$team_manufacturing[$i][0];
+						$dept=$team_manufacturing[$i][1];
+						$img=$team_manufacturing[$i][2];
+						$fb=$team_manufacturing[$i][3];
+						$ll=$team_manufacturing[$i][4];
+						$email=$team_manufacturing[$i][5];
+						?>
+						<div class="col-xs-6 col-sm-3 col-md-2 boxcol box-col">
+							<div class="ch-item ch-img-1 box" style="background-image: url('../img/team19/<?php echo $img;?>.jpeg');
+							height: 100%;
+  							background-position: center;
+  							background-repeat: no-repeat;
+  							background-size: cover;">
 								<div class="ch-info">
 									<h3><?php echo $name;?></h3>
 								</div>
