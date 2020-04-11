@@ -120,6 +120,23 @@
      -->
     <div class="row">
       <div class="custom-col-achi">
+        <div class="achi-box hoverable">
+          <div class="achi-trophy">
+            <i class="ion ion-trophy"></i>
+          </div>
+          <div class="achi-event-name">
+            <span class="colored achi-event-name"><strong>BAJA SAE CALIFORNIA, <span class="achi-date">2019</span></strong></span>
+          </div>
+          <div class="achi-desc">
+          <ul>
+						<li>4th in Sales Presentation</li>
+						<li>12th in Cost Event</li>
+						<li>15th in Design Presentation</li>
+						<li>9th Overall Static</li>
+						<li>28th in Maneuverability</li>
+					</ul>
+        </div>
+      </div>
       <div class="achi-box hoverable">
           <div class="achi-trophy">
             <i class="ion ion-trophy"></i>
