@@ -287,7 +287,7 @@ $baseUrl = "http://teamjaabaz.com/";
             } else if (email_var == "") {
                 alert("Please fill the required fields");
             } else if (!isEmail(email_var)) {
-                alert("Please Enter correct Email id");
+                alert("Please enter correct Email id");
             } else if (subject_var == "") {
                 alert("Please fill the required fields");
             } else if (message_var == "") {
