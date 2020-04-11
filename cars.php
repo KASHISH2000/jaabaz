@@ -34,6 +34,25 @@
  ?>
  <br><br>
  <div class="column-section boxed-sticky adapt-height clearfix">
+<div class="column one-half last-col has-animation" data-delay="200" style="background:url('img/cars/2019.jpeg') center center;background-size:cover;">
+
+</div>
+<div class="column one-half bigpadding has-animation" style="background:#ffffff;">
+        <h2 class="grey-text">Car 2019</h2>
+        <ul class="cars-desp-ul">
+        <li><b>Weight : </b>150Kg</li>
+            <li><b>Engine : </b>Briggs and Stratton Model 19</li>
+            <li><b>Front Suspension : </b>Double A-Arm</li>
+            <li><b>Rear Suspension : </b>H and I Arm</li>
+            <li><b>Transmission : </b>Custom gearbox and Gaged CVT</li>
+            <li><b>Suspension : </b>Fox Float 3 Evol R</li>
+            <li><b>Brakes : </b>Vespa Kbx, Custom Brake Discs, Wilwood PS1 caliper</li>
+            <br>
+        </ul>
+        
+    </div>
+</div> <!-- END .column-section -->
+ <div class="column-section boxed-sticky adapt-height clearfix">
     <div class="column one-half bigpadding has-animation" style="background:#ffffff;">
         <h2 class="grey-text">Car 2018</h2>
         <ul class="cars-desp-ul">
