@@ -42,13 +42,13 @@
         <div id="portfolio-grid" class="isotope-grid portfolio-container style-column-3 isotope-spaced clearfix">
             <!--Title-->
             <?php
-            $no=20;
+            $no=22;
             $alts=["","","","","",
             "","","","","",
             "","","","","",
-            "","","","",""
+            "","","","","","",""
             ];
-             $titles=["Gravitas'15","Gravitas'15","Gravitas'15","Gravitas'15","Offroadies",
+             $titles=["Riviera 2020","Riviera 2019","Gravitas'15","Gravitas'15","Gravitas'15","Gravitas'15","Offroadies",
             "Offroadies","Team Jaabaz with New Mexico State University","Recruitment Campaign","Engineer's Day 2015","Team Jaabaz with Tennessee Tech University",
             "ATV Stunt Show","ATV Stunt Show","ATV Stunt Show","ATV Stunt Show","ATV Stunt Show",
             "ATV Stunt Show","ATV Stunt Show","Marketing for Spigen","Team Jaabaz with University of Michigan-Ann Arbor","Team Jaabaz with Team Nemesis"
