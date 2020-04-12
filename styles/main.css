@@ -8557,18 +8557,26 @@ only screen and (min-device-pixel-ratio:1.5) {
     color: #dc092f
 }
 
-@media(max-width:769px) {
+@media(max-width:767px) {
     .top-link-line {
         width: 40%
     }
 
     .top-link-text {
-        font-size: 1.1rem
+        font-size: 1.0rem
+    }
+    a.link-logo-a {
+        display: inline-block;
+        width: 80px;
+        height: 30px;
+        background-image: url(../img/new_logo.png);
+        background-size: cover;
+        vertical-align: middle;
     }
 }
 
 @media(max-width:410px) {
     .top-link-line {
-        width: 30%
+        width: 25%
     }
 }
