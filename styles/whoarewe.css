@@ -45,6 +45,7 @@
   background-image: url('../img/teamjaabazbg.jpg') !important;
   background-size: cover;
   top: 0%;
+  background-position: center;
   background-repeat: no-repeat;
 }
 /* For Our Objecttive*/
@@ -56,7 +57,8 @@
 .meettheteambg {
   background-image: url('../img/meettheteambg.jpg') !important;
   background-size: cover;
-  background-position: 0px -130px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .ion-android-arrow-dropright {
   font-size: 1.5rem;
