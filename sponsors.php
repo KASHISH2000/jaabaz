@@ -42,13 +42,13 @@
     <section id="page-body" class="notoppadding">
         <div class="wrapper">
 
-            <ul id="portfolio-filter" class="filter" data-related-grid="portfolio-grid">
+            <!-- <ul id="portfolio-filter" class="filter" data-related-grid="portfolio-grid">
                 <li class="active" ><a href="#" data-filter=".showall" title="Show All">Show All</a></li>
                 <li><a data-filter=".titlesp" href="#" title="Title Sponsors">Title</a></li>
                 <li><a data-filter=".platinumsp" href="#" title="Platinum Sponsors">Platinum</a></li>
                 <li><a data-filter=".goldsp" href="#" title="Gold Sponsors">Gold</a></li>
                 <li><a data-filter=".silversp" href="#" title="Silver Sponsors">Silver</a></li>
-            </ul>
+            </ul> -->
 
             <div id="portfolio-grid" class="isotope-grid portfolio-container style-column-4 isotope-spaced clearfix">
                 <!--Title-->

@@ -34,7 +34,9 @@
 }
 
 .cb-slideshow li:nth-child(1) span {
-    background-image: url(../img/homeslider/3.JPG)
+    background-image: url(../img/homeslider/3.JPG);
+    background-repeat: no-repeat;
+    background-size: 100% 115%
 }
 
 .cb-slideshow li:nth-child(2) span {
@@ -43,7 +45,9 @@
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
     -ms-animation-delay: 6s;
-    animation-delay: 6s
+    animation-delay: 6s;
+    background-repeat: no-repeat;
+    background-size: 130% 115%;
 }
 
 .cb-slideshow li:nth-child(4) span {
@@ -52,7 +56,9 @@
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
     -ms-animation-delay: 12s;
-    animation-delay: 12s
+    animation-delay: 12s;
+    background-repeat: no-repeat;
+    background-size: 100% 115%;
 }
 
 .cb-slideshow li:nth-child(5) span {
@@ -61,7 +67,9 @@
     -moz-animation-delay: 18s;
     -o-animation-delay: 18s;
     -ms-animation-delay: 18s;
-    animation-delay: 18s
+    animation-delay: 18s;
+    background-repeat: no-repeat;
+    background-size: 100% 115%;
 }
 
 .cb-slideshow li:nth-child(6) span {
@@ -70,7 +78,9 @@
     -moz-animation-delay: 24s;
     -o-animation-delay: 24s;
     -ms-animation-delay: 24s;
-    animation-delay: 24s
+    animation-delay: 24s;
+    background-repeat: no-repeat;
+    background-size: 130% 115%;
 }
 
 .cb-slideshow li:nth-child(7) span {
@@ -79,7 +89,9 @@
     -moz-animation-delay: 30s;
     -o-animation-delay: 30s;
     -ms-animation-delay: 30s;
-    animation-delay: 30s
+    animation-delay: 30s;
+    background-repeat: no-repeat;
+    background-size: 100% 115%;
 }
 
 
