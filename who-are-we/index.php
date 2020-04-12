@@ -250,6 +250,11 @@
               <a class="work__link link-page onhover-nounderline">
                 <h2 class="work__title">Meet the Team</h2>
                 <p class="work__tags">
+                  <span id="butteam20" class="spanbut onhover-nounderline team-link" data-toggle="modal" data-target="#team20">
+                    <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
+                    Team 2020
+                  </span>
+                  <br><br>
                   <span id="butteam19" class="spanbut onhover-nounderline team-link" data-toggle="modal" data-target="#team19">
                     <i class="ion-android-arrow-dropright" aria-hidden="true"></i>
                     Team 2019
@@ -284,7 +289,17 @@
     </div>
   </div>
 
-
+  <!-- Team 19 Modal -->
+  <div id="team20" class="modal fade team-modal" role="dialog">
+    <div class="modal-dialog" id="team20modaldialog">
+      <div class="modal-body text-center">
+        <img src="../img/loading.gif" style="width:100px !important;" />
+      </div>
+      <div class="modal-footerr text-center">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
   <!-- Team 19 Modal -->
   <div id="team19" class="modal fade team-modal" role="dialog">
     <div class="modal-dialog" id="team19modaldialog">
@@ -399,6 +414,7 @@
   <script src="../scripts/main.js"></script>
 
   <script type="text/javascript">
+    $('#team20modaldialog').load("team20.php");
     $('#team19modaldialog').load("team19.php");
     $('#team18modaldialog').load("team18.php");
     $('#team17modaldialog').load("team17.php");
