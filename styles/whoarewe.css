@@ -56,9 +56,10 @@
 .meettheteambg .work__obj,
 .meettheteambg {
   background-image: url('../img/meettheteambg.jpg') !important;
-  background-size: cover;
+  background-size: 100% 110% !important;
   background-position: center;
   background-repeat: no-repeat;
+  
 }
 .ion-android-arrow-dropright {
   font-size: 1.5rem;
