@@ -13,7 +13,7 @@ $team_manufacturing[0]=["Amal Mohammed Sirshad","Manufacturing Head","amal"];
 /*Vehicle Dynamics*/
 $team_vehicle[0]=["Shlok Deshmukh","Vehicle Dynamics Head","shlok"];
 $team_vehicle[]=["Arsh Thakur","Vehicle Dynamics","arsh"];
-$team_vehicle[]=["Sheshendra Kalyan Papakayala","Vehicle Dynamics","sheshendra"];
+$team_vehicle[]=["Seshendra Kalyan Pepakayala","Vehicle Dynamics","seshendra"];
 $team_vehicle[]=["Mayur M","Vehicle Dynamics","mayur"];
 $team_vehicle[]=["Kishore K","Vehicle Dynamics","kishore"];
 $team_vehicle[]=["Ashutosh Shrivastava","Vehicle Dynamics","ashutosh"];
@@ -31,7 +31,7 @@ $team_transmission[]=["Kartikey Bajaj","Transmission","kartikey"];
 $team_design[0]=["Tejas Singhal","Design Head","tejas"];
 $team_design[]=["Sannil Nambiar","Composites and Aerodynamics Head","sannil"];
 $team_design[]=["Srinjoy Bhattacharya","Design","srinjoy"];
-$team_design[]=["Moxesh Bhupendrakumar Shah","Design","moxesh"];
+$team_design[]=["Moxesh Shah","Design","moxesh"];
 
 /*Brakes*/
 $team_brakes[0]=["Hriday Jain","Brakes Head","hriday"];
@@ -43,7 +43,7 @@ $team_electrical[0]=["Yash Agarwal","Electrical Head","yash"];
 $team_electrical[]=["Suchitra S","Electrical","suchitra"];
 
 /*Management and Marketing*/
-$team_marketing[0]=["Shoumith M","Management and Marketing","shoumith"];
+$team_marketing[0]=["Soumith M","Management and Marketing","soumith"];
 $team_marketing[]=["Daksh Sanjay Malik","Management and Marketing","daksh"];
 
 ?>
