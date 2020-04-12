@@ -1,81 +1,95 @@
-.work__tags{
-	font-size: 1rem;
-	width: 80%;
-	text-decoration: none !important;
-	text-align: justify;
+.work__tags {
+  font-size: 1rem;
+  width: 80%;
+  text-decoration: none !important;
+  text-align: justify;
 }
-.ion-android-arrow-dropright{
-	font-size: 2.0rem;
-	vertical-align: middle;
+.ion-android-arrow-dropright {
+  font-size: 2rem;
+  vertical-align: middle;
 }
-.spanbut{
-	font-size: 1.2rem;
-	vertical-align: middle;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-	font-weight: bold;
-	color: #eee;
+.spanbut {
+  font-size: 1.2rem;
+  vertical-align: middle;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  font-weight: bold;
+  color: #eee;
 }
-.spanbut:hover{
-	color: #dc092f;
-	cursor: pointer;
+.spanbut:hover {
+  color: #dc092f;
+  cursor: pointer;
 }
 /* For Cars*/
-.work.\--beach-park .work__obj.\--bg , .carsbg{
-	background-color: transparent;;
-	background-image: url('../img/carsbg.jpg') !important;
-	background-size: cover;
+.work.\--beach-park .work__obj.\--bg,
+.carsbg {
+  background-color: transparent;
+  background-image: url('../img/carsbg.jpg') !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* For Achievements*/
-.work.\--shopping-recife .work__obj.\--bg , .achievementsbg{
-	background-color: transparent;
-	background-image: url('../img/achievementsbg.jpg') !important;
-	background-size: cover;
+.work.\--shopping-recife .work__obj.\--bg,
+.achievementsbg {
+  background-color: transparent;
+  background-image: url('../img/achievementsbg.jpg') !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /* For media*/
-.mediabg .work__obj, .mediabg{
-	background-image: url('../img/mediabg.jpg') !important;
-	background-size: cover;
-	background-position: center;
-    background-repeat: no-repeat;
+.mediabg .work__obj,
+.mediabg {
+  background-image: url('../img/mediabg.jpg') !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-@media(min-width: 1250px){
-	.mediabg .work__obj, .mediabg{
-		background-image: url('../img/mediabg.jpg') !important;
-		background-size: cover;
-	}
+@media (min-width: 1250px) {
+  .mediabg .work__obj,
+  .mediabg {
+    background-image: url('../img/mediabg.jpg') !important;
+    background-size: cover;
+  }
 }
-.mediabg .work__obj{
-	top: -10%;
+.mediabg .work__obj {
+  top: -10%;
 }
 
 /* For marketing*/
-.marketingbg .work__obj , .marketingbg{
-	background-image: url('../img/marketingbg.jpg') !important;
-	background-size: cover;
+.marketingbg .work__obj,
+.marketingbg {
+  background-image: url('../img/marketingbg.jpg') !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /* For sponsors*/
-.sponsorsbg .work__obj , .sponsorsbg{
-	background-image: url('../img/sponsorsbg.jpeg') !important;
-	background-size: cover;
+.sponsorsbg .work__obj,
+.sponsorsbg {
+  background-image: url('../img/sponsorsbg.jpeg') !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.work__link:hover{
-	text-decoration: none;
+.work__link:hover {
+  text-decoration: none;
 }
-@media(max-width: 769px){
-	.work__tags{
-		font-size: 0.9rem;
-		width: 100%;
-		text-decoration: none !important;
-	}
-	.spanbut{
-		font-size: 1rem;
-	}
-	.ion-android-arrow-dropright{
-		font-size: 1.5rem;
-	}
+@media (max-width: 769px) {
+  .work__tags {
+    font-size: 0.9rem;
+    width: 100%;
+    text-decoration: none !important;
+  }
+  .spanbut {
+    font-size: 1rem;
+  }
+  .ion-android-arrow-dropright {
+    font-size: 1.5rem;
+  }
 }
