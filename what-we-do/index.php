@@ -373,10 +373,10 @@ if (isset($_GET['jumpto']))
   <script type="text/javascript" src="../scripts/buttonloader.js"></script>
   <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
   <script type="text/javascript">
-    (function() {
-      emailjs.init("user_KdsHYnbwRPgcqHJkuyTH7");
-    })();
-  </script>
+        (function() {
+            emailjs.init("user_M3geRMOarWc7eUpEMfQbC");
+        })();
+    </script>
   <script type="text/javascript">
     function isEmail(email) {
       var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
@@ -384,46 +384,48 @@ if (isset($_GET['jumpto']))
     }
 
     function send_mail() {
-      var name_var = $("#name").val();
-      var email_var = $("#email").val();
-      var subject_var = $("#subject").val();
-      var message_var = $("#message").val();
-      if (name_var == "") {
-        alert("Please fill the required fields");
-      } else if (email_var == "") {
-        alert("Please fill the required fields");
-      } else if (!isEmail(email_var)) {
-        alert("Please Enter correct Email id");
-      } else if (subject_var == "") {
-        alert("Please fill the required fields");
-      } else if (message_var == "") {
-        alert("Please fill the required fields");
-      } else {
-        var btn = $('#contact-form-submit');
-        $(btn).buttonLoader('start');
-        emailjs.send("gmail", "jaabaz", {
-            name: name_var,
-            email: email_var,
-            subject: subject_var,
-            message: message_var
-          })
-          .then(function(response) {
-            $(btn).buttonLoader('stop');
-            setTimeout(function() {
-              $("#name").val('');
-              $("#email").val('');
-              $("#subject").val('');
-              $("#message").val('');
-            }, 100);
-            alert("Thank you for contacting us. We will get back to you soon.");
-            console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
-          }, function(err) {
-            $(btn).buttonLoader('stop');
-            alert("There was an error. Please try again");
-            console.log("FAILED. error=", err);
-          });
-      }
-    }
+            var name_var = $("#name").val();
+            var email_var = $("#email").val();
+            var subject_var = $("#subject").val();
+            var message_var = $("#message").val();
+            if (name_var == "") {
+                alert("Please fill the required fields");
+            } else if (email_var == "") {
+                alert("Please fill the required fields");
+            } else if (!isEmail(email_var)) {
+                alert("Please enter correct Email id");
+            } else if (subject_var == "") {
+                alert("Please fill the required fields");
+            } else if (message_var == "") {
+                alert("Please fill the required fields");
+            } else {
+                var btn = $('#contact-form-submit');
+                $(btn).buttonLoader('start');
+                var details = {
+                    name: name_var,
+                    email: email_var,
+                    subject: subject_var,
+                    message: message_var
+                }
+                console.log(details);
+                emailjs.send('gmail', 'template_fzC3Id1A', details, 'user_M3geRMOarWc7eUpEMfQbC')
+                    .then(function(response) {
+                        $(btn).buttonLoader('stop');
+                        setTimeout(function() {
+                            $("#name").val('');
+                            $("#email").val('');
+                            $("#subject").val('');
+                            $("#message").val('');
+                        }, 100);
+                        alert("Thank you for contacting us. We will get back to you soon.");
+                        console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+                    }, function(err) {
+                        $(btn).buttonLoader('stop');
+                        alert("There was an error. Please try again");
+                        console.log("FAILED. error=", err);
+                    });
+            }
+        }
   </script>
 </body>
 
